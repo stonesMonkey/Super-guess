@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>汤姆猫</string>
+		<string>应用管理</string>
+		<string>超级猜图</string>
+		<string>图片放大</string>
+		<string>图片轮播器</string>
+	</array>
+</array>
+</plist>

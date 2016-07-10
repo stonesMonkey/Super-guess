@@ -18,6 +18,13 @@
 		516D00411D2F510900AD50DD /* UILabel+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00401D2F510900AD50DD /* UILabel+Category.swift */; };
 		516D00431D2F735A00AD50DD /* AnwerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00421D2F735A00AD50DD /* AnwerView.swift */; };
 		516D00471D2F74CD00AD50DD /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00461D2F74CD00AD50DD /* QuestionModel.swift */; };
+		51B9BC8C1D32AE7400DCCE30 /* product.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51B9BC8B1D32AE7400DCCE30 /* product.plist */; };
+		51B9BC921D32B54C00DCCE30 /* TuPianFangDaVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9BC901D32B54C00DCCE30 /* TuPianFangDaVc.swift */; };
+		51B9BC931D32B54C00DCCE30 /* TuPianFangDaVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B9BC911D32B54C00DCCE30 /* TuPianFangDaVc.xib */; };
+		51B9BC971D32B8CB00DCCE30 /* LunBoQiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9BC951D32B8CB00DCCE30 /* LunBoQiViewController.swift */; };
+		51B9BC981D32B8CB00DCCE30 /* LunBoQiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B9BC961D32B8CB00DCCE30 /* LunBoQiViewController.xib */; };
+		51B9BC9B1D32BA9700DCCE30 /* LunBoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9BC991D32BA9700DCCE30 /* LunBoCell.swift */; };
+		51B9BC9C1D32BA9700DCCE30 /* LunBoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B9BC9A1D32BA9700DCCE30 /* LunBoCell.xib */; };
 		51DB4C0C1D2B5E200029986F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4C0B1D2B5E200029986F /* AppDelegate.swift */; };
 		51DB4C0E1D2B5E200029986F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4C0D1D2B5E200029986F /* ViewController.swift */; };
 		51DB4C131D2B5E200029986F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DB4C121D2B5E200029986F /* Assets.xcassets */; };
@@ -482,6 +489,13 @@
 		516D00401D2F510900AD50DD /* UILabel+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Category.swift"; sourceTree = "<group>"; };
 		516D00421D2F735A00AD50DD /* AnwerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnwerView.swift; sourceTree = "<group>"; };
 		516D00461D2F74CD00AD50DD /* QuestionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		51B9BC8B1D32AE7400DCCE30 /* product.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = product.plist; sourceTree = "<group>"; };
+		51B9BC901D32B54C00DCCE30 /* TuPianFangDaVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuPianFangDaVc.swift; sourceTree = "<group>"; };
+		51B9BC911D32B54C00DCCE30 /* TuPianFangDaVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuPianFangDaVc.xib; sourceTree = "<group>"; };
+		51B9BC951D32B8CB00DCCE30 /* LunBoQiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunBoQiViewController.swift; sourceTree = "<group>"; };
+		51B9BC961D32B8CB00DCCE30 /* LunBoQiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LunBoQiViewController.xib; sourceTree = "<group>"; };
+		51B9BC991D32BA9700DCCE30 /* LunBoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunBoCell.swift; sourceTree = "<group>"; };
+		51B9BC9A1D32BA9700DCCE30 /* LunBoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LunBoCell.xib; sourceTree = "<group>"; };
 		51DB4C081D2B5E200029986F /* swift超级猜图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift超级猜图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DB4C0B1D2B5E200029986F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51DB4C0D1D2B5E200029986F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -1051,6 +1065,46 @@
 			name = Category;
 			sourceTree = "<group>";
 		};
+		51B9BC8D1D32B4E000DCCE30 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51B9BC8E1D32B4EA00DCCE30 /* UI基础 */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		51B9BC8E1D32B4EA00DCCE30 /* UI基础 */ = {
+			isa = PBXGroup;
+			children = (
+				51B9BC8F1D32B4F900DCCE30 /* 图片放大 */,
+				516D003C1D2F464800AD50DD /* 汤姆猫 */,
+				516D00371D2F45FC00AD50DD /* 应用管理 */,
+				516D00311D2F45AC00AD50DD /* superGuess超级猜图 */,
+				51B9BC941D32B8A300DCCE30 /* 图片轮播器 */,
+			);
+			name = "UI基础";
+			sourceTree = "<group>";
+		};
+		51B9BC8F1D32B4F900DCCE30 /* 图片放大 */ = {
+			isa = PBXGroup;
+			children = (
+				51B9BC901D32B54C00DCCE30 /* TuPianFangDaVc.swift */,
+				51B9BC911D32B54C00DCCE30 /* TuPianFangDaVc.xib */,
+			);
+			name = "图片放大";
+			sourceTree = "<group>";
+		};
+		51B9BC941D32B8A300DCCE30 /* 图片轮播器 */ = {
+			isa = PBXGroup;
+			children = (
+				51B9BC951D32B8CB00DCCE30 /* LunBoQiViewController.swift */,
+				51B9BC961D32B8CB00DCCE30 /* LunBoQiViewController.xib */,
+				51B9BC991D32BA9700DCCE30 /* LunBoCell.swift */,
+				51B9BC9A1D32BA9700DCCE30 /* LunBoCell.xib */,
+			);
+			name = "图片轮播器";
+			sourceTree = "<group>";
+		};
 		51DB4BFF1D2B5E200029986F = {
 			isa = PBXGroup;
 			children = (
@@ -1073,9 +1127,7 @@
 			isa = PBXGroup;
 			children = (
 				516D003B1D2F463400AD50DD /* Main */,
-				516D003C1D2F464800AD50DD /* 汤姆猫 */,
-				516D00371D2F45FC00AD50DD /* 应用管理 */,
-				516D00311D2F45AC00AD50DD /* superGuess超级猜图 */,
+				51B9BC8D1D32B4E000DCCE30 /* Classes */,
 				51DB4C0B1D2B5E200029986F /* AppDelegate.swift */,
 				51DB4C121D2B5E200029986F /* Assets.xcassets */,
 				51DB4C141D2B5E200029986F /* LaunchScreen.storyboard */,
@@ -1608,6 +1660,7 @@
 		51DB4FC11D2B986D0029986F /* 资源 */ = {
 			isa = PBXGroup;
 			children = (
+				51B9BC8B1D32AE7400DCCE30 /* product.plist */,
 				516D002F1D2F458700AD50DD /* questions.plist */,
 				516D00271D2F3FFC00AD50DD /* app.plist */,
 				51DB4C1D1D2B5F840029986F /* Angry */,
@@ -1743,6 +1796,7 @@
 				51DB4F001D2B5F840029986F /* knockout_37.jpg in Resources */,
 				51DB4E5D1D2B5F840029986F /* eat_02.jpg in Resources */,
 				51DB4EF21D2B5F840029986F /* knockout_23.jpg in Resources */,
+				51B9BC8C1D32AE7400DCCE30 /* product.plist in Resources */,
 				51DB4EE51D2B5F840029986F /* knockout_10.jpg in Resources */,
 				51DB4F771D2B5F840029986F /* scratch_51.jpg in Resources */,
 				51DB4DEA1D2B5F840029986F /* angry_07.jpg in Resources */,
@@ -1805,6 +1859,7 @@
 				51DB4F141D2B5F840029986F /* knockout_57.jpg in Resources */,
 				51DB4F7C1D2B5F840029986F /* stomach_00.jpg in Resources */,
 				51DB4E8C1D2B5F840029986F /* fart_09.jpg in Resources */,
+				51B9BC931D32B54C00DCCE30 /* TuPianFangDaVc.xib in Resources */,
 				51DB4EDD1D2B5F840029986F /* knockout_02.jpg in Resources */,
 				51DB4E901D2B5F840029986F /* fart_13.jpg in Resources */,
 				51DB4E8A1D2B5F840029986F /* fart_07.jpg in Resources */,
@@ -1916,6 +1971,7 @@
 				51DB4F601D2B5F840029986F /* scratch_28.jpg in Resources */,
 				51DB4E951D2B5F840029986F /* fart_18.jpg in Resources */,
 				51DB4EB51D2B5F840029986F /* footLeft_22.jpg in Resources */,
+				51B9BC981D32B8CB00DCCE30 /* LunBoQiViewController.xib in Resources */,
 				51DB4E0B1D2B5F840029986F /* drink_01.jpg in Resources */,
 				51DB4DF71D2B5F840029986F /* angry_20.jpg in Resources */,
 				51DB4ED71D2B5F840029986F /* footRight_26.jpg in Resources */,
@@ -1933,6 +1989,7 @@
 				51DB4DE31D2B5F840029986F /* angry_00.jpg in Resources */,
 				51DB4F871D2B5F840029986F /* stomach_11.jpg in Resources */,
 				51DB4F6F1D2B5F840029986F /* scratch_43.jpg in Resources */,
+				51B9BC9C1D32BA9700DCCE30 /* LunBoCell.xib in Resources */,
 				51DB4EAD1D2B5F840029986F /* footLeft_14.jpg in Resources */,
 				51DB4E2E1D2B5F840029986F /* drink_36.jpg in Resources */,
 				51DB4F451D2B5F840029986F /* scratch_01.jpg in Resources */,
@@ -2208,7 +2265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B9BC9B1D32BA9700DCCE30 /* LunBoCell.swift in Sources */,
 				516D00231D2F3FD100AD50DD /* YingYongVc.swift in Sources */,
+				51B9BC971D32B8CB00DCCE30 /* LunBoQiViewController.swift in Sources */,
 				516D003F1D2F4B3B00AD50DD /* UIButton+Category.swift in Sources */,
 				516D00471D2F74CD00AD50DD /* QuestionModel.swift in Sources */,
 				516D00431D2F735A00AD50DD /* AnwerView.swift in Sources */,
@@ -2218,6 +2277,7 @@
 				516D00411D2F510900AD50DD /* UILabel+Category.swift in Sources */,
 				516D002C1D2F40D600AD50DD /* AppView.swift in Sources */,
 				51DB4C0E1D2B5E200029986F /* ViewController.swift in Sources */,
+				51B9BC921D32B54C00DCCE30 /* TuPianFangDaVc.swift in Sources */,
 				516D00251D2F3FE600AD50DD /* AppModel.swift in Sources */,
 				51DB4C0C1D2B5E200029986F /* AppDelegate.swift in Sources */,
 			);
