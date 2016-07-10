@@ -12,7 +12,7 @@ class GroupVc: UIViewController {
     
     lazy var arr: [String] = {
         
-        return ["汤姆猫","超级猜图"];
+        return ["汤姆猫","应用管理","超级猜图"];
     }()
     
     lazy var tableView: UITableView = {
@@ -42,7 +42,7 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 2;
+        return 3;
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -62,9 +62,17 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
         if(indexPath.row == 0) { // 汤姆猫
             
             let vc = ViewController()
-            navigationController?.pushViewController(vc, animated: true)
-        } else if (indexPath.row == 1) { // 超级猜图
+            navigationController!.pushViewController(vc, animated: true)
+        } else if (indexPath.row == 1) { // 应用管理
             
+            let vc = YingYongVc()
+            vc.view.backgroundColor = UIColor.whiteColor()
+            navigationController!.pushViewController(vc, animated: true)
+        } else if (indexPath.row == 2) { // 超级猜图
+            
+            let vc = SuperGuessVc()
+            vc.view.backgroundColor = UIColor.whiteColor()
+            navigationController!.pushViewController(vc, animated: true)
             
         }
     }

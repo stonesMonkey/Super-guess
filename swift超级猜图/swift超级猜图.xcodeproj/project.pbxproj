@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513D0E301D30DF5700D7D144 /* QuestionView.swift */; };
+		516D00231D2F3FD100AD50DD /* YingYongVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00221D2F3FD100AD50DD /* YingYongVc.swift */; };
+		516D00251D2F3FE600AD50DD /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00241D2F3FE600AD50DD /* AppModel.swift */; };
+		516D00281D2F3FFC00AD50DD /* app.plist in Resources */ = {isa = PBXBuildFile; fileRef = 516D00271D2F3FFC00AD50DD /* app.plist */; };
+		516D002C1D2F40D600AD50DD /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D002B1D2F40D600AD50DD /* AppView.swift */; };
+		516D002E1D2F445000AD50DD /* SuperGuessVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D002D1D2F445000AD50DD /* SuperGuessVc.swift */; };
+		516D00301D2F458700AD50DD /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 516D002F1D2F458700AD50DD /* questions.plist */; };
+		516D003F1D2F4B3B00AD50DD /* UIButton+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D003E1D2F4B3B00AD50DD /* UIButton+Category.swift */; };
+		516D00411D2F510900AD50DD /* UILabel+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00401D2F510900AD50DD /* UILabel+Category.swift */; };
+		516D00431D2F735A00AD50DD /* AnwerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00421D2F735A00AD50DD /* AnwerView.swift */; };
+		516D00471D2F74CD00AD50DD /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00461D2F74CD00AD50DD /* QuestionModel.swift */; };
 		51DB4C0C1D2B5E200029986F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4C0B1D2B5E200029986F /* AppDelegate.swift */; };
 		51DB4C0E1D2B5E200029986F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4C0D1D2B5E200029986F /* ViewController.swift */; };
 		51DB4C131D2B5E200029986F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DB4C121D2B5E200029986F /* Assets.xcassets */; };
@@ -460,6 +471,17 @@
 
 /* Begin PBXFileReference section */
 		2B6295B49D9490869CC95564 /* Pods-swift超级猜图.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift超级猜图.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift超级猜图/Pods-swift超级猜图.debug.xcconfig"; sourceTree = "<group>"; };
+		513D0E301D30DF5700D7D144 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		516D00221D2F3FD100AD50DD /* YingYongVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YingYongVc.swift; sourceTree = "<group>"; };
+		516D00241D2F3FE600AD50DD /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		516D00271D2F3FFC00AD50DD /* app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = app.plist; sourceTree = "<group>"; };
+		516D002B1D2F40D600AD50DD /* AppView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		516D002D1D2F445000AD50DD /* SuperGuessVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperGuessVc.swift; sourceTree = "<group>"; };
+		516D002F1D2F458700AD50DD /* questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
+		516D003E1D2F4B3B00AD50DD /* UIButton+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Category.swift"; sourceTree = "<group>"; };
+		516D00401D2F510900AD50DD /* UILabel+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Category.swift"; sourceTree = "<group>"; };
+		516D00421D2F735A00AD50DD /* AnwerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnwerView.swift; sourceTree = "<group>"; };
+		516D00461D2F74CD00AD50DD /* QuestionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		51DB4C081D2B5E200029986F /* swift超级猜图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift超级猜图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DB4C0B1D2B5E200029986F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51DB4C0D1D2B5E200029986F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -926,6 +948,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		513D0E551D322CEC00D7D144 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		516D00311D2F45AC00AD50DD /* superGuess超级猜图 */ = {
+			isa = PBXGroup;
+			children = (
+				516D00341D2F45D500AD50DD /* Controller */,
+				516D00331D2F45CE00AD50DD /* View */,
+				516D00321D2F45C600AD50DD /* Model */,
+			);
+			name = "superGuess超级猜图";
+			sourceTree = "<group>";
+		};
+		516D00321D2F45C600AD50DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				516D00461D2F74CD00AD50DD /* QuestionModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		516D00331D2F45CE00AD50DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				516D00421D2F735A00AD50DD /* AnwerView.swift */,
+				513D0E301D30DF5700D7D144 /* QuestionView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		516D00341D2F45D500AD50DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				516D002D1D2F445000AD50DD /* SuperGuessVc.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		516D00371D2F45FC00AD50DD /* 应用管理 */ = {
+			isa = PBXGroup;
+			children = (
+				516D003A1D2F461900AD50DD /* Controller */,
+				516D00391D2F461500AD50DD /* View */,
+				516D00381D2F460E00AD50DD /* Model */,
+			);
+			name = "应用管理";
+			sourceTree = "<group>";
+		};
+		516D00381D2F460E00AD50DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				516D00241D2F3FE600AD50DD /* AppModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		516D00391D2F461500AD50DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				516D002B1D2F40D600AD50DD /* AppView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		516D003A1D2F461900AD50DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				516D00221D2F3FD100AD50DD /* YingYongVc.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		516D003B1D2F463400AD50DD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				51DB4FC21D2B98AC0029986F /* GroupVc.swift */,
+				513D0E551D322CEC00D7D144 /* Tool */,
+				516D003D1D2F4B2C00AD50DD /* Category */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		516D003C1D2F464800AD50DD /* 汤姆猫 */ = {
+			isa = PBXGroup;
+			children = (
+				51DB4C0D1D2B5E200029986F /* ViewController.swift */,
+			);
+			name = "汤姆猫";
+			sourceTree = "<group>";
+		};
+		516D003D1D2F4B2C00AD50DD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				516D003E1D2F4B3B00AD50DD /* UIButton+Category.swift */,
+				516D00401D2F510900AD50DD /* UILabel+Category.swift */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		51DB4BFF1D2B5E200029986F = {
 			isa = PBXGroup;
 			children = (
@@ -947,9 +1072,11 @@
 		51DB4C0A1D2B5E200029986F /* swift超级猜图 */ = {
 			isa = PBXGroup;
 			children = (
+				516D003B1D2F463400AD50DD /* Main */,
+				516D003C1D2F464800AD50DD /* 汤姆猫 */,
+				516D00371D2F45FC00AD50DD /* 应用管理 */,
+				516D00311D2F45AC00AD50DD /* superGuess超级猜图 */,
 				51DB4C0B1D2B5E200029986F /* AppDelegate.swift */,
-				51DB4FC21D2B98AC0029986F /* GroupVc.swift */,
-				51DB4C0D1D2B5E200029986F /* ViewController.swift */,
 				51DB4C121D2B5E200029986F /* Assets.xcassets */,
 				51DB4C141D2B5E200029986F /* LaunchScreen.storyboard */,
 				51DB4C171D2B5E200029986F /* Info.plist */,
@@ -1481,6 +1608,8 @@
 		51DB4FC11D2B986D0029986F /* 资源 */ = {
 			isa = PBXGroup;
 			children = (
+				516D002F1D2F458700AD50DD /* questions.plist */,
+				516D00271D2F3FFC00AD50DD /* app.plist */,
 				51DB4C1D1D2B5F840029986F /* Angry */,
 				51DB4C381D2B5F840029986F /* Cymbal */,
 				51DB4C461D2B5F840029986F /* Drink */,
@@ -1635,6 +1764,7 @@
 				51DB4E6F1D2B5F840029986F /* eat_20.jpg in Resources */,
 				51DB4DEC1D2B5F840029986F /* angry_09.jpg in Resources */,
 				51DB4E031D2B5F840029986F /* cymbal_06.jpg in Resources */,
+				516D00301D2F458700AD50DD /* questions.plist in Resources */,
 				51DB4E621D2B5F840029986F /* eat_07.jpg in Resources */,
 				51DB4E3A1D2B5F840029986F /* drink_48.jpg in Resources */,
 				51DB4F181D2B5F840029986F /* knockout_61.jpg in Resources */,
@@ -1930,6 +2060,7 @@
 				51DB4ED81D2B5F840029986F /* footRight_27.jpg in Resources */,
 				51DB4E521D2B5F840029986F /* drink_72.jpg in Resources */,
 				51DB4E9F1D2B5F840029986F /* footLeft_00.jpg in Resources */,
+				516D00281D2F3FFC00AD50DD /* app.plist in Resources */,
 				51DB4E0F1D2B5F840029986F /* drink_05.jpg in Resources */,
 				51DB4E631D2B5F840029986F /* eat_08.jpg in Resources */,
 				51DB4F941D2B5F840029986F /* stomach_24.jpg in Resources */,
@@ -2077,8 +2208,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516D00231D2F3FD100AD50DD /* YingYongVc.swift in Sources */,
+				516D003F1D2F4B3B00AD50DD /* UIButton+Category.swift in Sources */,
+				516D00471D2F74CD00AD50DD /* QuestionModel.swift in Sources */,
+				516D00431D2F735A00AD50DD /* AnwerView.swift in Sources */,
+				513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */,
+				516D002E1D2F445000AD50DD /* SuperGuessVc.swift in Sources */,
 				51DB4FC31D2B98AC0029986F /* GroupVc.swift in Sources */,
+				516D00411D2F510900AD50DD /* UILabel+Category.swift in Sources */,
+				516D002C1D2F40D600AD50DD /* AppView.swift in Sources */,
 				51DB4C0E1D2B5E200029986F /* ViewController.swift in Sources */,
+				516D00251D2F3FE600AD50DD /* AppModel.swift in Sources */,
 				51DB4C0C1D2B5E200029986F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

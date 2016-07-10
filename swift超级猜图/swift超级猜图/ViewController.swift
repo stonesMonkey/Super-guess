@@ -35,6 +35,8 @@ class ViewController: UIViewController {
         setupSubView()
         setupAction()
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -84,6 +86,8 @@ extension ViewController {
     
     
     func setupSubView() {
+        
+        
         
         view.addSubview(imageView)
         view.addSubview(angryBtn)
