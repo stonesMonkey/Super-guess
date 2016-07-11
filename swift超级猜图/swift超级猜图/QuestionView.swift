@@ -59,8 +59,8 @@ extension QuestionView {
         self.options = questionWord
         
         // 添加子控件
-        let subViewCount = self.subviews.count
-        for i in 0..<subviews.count {
+
+        for _ in 0..<subviews.count {
             
             self.subviews[0].removeFromSuperview()
         }
@@ -68,7 +68,7 @@ extension QuestionView {
         let width: CGFloat = 44
         let height: CGFloat = 44
         let count:Int = questionWord.count 
-        let countFloat: CGFloat = CGFloat(questionWord.count)
+
         for i  in 0..<count {
             
             let subView = UIButton()

@@ -81,6 +81,8 @@ class SuperGuessVc: UIViewController {
         }
     }
     
+   
+    
     // 显示大图
     func showBigImage() {
         
@@ -107,6 +109,12 @@ class SuperGuessVc: UIViewController {
        
         
         
+    }
+    
+    // MARK: - 当控制器销毁的时候
+    deinit {
+        
+        NSNotificationCenter.defaultCenter().removeObserver(self, name: "next", object: nil)
     }
 }
 

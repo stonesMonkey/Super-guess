@@ -46,8 +46,8 @@ extension AnwerView {
     
     func setupSubView(answerWords:[String]) {
         
-        let subViewCount = self.subviews.count
-        for i in 0..<subviews.count { // 移除所有子控件
+
+        for _ in 0..<subviews.count { // 移除所有子控件
             
             self.subviews[0].removeFromSuperview()
         }

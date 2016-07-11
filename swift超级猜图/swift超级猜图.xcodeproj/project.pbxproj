@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513D0E301D30DF5700D7D144 /* QuestionView.swift */; };
+		514AC3901D33443B00B567CB /* TimerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514AC38F1D33443B00B567CB /* TimerTool.swift */; };
 		516D00231D2F3FD100AD50DD /* YingYongVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00221D2F3FD100AD50DD /* YingYongVc.swift */; };
 		516D00251D2F3FE600AD50DD /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00241D2F3FE600AD50DD /* AppModel.swift */; };
 		516D00281D2F3FFC00AD50DD /* app.plist in Resources */ = {isa = PBXBuildFile; fileRef = 516D00271D2F3FFC00AD50DD /* app.plist */; };
@@ -479,6 +480,7 @@
 /* Begin PBXFileReference section */
 		2B6295B49D9490869CC95564 /* Pods-swift超级猜图.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift超级猜图.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift超级猜图/Pods-swift超级猜图.debug.xcconfig"; sourceTree = "<group>"; };
 		513D0E301D30DF5700D7D144 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		514AC38F1D33443B00B567CB /* TimerTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerTool.swift; sourceTree = "<group>"; };
 		516D00221D2F3FD100AD50DD /* YingYongVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YingYongVc.swift; sourceTree = "<group>"; };
 		516D00241D2F3FE600AD50DD /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		516D00271D2F3FFC00AD50DD /* app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = app.plist; sourceTree = "<group>"; };
@@ -965,6 +967,7 @@
 		513D0E551D322CEC00D7D144 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				514AC38F1D33443B00B567CB /* TimerTool.swift */,
 			);
 			name = Tool;
 			sourceTree = "<group>";
@@ -2274,6 +2277,7 @@
 				513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */,
 				516D002E1D2F445000AD50DD /* SuperGuessVc.swift in Sources */,
 				51DB4FC31D2B98AC0029986F /* GroupVc.swift in Sources */,
+				514AC3901D33443B00B567CB /* TimerTool.swift in Sources */,
 				516D00411D2F510900AD50DD /* UILabel+Category.swift in Sources */,
 				516D002C1D2F40D600AD50DD /* AppView.swift in Sources */,
 				51DB4C0E1D2B5E200029986F /* ViewController.swift in Sources */,
