@@ -73,25 +73,27 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
                 break
             case 1: // 应用管理
                  vc = YingYongVc()
-                vc.view.backgroundColor = UIColor.whiteColor()
                 break
             case 2: // 超级猜图
                  vc = SuperGuessVc()
-                vc.view.backgroundColor = UIColor.whiteColor()
                 break
             case 3: // 图片放大
                  vc = TuPianFangDaVc()
-                vc.view.backgroundColor = UIColor.whiteColor()
                 break
             case 4: // 轮播器
                  vc = LunBoQiViewController()
-                vc.view.backgroundColor = UIColor.whiteColor()
+                break
+            case 5: // 汽车模型
+                vc = CarVc()
+                break
+            case 6: //团购
+                vc = TuanGouVc()
                 break
             default:
                 return
             }
         }
-        
+        vc.view.backgroundColor = UIColor.whiteColor()
         navigationController!.pushViewController(vc, animated: true)
     }
 }

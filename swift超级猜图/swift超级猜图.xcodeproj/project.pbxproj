@@ -7,8 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51128A051D33B9BD0047C9AB /* TuanGouVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51128A031D33B9BD0047C9AB /* TuanGouVc.swift */; };
+		51128A061D33B9BD0047C9AB /* TuanGouVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51128A041D33B9BD0047C9AB /* TuanGouVc.xib */; };
+		51128A0B1D33BAA00047C9AB /* LunBoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51128A0A1D33BAA00047C9AB /* LunBoView.swift */; };
+		51128A0E1D33C2170047C9AB /* LunBoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51128A0D1D33C2170047C9AB /* LunBoView.xib */; };
+		51128A111D33C2820047C9AB /* LunBoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51128A0F1D33C2820047C9AB /* LunBoViewCell.swift */; };
+		51128A121D33C2820047C9AB /* LunBoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51128A101D33C2820047C9AB /* LunBoViewCell.xib */; };
 		513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513D0E301D30DF5700D7D144 /* QuestionView.swift */; };
+		514A1A761D340A530066958E /* TuanGouCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514A1A741D340A530066958E /* TuanGouCell.swift */; };
+		514A1A771D340A530066958E /* TuanGouCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514A1A751D340A530066958E /* TuanGouCell.xib */; };
+		514A1A791D340B650066958E /* tgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 514A1A781D340B650066958E /* tgs.plist */; };
+		514A1A7B1D340B7B0066958E /* TGModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514A1A7A1D340B7B0066958E /* TGModel.swift */; };
 		514AC3901D33443B00B567CB /* TimerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514AC38F1D33443B00B567CB /* TimerTool.swift */; };
+		514BE38E1D3369BC00FDA6C2 /* CarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514BE38C1D3369BC00FDA6C2 /* CarVc.swift */; };
+		514BE38F1D3369BC00FDA6C2 /* CarVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514BE38D1D3369BC00FDA6C2 /* CarVc.xib */; };
+		514BE3911D336CD800FDA6C2 /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = 514BE3901D336CD800FDA6C2 /* cars_total.plist */; };
+		514BE3931D336CF900FDA6C2 /* CarGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514BE3921D336CF900FDA6C2 /* CarGroup.swift */; };
+		514BE3951D336D0200FDA6C2 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514BE3941D336D0200FDA6C2 /* Car.swift */; };
 		516D00231D2F3FD100AD50DD /* YingYongVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00221D2F3FD100AD50DD /* YingYongVc.swift */; };
 		516D00251D2F3FE600AD50DD /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00241D2F3FE600AD50DD /* AppModel.swift */; };
 		516D00281D2F3FFC00AD50DD /* app.plist in Resources */ = {isa = PBXBuildFile; fileRef = 516D00271D2F3FFC00AD50DD /* app.plist */; };
@@ -19,6 +34,11 @@
 		516D00411D2F510900AD50DD /* UILabel+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00401D2F510900AD50DD /* UILabel+Category.swift */; };
 		516D00431D2F735A00AD50DD /* AnwerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00421D2F735A00AD50DD /* AnwerView.swift */; };
 		516D00471D2F74CD00AD50DD /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00461D2F74CD00AD50DD /* QuestionModel.swift */; };
+		51B142D01D34A44D00414B72 /* TGFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B142CF1D34A44D00414B72 /* TGFootView.swift */; };
+		51B142D21D34A45800414B72 /* TGFootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B142D11D34A45800414B72 /* TGFootView.xib */; };
+		51B142D51D34B81500414B72 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51B142D41D34B81500414B72 /* statuses.plist */; };
+		51B142DB1D34B8AC00414B72 /* WeiBoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B142D91D34B8AC00414B72 /* WeiBoVc.swift */; };
+		51B142DC1D34B8AC00414B72 /* WeiBoVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B142DA1D34B8AC00414B72 /* WeiBoVc.xib */; };
 		51B9BC8C1D32AE7400DCCE30 /* product.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51B9BC8B1D32AE7400DCCE30 /* product.plist */; };
 		51B9BC921D32B54C00DCCE30 /* TuPianFangDaVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9BC901D32B54C00DCCE30 /* TuPianFangDaVc.swift */; };
 		51B9BC931D32B54C00DCCE30 /* TuPianFangDaVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B9BC911D32B54C00DCCE30 /* TuPianFangDaVc.xib */; };
@@ -479,8 +499,23 @@
 
 /* Begin PBXFileReference section */
 		2B6295B49D9490869CC95564 /* Pods-swift超级猜图.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift超级猜图.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift超级猜图/Pods-swift超级猜图.debug.xcconfig"; sourceTree = "<group>"; };
+		51128A031D33B9BD0047C9AB /* TuanGouVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuanGouVc.swift; sourceTree = "<group>"; };
+		51128A041D33B9BD0047C9AB /* TuanGouVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuanGouVc.xib; sourceTree = "<group>"; };
+		51128A0A1D33BAA00047C9AB /* LunBoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunBoView.swift; sourceTree = "<group>"; };
+		51128A0D1D33C2170047C9AB /* LunBoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LunBoView.xib; sourceTree = "<group>"; };
+		51128A0F1D33C2820047C9AB /* LunBoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunBoViewCell.swift; sourceTree = "<group>"; };
+		51128A101D33C2820047C9AB /* LunBoViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LunBoViewCell.xib; sourceTree = "<group>"; };
 		513D0E301D30DF5700D7D144 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		514A1A741D340A530066958E /* TuanGouCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuanGouCell.swift; sourceTree = "<group>"; };
+		514A1A751D340A530066958E /* TuanGouCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuanGouCell.xib; sourceTree = "<group>"; };
+		514A1A781D340B650066958E /* tgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tgs.plist; sourceTree = "<group>"; };
+		514A1A7A1D340B7B0066958E /* TGModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGModel.swift; sourceTree = "<group>"; };
 		514AC38F1D33443B00B567CB /* TimerTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerTool.swift; sourceTree = "<group>"; };
+		514BE38C1D3369BC00FDA6C2 /* CarVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarVc.swift; sourceTree = "<group>"; };
+		514BE38D1D3369BC00FDA6C2 /* CarVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarVc.xib; sourceTree = "<group>"; };
+		514BE3901D336CD800FDA6C2 /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total.plist; sourceTree = "<group>"; };
+		514BE3921D336CF900FDA6C2 /* CarGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarGroup.swift; sourceTree = "<group>"; };
+		514BE3941D336D0200FDA6C2 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		516D00221D2F3FD100AD50DD /* YingYongVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YingYongVc.swift; sourceTree = "<group>"; };
 		516D00241D2F3FE600AD50DD /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		516D00271D2F3FFC00AD50DD /* app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = app.plist; sourceTree = "<group>"; };
@@ -491,6 +526,11 @@
 		516D00401D2F510900AD50DD /* UILabel+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Category.swift"; sourceTree = "<group>"; };
 		516D00421D2F735A00AD50DD /* AnwerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnwerView.swift; sourceTree = "<group>"; };
 		516D00461D2F74CD00AD50DD /* QuestionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		51B142CF1D34A44D00414B72 /* TGFootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGFootView.swift; sourceTree = "<group>"; };
+		51B142D11D34A45800414B72 /* TGFootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TGFootView.xib; sourceTree = "<group>"; };
+		51B142D41D34B81500414B72 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
+		51B142D91D34B8AC00414B72 /* WeiBoVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiBoVc.swift; sourceTree = "<group>"; };
+		51B142DA1D34B8AC00414B72 /* WeiBoVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeiBoVc.xib; sourceTree = "<group>"; };
 		51B9BC8B1D32AE7400DCCE30 /* product.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = product.plist; sourceTree = "<group>"; };
 		51B9BC901D32B54C00DCCE30 /* TuPianFangDaVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuPianFangDaVc.swift; sourceTree = "<group>"; };
 		51B9BC911D32B54C00DCCE30 /* TuPianFangDaVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuPianFangDaVc.xib; sourceTree = "<group>"; };
@@ -964,12 +1004,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51128A021D33B97E0047C9AB /* 团购 */ = {
+			isa = PBXGroup;
+			children = (
+				51128A091D33BA810047C9AB /* Controller */,
+				51128A081D33BA7D0047C9AB /* Model */,
+				51128A071D33BA790047C9AB /* View */,
+			);
+			name = "团购";
+			sourceTree = "<group>";
+		};
+		51128A071D33BA790047C9AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				514A1A741D340A530066958E /* TuanGouCell.swift */,
+				514A1A751D340A530066958E /* TuanGouCell.xib */,
+				51B142CF1D34A44D00414B72 /* TGFootView.swift */,
+				51B142D11D34A45800414B72 /* TGFootView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		51128A081D33BA7D0047C9AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				514A1A7A1D340B7B0066958E /* TGModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		51128A091D33BA810047C9AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51128A031D33B9BD0047C9AB /* TuanGouVc.swift */,
+				51128A041D33B9BD0047C9AB /* TuanGouVc.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		51128A0C1D33C1FA0047C9AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51128A0A1D33BAA00047C9AB /* LunBoView.swift */,
+				51128A0D1D33C2170047C9AB /* LunBoView.xib */,
+				51128A0F1D33C2820047C9AB /* LunBoViewCell.swift */,
+				51128A101D33C2820047C9AB /* LunBoViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		513D0E551D322CEC00D7D144 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
 				514AC38F1D33443B00B567CB /* TimerTool.swift */,
 			);
 			name = Tool;
+			sourceTree = "<group>";
+		};
+		514BE3881D33697B00FDA6C2 /* 汽车嵌套模型 */ = {
+			isa = PBXGroup;
+			children = (
+				514BE3891D33698C00FDA6C2 /* Controller */,
+				514BE38B1D33699F00FDA6C2 /* View */,
+				514BE38A1D33698E00FDA6C2 /* Model */,
+			);
+			name = "汽车嵌套模型";
+			sourceTree = "<group>";
+		};
+		514BE3891D33698C00FDA6C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				514BE38C1D3369BC00FDA6C2 /* CarVc.swift */,
+				514BE38D1D3369BC00FDA6C2 /* CarVc.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		514BE38A1D33698E00FDA6C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				514BE3921D336CF900FDA6C2 /* CarGroup.swift */,
+				514BE3941D336D0200FDA6C2 /* Car.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		514BE38B1D33699F00FDA6C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		516D00311D2F45AC00AD50DD /* superGuess超级猜图 */ = {
@@ -1045,6 +1169,7 @@
 			isa = PBXGroup;
 			children = (
 				51DB4FC21D2B98AC0029986F /* GroupVc.swift */,
+				51128A0C1D33C1FA0047C9AB /* View */,
 				513D0E551D322CEC00D7D144 /* Tool */,
 				516D003D1D2F4B2C00AD50DD /* Category */,
 			);
@@ -1068,6 +1193,40 @@
 			name = Category;
 			sourceTree = "<group>";
 		};
+		51B142D31D34B7FA00414B72 /* 微博 */ = {
+			isa = PBXGroup;
+			children = (
+				51B142D81D34B88700414B72 /* Model */,
+				51B142D71D34B88300414B72 /* View */,
+				51B142D61D34B87C00414B72 /* Controller */,
+				51B142D41D34B81500414B72 /* statuses.plist */,
+			);
+			name = "微博";
+			sourceTree = "<group>";
+		};
+		51B142D61D34B87C00414B72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51B142D91D34B8AC00414B72 /* WeiBoVc.swift */,
+				51B142DA1D34B8AC00414B72 /* WeiBoVc.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		51B142D71D34B88300414B72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		51B142D81D34B88700414B72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		51B9BC8D1D32B4E000DCCE30 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -1084,6 +1243,9 @@
 				516D00371D2F45FC00AD50DD /* 应用管理 */,
 				516D00311D2F45AC00AD50DD /* superGuess超级猜图 */,
 				51B9BC941D32B8A300DCCE30 /* 图片轮播器 */,
+				514BE3881D33697B00FDA6C2 /* 汽车嵌套模型 */,
+				51128A021D33B97E0047C9AB /* 团购 */,
+				51B142D31D34B7FA00414B72 /* 微博 */,
 			);
 			name = "UI基础";
 			sourceTree = "<group>";
@@ -1663,6 +1825,8 @@
 		51DB4FC11D2B986D0029986F /* 资源 */ = {
 			isa = PBXGroup;
 			children = (
+				514A1A781D340B650066958E /* tgs.plist */,
+				514BE3901D336CD800FDA6C2 /* cars_total.plist */,
 				51B9BC8B1D32AE7400DCCE30 /* product.plist */,
 				516D002F1D2F458700AD50DD /* questions.plist */,
 				516D00271D2F3FFC00AD50DD /* app.plist */,
@@ -1804,10 +1968,12 @@
 				51DB4F771D2B5F840029986F /* scratch_51.jpg in Resources */,
 				51DB4DEA1D2B5F840029986F /* angry_07.jpg in Resources */,
 				51DB4E8E1D2B5F840029986F /* fart_11.jpg in Resources */,
+				51128A121D33C2820047C9AB /* LunBoViewCell.xib in Resources */,
 				51DB4F971D2B5F840029986F /* stomach_27.jpg in Resources */,
 				51DB4F1D1D2B5F840029986F /* knockout_66.jpg in Resources */,
 				51DB4E2F1D2B5F840029986F /* drink_37.jpg in Resources */,
 				51DB4E441D2B5F840029986F /* drink_58.jpg in Resources */,
+				514BE38F1D3369BC00FDA6C2 /* CarVc.xib in Resources */,
 				51DB4F8F1D2B5F840029986F /* stomach_19.jpg in Resources */,
 				51DB4F411D2B5F840029986F /* pie_21.jpg in Resources */,
 				51DB4F091D2B5F840029986F /* knockout_46.jpg in Resources */,
@@ -1920,6 +2086,7 @@
 				51DB4F651D2B5F840029986F /* scratch_33.jpg in Resources */,
 				51DB4E9E1D2B5F840029986F /* fart_27.jpg in Resources */,
 				51DB4EC51D2B5F840029986F /* footRight_08.jpg in Resources */,
+				51B142D21D34A45800414B72 /* TGFootView.xib in Resources */,
 				51DB4E431D2B5F840029986F /* drink_57.jpg in Resources */,
 				51DB4F0A1D2B5F840029986F /* knockout_47.jpg in Resources */,
 				51DB4F171D2B5F840029986F /* knockout_60.jpg in Resources */,
@@ -1969,6 +2136,7 @@
 				51DB4F9B1D2B5F840029986F /* stomach_31.jpg in Resources */,
 				51DB4F751D2B5F840029986F /* scratch_49.jpg in Resources */,
 				51DB4F841D2B5F840029986F /* stomach_08.jpg in Resources */,
+				514A1A771D340A530066958E /* TuanGouCell.xib in Resources */,
 				51DB4E1F1D2B5F840029986F /* drink_21.jpg in Resources */,
 				51DB4EEB1D2B5F840029986F /* knockout_16.jpg in Resources */,
 				51DB4F601D2B5F840029986F /* scratch_28.jpg in Resources */,
@@ -2039,6 +2207,7 @@
 				51DB4DE61D2B5F840029986F /* angry_03.jpg in Resources */,
 				51DB4F6A1D2B5F840029986F /* scratch_38.jpg in Resources */,
 				51DB4EE71D2B5F840029986F /* knockout_12.jpg in Resources */,
+				514A1A791D340B650066958E /* tgs.plist in Resources */,
 				51DB4DF21D2B5F840029986F /* angry_15.jpg in Resources */,
 				51DB4DF51D2B5F840029986F /* angry_18.jpg in Resources */,
 				51DB4E1D1D2B5F840029986F /* drink_19.jpg in Resources */,
@@ -2085,6 +2254,7 @@
 				51DB4F3C1D2B5F840029986F /* pie_16.jpg in Resources */,
 				51DB4EF51D2B5F840029986F /* knockout_26.jpg in Resources */,
 				51DB4EE01D2B5F840029986F /* knockout_05.jpg in Resources */,
+				51128A0E1D33C2170047C9AB /* LunBoView.xib in Resources */,
 				51DB4E3F1D2B5F840029986F /* drink_53.jpg in Resources */,
 				51DB4F6E1D2B5F840029986F /* scratch_42.jpg in Resources */,
 				51DB4F4E1D2B5F840029986F /* scratch_10.jpg in Resources */,
@@ -2102,8 +2272,10 @@
 				51DB4F221D2B5F840029986F /* knockout_71.jpg in Resources */,
 				51DB4EAE1D2B5F840029986F /* footLeft_15.jpg in Resources */,
 				51DB4E121D2B5F840029986F /* drink_08.jpg in Resources */,
+				51128A061D33B9BD0047C9AB /* TuanGouVc.xib in Resources */,
 				51DB4F3F1D2B5F840029986F /* pie_19.jpg in Resources */,
 				51DB4EB31D2B5F840029986F /* footLeft_20.jpg in Resources */,
+				51B142D51D34B81500414B72 /* statuses.plist in Resources */,
 				51DB4DF11D2B5F840029986F /* angry_14.jpg in Resources */,
 				51DB4DFC1D2B5F840029986F /* angry_25.jpg in Resources */,
 				51DB4F631D2B5F840029986F /* scratch_31.jpg in Resources */,
@@ -2136,6 +2308,7 @@
 				51DB4F031D2B5F840029986F /* knockout_40.jpg in Resources */,
 				51DB4E851D2B5F840029986F /* fart_02.jpg in Resources */,
 				51DB4F011D2B5F840029986F /* knockout_38.jpg in Resources */,
+				51B142DC1D34B8AC00414B72 /* WeiBoVc.xib in Resources */,
 				51DB4E161D2B5F840029986F /* drink_12.jpg in Resources */,
 				51DB4EF41D2B5F840029986F /* knockout_25.jpg in Resources */,
 				51DB4F0E1D2B5F840029986F /* knockout_51.jpg in Resources */,
@@ -2150,6 +2323,7 @@
 				51DB4E0A1D2B5F840029986F /* drink_00.jpg in Resources */,
 				51DB4EFB1D2B5F840029986F /* knockout_32.jpg in Resources */,
 				51DB4F461D2B5F840029986F /* scratch_02.jpg in Resources */,
+				514BE3911D336CD800FDA6C2 /* cars_total.plist in Resources */,
 				51DB4F7B1D2B5F840029986F /* scratch_55.jpg in Resources */,
 				51DB4E361D2B5F840029986F /* drink_44.jpg in Resources */,
 				51DB4F351D2B5F840029986F /* pie_09.jpg in Resources */,
@@ -2270,18 +2444,28 @@
 			files = (
 				51B9BC9B1D32BA9700DCCE30 /* LunBoCell.swift in Sources */,
 				516D00231D2F3FD100AD50DD /* YingYongVc.swift in Sources */,
+				514BE38E1D3369BC00FDA6C2 /* CarVc.swift in Sources */,
 				51B9BC971D32B8CB00DCCE30 /* LunBoQiViewController.swift in Sources */,
 				516D003F1D2F4B3B00AD50DD /* UIButton+Category.swift in Sources */,
 				516D00471D2F74CD00AD50DD /* QuestionModel.swift in Sources */,
+				51128A051D33B9BD0047C9AB /* TuanGouVc.swift in Sources */,
 				516D00431D2F735A00AD50DD /* AnwerView.swift in Sources */,
+				51B142D01D34A44D00414B72 /* TGFootView.swift in Sources */,
 				513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */,
+				51128A111D33C2820047C9AB /* LunBoViewCell.swift in Sources */,
+				514A1A761D340A530066958E /* TuanGouCell.swift in Sources */,
 				516D002E1D2F445000AD50DD /* SuperGuessVc.swift in Sources */,
+				514A1A7B1D340B7B0066958E /* TGModel.swift in Sources */,
 				51DB4FC31D2B98AC0029986F /* GroupVc.swift in Sources */,
 				514AC3901D33443B00B567CB /* TimerTool.swift in Sources */,
 				516D00411D2F510900AD50DD /* UILabel+Category.swift in Sources */,
+				51128A0B1D33BAA00047C9AB /* LunBoView.swift in Sources */,
 				516D002C1D2F40D600AD50DD /* AppView.swift in Sources */,
 				51DB4C0E1D2B5E200029986F /* ViewController.swift in Sources */,
+				514BE3931D336CF900FDA6C2 /* CarGroup.swift in Sources */,
+				51B142DB1D34B8AC00414B72 /* WeiBoVc.swift in Sources */,
 				51B9BC921D32B54C00DCCE30 /* TuPianFangDaVc.swift in Sources */,
+				514BE3951D336D0200FDA6C2 /* Car.swift in Sources */,
 				516D00251D2F3FE600AD50DD /* AppModel.swift in Sources */,
 				51DB4C0C1D2B5E200029986F /* AppDelegate.swift in Sources */,
 			);

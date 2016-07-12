@@ -9,6 +9,7 @@
             <connections>
                 <outlet property="collectionView" destination="2QM-5k-tYJ" id="mbg-oG-Nsx"/>
                 <outlet property="flow" destination="sdE-0j-jB2" id="EPJ-o1-mnF"/>
+                <outlet property="pageVc" destination="0RI-mo-ZG3" id="OKb-NK-jDi"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -36,6 +37,11 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="0RI-mo-ZG3">
+                    <rect key="frame" x="124.5" y="100" width="71" height="37"/>
+                    <color key="pageIndicatorTintColor" red="0.83699919869999995" green="0.83699919869999995" blue="0.83699919869999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="currentPageIndicatorTintColor" red="1" green="0.235946503" blue="0.24618658730000001" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -43,9 +49,11 @@
                 <constraint firstItem="Wco-0L-Emo" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aWE-eJ-I9z"/>
                 <constraint firstAttribute="bottom" secondItem="Wco-0L-Emo" secondAttribute="bottom" id="bvU-ej-fT2"/>
                 <constraint firstItem="Wco-0L-Emo" firstAttribute="top" secondItem="2QM-5k-tYJ" secondAttribute="bottom" id="hrL-fL-GsB"/>
+                <constraint firstItem="0RI-mo-ZG3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="lgc-j4-VVx"/>
                 <constraint firstAttribute="trailing" secondItem="2QM-5k-tYJ" secondAttribute="trailing" id="o6q-GZ-XJC"/>
                 <constraint firstItem="2QM-5k-tYJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="rec-6S-bMP"/>
                 <constraint firstItem="2QM-5k-tYJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xBA-Yg-Dyw"/>
+                <constraint firstItem="0RI-mo-ZG3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="yxC-iL-V6e"/>
             </constraints>
             <point key="canvasLocation" x="280" y="188"/>
         </view>

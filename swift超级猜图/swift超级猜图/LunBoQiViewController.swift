@@ -15,6 +15,9 @@ class LunBoQiViewController: UIViewController {
     
     @IBOutlet weak var flow: UICollectionViewFlowLayout!
     
+    @IBOutlet weak var pageVc: UIPageControl!
+    
+    
     weak var timerTool: TimerTool?
     
     var timer: NSTimer?
@@ -22,6 +25,9 @@ class LunBoQiViewController: UIViewController {
     let imageNames:[String] = ["img_01","img_02","img_03","img_04","img_05"]
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        pageVc.numberOfPages = imageNames.count
+        pageVc.currentPage = 0
         
         self.edgesForExtendedLayout = UIRectEdge.None
        
@@ -75,9 +81,10 @@ class LunBoQiViewController: UIViewController {
     func changeImageAnimation() {
         
         // 获得当前的set
-       let offerX = self.collectionView.contentOffset.x
-        //
-       self.collectionView.setContentOffset(CGPointMake(offerX + self.view.bounds.size.width, 0), animated: true)
+       let offerX = self.collectionView.contentOffset.x + self.view.bounds.size.width
+        // 获取当前
+//        self.pageVc.currentPage =  Int(offerX / width) % 5
+       self.collectionView.setContentOffset(CGPointMake(offerX, 0), animated: true)
         
     }
     
@@ -118,6 +125,15 @@ extension LunBoQiViewController: UICollectionViewDataSource, UICollectionViewDel
     func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
         
         self.timerTool = TimerTool().runSelector(timeInterval: 1, target: self, selector: "changeImageAnimation", userInfo: nil, repeats: true)
+    }
+    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        
+        // 获取当前的的位置
+        let offerX = self.collectionView.contentOffset.x
+        let width = self.view.frame.size.width
+        let number: Int = Int(offerX / width + 0.5) % 5
+        pageVc.currentPage = number
     }
     
 }
