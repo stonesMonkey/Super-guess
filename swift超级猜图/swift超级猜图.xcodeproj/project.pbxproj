@@ -13,6 +13,7 @@
 		51128A0E1D33C2170047C9AB /* LunBoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51128A0D1D33C2170047C9AB /* LunBoView.xib */; };
 		51128A111D33C2820047C9AB /* LunBoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51128A0F1D33C2820047C9AB /* LunBoViewCell.swift */; };
 		51128A121D33C2820047C9AB /* LunBoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51128A101D33C2820047C9AB /* LunBoViewCell.xib */; };
+		5126F7861D367BA900BE8B6A /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5126F7851D367BA900BE8B6A /* Utils.m */; };
 		513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513D0E301D30DF5700D7D144 /* QuestionView.swift */; };
 		514A1A761D340A530066958E /* TuanGouCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514A1A741D340A530066958E /* TuanGouCell.swift */; };
 		514A1A771D340A530066958E /* TuanGouCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514A1A751D340A530066958E /* TuanGouCell.xib */; };
@@ -38,7 +39,10 @@
 		51B142D21D34A45800414B72 /* TGFootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B142D11D34A45800414B72 /* TGFootView.xib */; };
 		51B142D51D34B81500414B72 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51B142D41D34B81500414B72 /* statuses.plist */; };
 		51B142DB1D34B8AC00414B72 /* WeiBoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B142D91D34B8AC00414B72 /* WeiBoVc.swift */; };
-		51B142DC1D34B8AC00414B72 /* WeiBoVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B142DA1D34B8AC00414B72 /* WeiBoVc.xib */; };
+		51B142DE1D34BA2800414B72 /* WeiBoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B142DD1D34BA2800414B72 /* WeiBoModel.swift */; };
+		51B142E01D35169E00414B72 /* CellFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B142DF1D35169E00414B72 /* CellFrame.swift */; };
+		51B142E31D3516B700414B72 /* WeiBoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B142E11D3516B700414B72 /* WeiBoCell.swift */; };
+		51B143061D35239D00414B72 /* NSString+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B143051D35239D00414B72 /* NSString+Category.swift */; };
 		51B9BC8C1D32AE7400DCCE30 /* product.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51B9BC8B1D32AE7400DCCE30 /* product.plist */; };
 		51B9BC921D32B54C00DCCE30 /* TuPianFangDaVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9BC901D32B54C00DCCE30 /* TuPianFangDaVc.swift */; };
 		51B9BC931D32B54C00DCCE30 /* TuPianFangDaVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B9BC911D32B54C00DCCE30 /* TuPianFangDaVc.xib */; };
@@ -505,6 +509,9 @@
 		51128A0D1D33C2170047C9AB /* LunBoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LunBoView.xib; sourceTree = "<group>"; };
 		51128A0F1D33C2820047C9AB /* LunBoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunBoViewCell.swift; sourceTree = "<group>"; };
 		51128A101D33C2820047C9AB /* LunBoViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LunBoViewCell.xib; sourceTree = "<group>"; };
+		5126F7831D367BA900BE8B6A /* swift超级猜图-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift超级猜图-Bridging-Header.h"; sourceTree = "<group>"; };
+		5126F7841D367BA900BE8B6A /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		5126F7851D367BA900BE8B6A /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		513D0E301D30DF5700D7D144 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		514A1A741D340A530066958E /* TuanGouCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuanGouCell.swift; sourceTree = "<group>"; };
 		514A1A751D340A530066958E /* TuanGouCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuanGouCell.xib; sourceTree = "<group>"; };
@@ -530,7 +537,10 @@
 		51B142D11D34A45800414B72 /* TGFootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TGFootView.xib; sourceTree = "<group>"; };
 		51B142D41D34B81500414B72 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
 		51B142D91D34B8AC00414B72 /* WeiBoVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiBoVc.swift; sourceTree = "<group>"; };
-		51B142DA1D34B8AC00414B72 /* WeiBoVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeiBoVc.xib; sourceTree = "<group>"; };
+		51B142DD1D34BA2800414B72 /* WeiBoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiBoModel.swift; sourceTree = "<group>"; };
+		51B142DF1D35169E00414B72 /* CellFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellFrame.swift; sourceTree = "<group>"; };
+		51B142E11D3516B700414B72 /* WeiBoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiBoCell.swift; sourceTree = "<group>"; };
+		51B143051D35239D00414B72 /* NSString+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Category.swift"; sourceTree = "<group>"; };
 		51B9BC8B1D32AE7400DCCE30 /* product.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = product.plist; sourceTree = "<group>"; };
 		51B9BC901D32B54C00DCCE30 /* TuPianFangDaVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuPianFangDaVc.swift; sourceTree = "<group>"; };
 		51B9BC911D32B54C00DCCE30 /* TuPianFangDaVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuPianFangDaVc.xib; sourceTree = "<group>"; };
@@ -1172,6 +1182,9 @@
 				51128A0C1D33C1FA0047C9AB /* View */,
 				513D0E551D322CEC00D7D144 /* Tool */,
 				516D003D1D2F4B2C00AD50DD /* Category */,
+				5126F7841D367BA900BE8B6A /* Utils.h */,
+				5126F7851D367BA900BE8B6A /* Utils.m */,
+				5126F7831D367BA900BE8B6A /* swift超级猜图-Bridging-Header.h */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -1189,6 +1202,7 @@
 			children = (
 				516D003E1D2F4B3B00AD50DD /* UIButton+Category.swift */,
 				516D00401D2F510900AD50DD /* UILabel+Category.swift */,
+				51B143051D35239D00414B72 /* NSString+Category.swift */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -1196,9 +1210,9 @@
 		51B142D31D34B7FA00414B72 /* 微博 */ = {
 			isa = PBXGroup;
 			children = (
-				51B142D81D34B88700414B72 /* Model */,
-				51B142D71D34B88300414B72 /* View */,
 				51B142D61D34B87C00414B72 /* Controller */,
+				51B142D71D34B88300414B72 /* View */,
+				51B142D81D34B88700414B72 /* Model */,
 				51B142D41D34B81500414B72 /* statuses.plist */,
 			);
 			name = "微博";
@@ -1208,7 +1222,6 @@
 			isa = PBXGroup;
 			children = (
 				51B142D91D34B8AC00414B72 /* WeiBoVc.swift */,
-				51B142DA1D34B8AC00414B72 /* WeiBoVc.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -1216,6 +1229,7 @@
 		51B142D71D34B88300414B72 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				51B142E11D3516B700414B72 /* WeiBoCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1223,6 +1237,8 @@
 		51B142D81D34B88700414B72 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				51B142DD1D34BA2800414B72 /* WeiBoModel.swift */,
+				51B142DF1D35169E00414B72 /* CellFrame.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -2308,7 +2324,6 @@
 				51DB4F031D2B5F840029986F /* knockout_40.jpg in Resources */,
 				51DB4E851D2B5F840029986F /* fart_02.jpg in Resources */,
 				51DB4F011D2B5F840029986F /* knockout_38.jpg in Resources */,
-				51B142DC1D34B8AC00414B72 /* WeiBoVc.xib in Resources */,
 				51DB4E161D2B5F840029986F /* drink_12.jpg in Resources */,
 				51DB4EF41D2B5F840029986F /* knockout_25.jpg in Resources */,
 				51DB4F0E1D2B5F840029986F /* knockout_51.jpg in Resources */,
@@ -2447,23 +2462,28 @@
 				514BE38E1D3369BC00FDA6C2 /* CarVc.swift in Sources */,
 				51B9BC971D32B8CB00DCCE30 /* LunBoQiViewController.swift in Sources */,
 				516D003F1D2F4B3B00AD50DD /* UIButton+Category.swift in Sources */,
+				51B142E31D3516B700414B72 /* WeiBoCell.swift in Sources */,
+				51B142E01D35169E00414B72 /* CellFrame.swift in Sources */,
 				516D00471D2F74CD00AD50DD /* QuestionModel.swift in Sources */,
 				51128A051D33B9BD0047C9AB /* TuanGouVc.swift in Sources */,
 				516D00431D2F735A00AD50DD /* AnwerView.swift in Sources */,
 				51B142D01D34A44D00414B72 /* TGFootView.swift in Sources */,
 				513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */,
 				51128A111D33C2820047C9AB /* LunBoViewCell.swift in Sources */,
+				51B143061D35239D00414B72 /* NSString+Category.swift in Sources */,
 				514A1A761D340A530066958E /* TuanGouCell.swift in Sources */,
 				516D002E1D2F445000AD50DD /* SuperGuessVc.swift in Sources */,
 				514A1A7B1D340B7B0066958E /* TGModel.swift in Sources */,
 				51DB4FC31D2B98AC0029986F /* GroupVc.swift in Sources */,
 				514AC3901D33443B00B567CB /* TimerTool.swift in Sources */,
 				516D00411D2F510900AD50DD /* UILabel+Category.swift in Sources */,
+				5126F7861D367BA900BE8B6A /* Utils.m in Sources */,
 				51128A0B1D33BAA00047C9AB /* LunBoView.swift in Sources */,
 				516D002C1D2F40D600AD50DD /* AppView.swift in Sources */,
 				51DB4C0E1D2B5E200029986F /* ViewController.swift in Sources */,
 				514BE3931D336CF900FDA6C2 /* CarGroup.swift in Sources */,
 				51B142DB1D34B8AC00414B72 /* WeiBoVc.swift in Sources */,
+				51B142DE1D34BA2800414B72 /* WeiBoModel.swift in Sources */,
 				51B9BC921D32B54C00DCCE30 /* TuPianFangDaVc.swift in Sources */,
 				514BE3951D336D0200FDA6C2 /* Car.swift in Sources */,
 				516D00251D2F3FE600AD50DD /* AppModel.swift in Sources */,
@@ -2573,11 +2593,14 @@
 			baseConfigurationReference = 2B6295B49D9490869CC95564 /* Pods-swift超级猜图.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "swift超级猜图/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xiaoZhi.swift----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift超级猜图/swift超级猜图-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -2586,11 +2609,13 @@
 			baseConfigurationReference = C4C2EF443A4A40DC55D9C767 /* Pods-swift超级猜图.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "swift超级猜图/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xiaoZhi.swift----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift超级猜图/swift超级猜图-Bridging-Header.h";
 			};
 			name = Release;
 		};

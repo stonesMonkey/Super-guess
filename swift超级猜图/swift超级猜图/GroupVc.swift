@@ -86,9 +86,11 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
             case 5: // 汽车模型
                 vc = CarVc()
                 break
-            case 6: //团购
+            case 6: // 团购
                 vc = TuanGouVc()
                 break
+            case 7: // 微博
+                vc = WeiBoVc()
             default:
                 return
             }

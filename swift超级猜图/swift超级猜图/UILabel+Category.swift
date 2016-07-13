@@ -19,4 +19,6 @@ extension UILabel {
         textAlignment = NSTextAlignment.Center
         textColor = UIColor.whiteColor()
     }
+    
+   
 }
