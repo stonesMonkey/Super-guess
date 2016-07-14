@@ -14,6 +14,9 @@
 		51128A111D33C2820047C9AB /* LunBoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51128A0F1D33C2820047C9AB /* LunBoViewCell.swift */; };
 		51128A121D33C2820047C9AB /* LunBoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51128A101D33C2820047C9AB /* LunBoViewCell.xib */; };
 		5126F7861D367BA900BE8B6A /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5126F7851D367BA900BE8B6A /* Utils.m */; };
+		5126F78F1D36A09700BE8B6A /* QQFriendListVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5126F78E1D36A09700BE8B6A /* QQFriendListVc.swift */; };
+		5126F7911D36A0C300BE8B6A /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5126F7901D36A0C300BE8B6A /* FriendView.swift */; };
+		5126F7931D36A20E00BE8B6A /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5126F7921D36A20E00BE8B6A /* FriendCell.swift */; };
 		513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513D0E301D30DF5700D7D144 /* QuestionView.swift */; };
 		514A1A761D340A530066958E /* TuanGouCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514A1A741D340A530066958E /* TuanGouCell.swift */; };
 		514A1A771D340A530066958E /* TuanGouCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514A1A751D340A530066958E /* TuanGouCell.xib */; };
@@ -25,6 +28,10 @@
 		514BE3911D336CD800FDA6C2 /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = 514BE3901D336CD800FDA6C2 /* cars_total.plist */; };
 		514BE3931D336CF900FDA6C2 /* CarGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514BE3921D336CF900FDA6C2 /* CarGroup.swift */; };
 		514BE3951D336D0200FDA6C2 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514BE3941D336D0200FDA6C2 /* Car.swift */; };
+		51549BC21D36A52900287308 /* FriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51549BC11D36A52900287308 /* FriendCell.xib */; };
+		51549BC41D36A69400287308 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51549BC31D36A69400287308 /* friends.plist */; };
+		51549BC61D36A77800287308 /* FriendGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51549BC51D36A77800287308 /* FriendGroup.swift */; };
+		51549BC81D36A8FC00287308 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51549BC71D36A8FC00287308 /* FriendModel.swift */; };
 		516D00231D2F3FD100AD50DD /* YingYongVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00221D2F3FD100AD50DD /* YingYongVc.swift */; };
 		516D00251D2F3FE600AD50DD /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00241D2F3FE600AD50DD /* AppModel.swift */; };
 		516D00281D2F3FFC00AD50DD /* app.plist in Resources */ = {isa = PBXBuildFile; fileRef = 516D00271D2F3FFC00AD50DD /* app.plist */; };
@@ -50,6 +57,9 @@
 		51B9BC981D32B8CB00DCCE30 /* LunBoQiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B9BC961D32B8CB00DCCE30 /* LunBoQiViewController.xib */; };
 		51B9BC9B1D32BA9700DCCE30 /* LunBoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9BC991D32BA9700DCCE30 /* LunBoCell.swift */; };
 		51B9BC9C1D32BA9700DCCE30 /* LunBoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B9BC9A1D32BA9700DCCE30 /* LunBoCell.xib */; };
+		51CBF92E1D374CEB00C120C1 /* FriendHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBF92D1D374CEB00C120C1 /* FriendHeaderView.swift */; };
+		51CBF9301D374D0800C120C1 /* FriendHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBF92F1D374D0800C120C1 /* FriendHeaderView.xib */; };
+		51CBF9381D378BF700C120C1 /* QQChatVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBF9371D378BF700C120C1 /* QQChatVc.swift */; };
 		51DB4C0C1D2B5E200029986F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4C0B1D2B5E200029986F /* AppDelegate.swift */; };
 		51DB4C0E1D2B5E200029986F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4C0D1D2B5E200029986F /* ViewController.swift */; };
 		51DB4C131D2B5E200029986F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DB4C121D2B5E200029986F /* Assets.xcassets */; };
@@ -512,6 +522,9 @@
 		5126F7831D367BA900BE8B6A /* swift超级猜图-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift超级猜图-Bridging-Header.h"; sourceTree = "<group>"; };
 		5126F7841D367BA900BE8B6A /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		5126F7851D367BA900BE8B6A /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		5126F78E1D36A09700BE8B6A /* QQFriendListVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQFriendListVc.swift; sourceTree = "<group>"; };
+		5126F7901D36A0C300BE8B6A /* FriendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
+		5126F7921D36A20E00BE8B6A /* FriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
 		513D0E301D30DF5700D7D144 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		514A1A741D340A530066958E /* TuanGouCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuanGouCell.swift; sourceTree = "<group>"; };
 		514A1A751D340A530066958E /* TuanGouCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuanGouCell.xib; sourceTree = "<group>"; };
@@ -523,6 +536,10 @@
 		514BE3901D336CD800FDA6C2 /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total.plist; sourceTree = "<group>"; };
 		514BE3921D336CF900FDA6C2 /* CarGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarGroup.swift; sourceTree = "<group>"; };
 		514BE3941D336D0200FDA6C2 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		51549BC11D36A52900287308 /* FriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendCell.xib; sourceTree = "<group>"; };
+		51549BC31D36A69400287308 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		51549BC51D36A77800287308 /* FriendGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendGroup.swift; sourceTree = "<group>"; };
+		51549BC71D36A8FC00287308 /* FriendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
 		516D00221D2F3FD100AD50DD /* YingYongVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YingYongVc.swift; sourceTree = "<group>"; };
 		516D00241D2F3FE600AD50DD /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		516D00271D2F3FFC00AD50DD /* app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = app.plist; sourceTree = "<group>"; };
@@ -548,6 +565,9 @@
 		51B9BC961D32B8CB00DCCE30 /* LunBoQiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LunBoQiViewController.xib; sourceTree = "<group>"; };
 		51B9BC991D32BA9700DCCE30 /* LunBoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunBoCell.swift; sourceTree = "<group>"; };
 		51B9BC9A1D32BA9700DCCE30 /* LunBoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LunBoCell.xib; sourceTree = "<group>"; };
+		51CBF92D1D374CEB00C120C1 /* FriendHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendHeaderView.swift; sourceTree = "<group>"; };
+		51CBF92F1D374D0800C120C1 /* FriendHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendHeaderView.xib; sourceTree = "<group>"; };
+		51CBF9371D378BF700C120C1 /* QQChatVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQChatVc.swift; sourceTree = "<group>"; };
 		51DB4C081D2B5E200029986F /* swift超级猜图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift超级猜图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DB4C0B1D2B5E200029986F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51DB4C0D1D2B5E200029986F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -1063,6 +1083,46 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		5126F7871D36A04000BE8B6A /* QQ好友列表 */ = {
+			isa = PBXGroup;
+			children = (
+				51549BC31D36A69400287308 /* friends.plist */,
+				5126F78A1D36A06100BE8B6A /* Controller */,
+				5126F7891D36A05E00BE8B6A /* View */,
+				5126F7881D36A05500BE8B6A /* Model */,
+			);
+			name = "QQ好友列表";
+			sourceTree = "<group>";
+		};
+		5126F7881D36A05500BE8B6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51549BC51D36A77800287308 /* FriendGroup.swift */,
+				51549BC71D36A8FC00287308 /* FriendModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5126F7891D36A05E00BE8B6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5126F7901D36A0C300BE8B6A /* FriendView.swift */,
+				5126F7921D36A20E00BE8B6A /* FriendCell.swift */,
+				51549BC11D36A52900287308 /* FriendCell.xib */,
+				51CBF92D1D374CEB00C120C1 /* FriendHeaderView.swift */,
+				51CBF92F1D374D0800C120C1 /* FriendHeaderView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5126F78A1D36A06100BE8B6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5126F78E1D36A09700BE8B6A /* QQFriendListVc.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		513D0E551D322CEC00D7D144 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
@@ -1262,6 +1322,8 @@
 				514BE3881D33697B00FDA6C2 /* 汽车嵌套模型 */,
 				51128A021D33B97E0047C9AB /* 团购 */,
 				51B142D31D34B7FA00414B72 /* 微博 */,
+				5126F7871D36A04000BE8B6A /* QQ好友列表 */,
+				51CBF9331D378BC200C120C1 /* QQ聊天 */,
 			);
 			name = "UI基础";
 			sourceTree = "<group>";
@@ -1284,6 +1346,38 @@
 				51B9BC9A1D32BA9700DCCE30 /* LunBoCell.xib */,
 			);
 			name = "图片轮播器";
+			sourceTree = "<group>";
+		};
+		51CBF9331D378BC200C120C1 /* QQ聊天 */ = {
+			isa = PBXGroup;
+			children = (
+				51CBF9361D378BE300C120C1 /* Controller */,
+				51CBF9351D378BDF00C120C1 /* View */,
+				51CBF9341D378BDA00C120C1 /* Model */,
+			);
+			name = "QQ聊天";
+			sourceTree = "<group>";
+		};
+		51CBF9341D378BDA00C120C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		51CBF9351D378BDF00C120C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		51CBF9361D378BE300C120C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51CBF9371D378BF700C120C1 /* QQChatVc.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		51DB4BFF1D2B5E200029986F = {
@@ -2152,6 +2246,7 @@
 				51DB4F9B1D2B5F840029986F /* stomach_31.jpg in Resources */,
 				51DB4F751D2B5F840029986F /* scratch_49.jpg in Resources */,
 				51DB4F841D2B5F840029986F /* stomach_08.jpg in Resources */,
+				51549BC21D36A52900287308 /* FriendCell.xib in Resources */,
 				514A1A771D340A530066958E /* TuanGouCell.xib in Resources */,
 				51DB4E1F1D2B5F840029986F /* drink_21.jpg in Resources */,
 				51DB4EEB1D2B5F840029986F /* knockout_16.jpg in Resources */,
@@ -2204,6 +2299,7 @@
 				51DB4E1C1D2B5F840029986F /* drink_18.jpg in Resources */,
 				51DB4F4B1D2B5F840029986F /* scratch_07.jpg in Resources */,
 				51DB4F961D2B5F840029986F /* stomach_26.jpg in Resources */,
+				51549BC41D36A69400287308 /* friends.plist in Resources */,
 				51DB4F4D1D2B5F840029986F /* scratch_09.jpg in Resources */,
 				51DB4F081D2B5F840029986F /* knockout_45.jpg in Resources */,
 				51DB4E811D2B5F840029986F /* eat_38.jpg in Resources */,
@@ -2360,6 +2456,7 @@
 				51DB4F511D2B5F840029986F /* scratch_13.jpg in Resources */,
 				51DB4E861D2B5F840029986F /* fart_03.jpg in Resources */,
 				51DB4E911D2B5F840029986F /* fart_14.jpg in Resources */,
+				51CBF9301D374D0800C120C1 /* FriendHeaderView.xib in Resources */,
 				51DB4EC61D2B5F840029986F /* footRight_09.jpg in Resources */,
 				51DB4E941D2B5F840029986F /* fart_17.jpg in Resources */,
 				51DB4E611D2B5F840029986F /* eat_06.jpg in Resources */,
@@ -2463,17 +2560,21 @@
 				51B9BC971D32B8CB00DCCE30 /* LunBoQiViewController.swift in Sources */,
 				516D003F1D2F4B3B00AD50DD /* UIButton+Category.swift in Sources */,
 				51B142E31D3516B700414B72 /* WeiBoCell.swift in Sources */,
+				51CBF92E1D374CEB00C120C1 /* FriendHeaderView.swift in Sources */,
 				51B142E01D35169E00414B72 /* CellFrame.swift in Sources */,
 				516D00471D2F74CD00AD50DD /* QuestionModel.swift in Sources */,
 				51128A051D33B9BD0047C9AB /* TuanGouVc.swift in Sources */,
 				516D00431D2F735A00AD50DD /* AnwerView.swift in Sources */,
 				51B142D01D34A44D00414B72 /* TGFootView.swift in Sources */,
 				513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */,
+				51549BC61D36A77800287308 /* FriendGroup.swift in Sources */,
+				51549BC81D36A8FC00287308 /* FriendModel.swift in Sources */,
 				51128A111D33C2820047C9AB /* LunBoViewCell.swift in Sources */,
 				51B143061D35239D00414B72 /* NSString+Category.swift in Sources */,
 				514A1A761D340A530066958E /* TuanGouCell.swift in Sources */,
 				516D002E1D2F445000AD50DD /* SuperGuessVc.swift in Sources */,
 				514A1A7B1D340B7B0066958E /* TGModel.swift in Sources */,
+				51CBF9381D378BF700C120C1 /* QQChatVc.swift in Sources */,
 				51DB4FC31D2B98AC0029986F /* GroupVc.swift in Sources */,
 				514AC3901D33443B00B567CB /* TimerTool.swift in Sources */,
 				516D00411D2F510900AD50DD /* UILabel+Category.swift in Sources */,
@@ -2487,7 +2588,10 @@
 				51B9BC921D32B54C00DCCE30 /* TuPianFangDaVc.swift in Sources */,
 				514BE3951D336D0200FDA6C2 /* Car.swift in Sources */,
 				516D00251D2F3FE600AD50DD /* AppModel.swift in Sources */,
+				5126F78F1D36A09700BE8B6A /* QQFriendListVc.swift in Sources */,
+				5126F7911D36A0C300BE8B6A /* FriendView.swift in Sources */,
 				51DB4C0C1D2B5E200029986F /* AppDelegate.swift in Sources */,
+				5126F7931D36A20E00BE8B6A /* FriendCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

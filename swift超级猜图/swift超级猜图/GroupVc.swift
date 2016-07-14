@@ -91,6 +91,13 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
                 break
             case 7: // 微博
                 vc = WeiBoVc()
+                break
+            case 8: // QQ好友列表
+                vc = QQFriendListVc()
+                break
+            case 9: // QQ聊天
+                vc = QQChatVc()
+                break
             default:
                 return
             }
