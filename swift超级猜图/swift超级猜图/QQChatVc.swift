@@ -10,16 +10,15 @@ import UIKit
 
 class QQChatVc: UIViewController {
 
-    var tableView: UITableView = UITableView(frame: CGRectZero, style: UITableViewStyle.Grouped)
+    var chatCellFrame:[ChatCellFrame] = ChatCellFrame.chatCellFrames(MessageModel.models())
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        tableView.frame = self.view.bounds
-        tableView.delegate = self
-        tableView.dataSource = self
-        tableView.backgroundColor = UIColor.orangeColor()
-        view.addSubview(tableView)
+        let chatView = ChatView(frame: self.view.bounds)
+        view.addSubview(chatView)
+        
+        chatView.setChatCellFrame(chatCellFrame)
+        
     }
     
     
@@ -29,28 +28,4 @@ class QQChatVc: UIViewController {
         
     }
 
-}
-
-extension QQChatVc: UITableViewDataSource {
-    
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        
-        return 1
-    }
-    
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        return 3
-    }
-    
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
-        let cell = UITableViewCell()
-        cell.backgroundColor = UIColor.orangeColor()
-        return cell
-    }
-}
-
-extension QQChatVc: UITableViewDelegate {
-    
 }

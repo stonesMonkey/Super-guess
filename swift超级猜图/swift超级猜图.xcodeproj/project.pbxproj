@@ -60,6 +60,12 @@
 		51CBF92E1D374CEB00C120C1 /* FriendHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBF92D1D374CEB00C120C1 /* FriendHeaderView.swift */; };
 		51CBF9301D374D0800C120C1 /* FriendHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBF92F1D374D0800C120C1 /* FriendHeaderView.xib */; };
 		51CBF9381D378BF700C120C1 /* QQChatVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBF9371D378BF700C120C1 /* QQChatVc.swift */; };
+		51CBF93C1D379F7400C120C1 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBF93B1D379F7400C120C1 /* ChatView.swift */; };
+		51CBF93F1D37A05400C120C1 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBF93D1D37A05400C120C1 /* ChatCell.swift */; };
+		51CBF9401D37A05400C120C1 /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBF93E1D37A05400C120C1 /* ChatCell.xib */; };
+		51CBF9421D37A08600C120C1 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51CBF9411D37A08600C120C1 /* messages.plist */; };
+		51CBF9441D37A09300C120C1 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBF9431D37A09300C120C1 /* MessageModel.swift */; };
+		51CBF9461D37A1FA00C120C1 /* ChatCellFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBF9451D37A1FA00C120C1 /* ChatCellFrame.swift */; };
 		51DB4C0C1D2B5E200029986F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4C0B1D2B5E200029986F /* AppDelegate.swift */; };
 		51DB4C0E1D2B5E200029986F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4C0D1D2B5E200029986F /* ViewController.swift */; };
 		51DB4C131D2B5E200029986F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DB4C121D2B5E200029986F /* Assets.xcassets */; };
@@ -568,6 +574,12 @@
 		51CBF92D1D374CEB00C120C1 /* FriendHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendHeaderView.swift; sourceTree = "<group>"; };
 		51CBF92F1D374D0800C120C1 /* FriendHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendHeaderView.xib; sourceTree = "<group>"; };
 		51CBF9371D378BF700C120C1 /* QQChatVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQChatVc.swift; sourceTree = "<group>"; };
+		51CBF93B1D379F7400C120C1 /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		51CBF93D1D37A05400C120C1 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		51CBF93E1D37A05400C120C1 /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		51CBF9411D37A08600C120C1 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		51CBF9431D37A09300C120C1 /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		51CBF9451D37A1FA00C120C1 /* ChatCellFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCellFrame.swift; sourceTree = "<group>"; };
 		51DB4C081D2B5E200029986F /* swift超级猜图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift超级猜图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DB4C0B1D2B5E200029986F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51DB4C0D1D2B5E200029986F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -1351,6 +1363,7 @@
 		51CBF9331D378BC200C120C1 /* QQ聊天 */ = {
 			isa = PBXGroup;
 			children = (
+				51CBF9411D37A08600C120C1 /* messages.plist */,
 				51CBF9361D378BE300C120C1 /* Controller */,
 				51CBF9351D378BDF00C120C1 /* View */,
 				51CBF9341D378BDA00C120C1 /* Model */,
@@ -1361,6 +1374,8 @@
 		51CBF9341D378BDA00C120C1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				51CBF9431D37A09300C120C1 /* MessageModel.swift */,
+				51CBF9451D37A1FA00C120C1 /* ChatCellFrame.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -1368,6 +1383,8 @@
 		51CBF9351D378BDF00C120C1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				51CBF93D1D37A05400C120C1 /* ChatCell.swift */,
+				51CBF93E1D37A05400C120C1 /* ChatCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1376,6 +1393,7 @@
 			isa = PBXGroup;
 			children = (
 				51CBF9371D378BF700C120C1 /* QQChatVc.swift */,
+				51CBF93B1D379F7400C120C1 /* ChatView.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -2110,6 +2128,7 @@
 				51DB4E221D2B5F840029986F /* drink_24.jpg in Resources */,
 				51DB4F711D2B5F840029986F /* scratch_45.jpg in Resources */,
 				51DB4F111D2B5F840029986F /* knockout_54.jpg in Resources */,
+				51CBF9401D37A05400C120C1 /* ChatCell.xib in Resources */,
 				51DB4F391D2B5F840029986F /* pie_13.jpg in Resources */,
 				51DB4E471D2B5F840029986F /* drink_61.jpg in Resources */,
 				51DB4E011D2B5F840029986F /* cymbal_04.jpg in Resources */,
@@ -2484,6 +2503,7 @@
 				51DB4EB01D2B5F840029986F /* footLeft_17.jpg in Resources */,
 				51DB4EDF1D2B5F840029986F /* knockout_04.jpg in Resources */,
 				51DB4E081D2B5F840029986F /* cymbal_11.jpg in Resources */,
+				51CBF9421D37A08600C120C1 /* messages.plist in Resources */,
 				51DB4EB11D2B5F840029986F /* footLeft_18.jpg in Resources */,
 				51DB4F361D2B5F840029986F /* pie_10.jpg in Resources */,
 				51DB4DF81D2B5F840029986F /* angry_21.jpg in Resources */,
@@ -2558,6 +2578,7 @@
 				516D00231D2F3FD100AD50DD /* YingYongVc.swift in Sources */,
 				514BE38E1D3369BC00FDA6C2 /* CarVc.swift in Sources */,
 				51B9BC971D32B8CB00DCCE30 /* LunBoQiViewController.swift in Sources */,
+				51CBF9441D37A09300C120C1 /* MessageModel.swift in Sources */,
 				516D003F1D2F4B3B00AD50DD /* UIButton+Category.swift in Sources */,
 				51B142E31D3516B700414B72 /* WeiBoCell.swift in Sources */,
 				51CBF92E1D374CEB00C120C1 /* FriendHeaderView.swift in Sources */,
@@ -2572,7 +2593,9 @@
 				51128A111D33C2820047C9AB /* LunBoViewCell.swift in Sources */,
 				51B143061D35239D00414B72 /* NSString+Category.swift in Sources */,
 				514A1A761D340A530066958E /* TuanGouCell.swift in Sources */,
+				51CBF9461D37A1FA00C120C1 /* ChatCellFrame.swift in Sources */,
 				516D002E1D2F445000AD50DD /* SuperGuessVc.swift in Sources */,
+				51CBF93C1D379F7400C120C1 /* ChatView.swift in Sources */,
 				514A1A7B1D340B7B0066958E /* TGModel.swift in Sources */,
 				51CBF9381D378BF700C120C1 /* QQChatVc.swift in Sources */,
 				51DB4FC31D2B98AC0029986F /* GroupVc.swift in Sources */,
@@ -2586,6 +2609,7 @@
 				51B142DB1D34B8AC00414B72 /* WeiBoVc.swift in Sources */,
 				51B142DE1D34BA2800414B72 /* WeiBoModel.swift in Sources */,
 				51B9BC921D32B54C00DCCE30 /* TuPianFangDaVc.swift in Sources */,
+				51CBF93F1D37A05400C120C1 /* ChatCell.swift in Sources */,
 				514BE3951D336D0200FDA6C2 /* Car.swift in Sources */,
 				516D00251D2F3FE600AD50DD /* AppModel.swift in Sources */,
 				5126F78F1D36A09700BE8B6A /* QQFriendListVc.swift in Sources */,

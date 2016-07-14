@@ -14,8 +14,8 @@ extension NSString {
     func strBoundingRectWithSize(options: NSStringDrawingOptions, context: NSStringDrawingContext? ) -> CGSize {
         
         
-        let size = CGSizeMake(UIScreen.mainScreen().bounds.width - 20, CGFloat(MAXFLOAT))
-        let attributes = [NSFontAttributeName:UIFont.systemFontOfSize(10),NSBackgroundColorAttributeName: UIColor.redColor()];
+        let size = CGSizeMake(200, CGFloat(MAXFLOAT))
+        let attributes = [NSFontAttributeName:UIFont.systemFontOfSize(12)];
         return self.boundingRectWithSize(size, options: options, attributes: attributes, context: context).size
     }
 }
