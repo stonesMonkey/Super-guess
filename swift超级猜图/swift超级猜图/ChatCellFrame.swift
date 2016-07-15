@@ -42,13 +42,13 @@ class ChatCellFrame: NSObject {
             
             iconViewFrame = CGRectMake(screenWidth - iconWidth - appding, timerLabelHight + appding, iconWidth, iconWidth)
             
-            textBtnFrame = CGRectMake(0,  iconViewFrame!.origin.y + iconWidth * 0.5, textSize.width + offer * 2, textSize.height + offer)
+            textBtnFrame = CGRectMake(screenWidth - textSize.width - offer * 2 - 2 * appding - iconWidth,  iconViewFrame!.origin.y + iconWidth * 0.5, textSize.width + offer * 2, textSize.height + offer)
             
            
         } else if (messageModel.type == 1) { // 朋友
             
             iconViewFrame = CGRectMake(appding, timerLabelHight + appding, iconWidth, iconWidth)
-            textBtnFrame = CGRectMake(iconWidth + appding * 2, iconViewFrame!.origin.y + iconWidth * 0.5 , textSize.width, textSize.height)
+            textBtnFrame = CGRectMake(appding * 2 + iconWidth,  iconViewFrame!.origin.y + iconWidth * 0.5, textSize.width + offer * 2, textSize.height + offer)
         }
         
          cellHeight = CGRectGetMaxY(textBtnFrame!) + appding

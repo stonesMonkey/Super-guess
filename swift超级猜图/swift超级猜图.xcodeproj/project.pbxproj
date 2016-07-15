@@ -28,6 +28,8 @@
 		514BE3911D336CD800FDA6C2 /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = 514BE3901D336CD800FDA6C2 /* cars_total.plist */; };
 		514BE3931D336CF900FDA6C2 /* CarGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514BE3921D336CF900FDA6C2 /* CarGroup.swift */; };
 		514BE3951D336D0200FDA6C2 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514BE3941D336D0200FDA6C2 /* Car.swift */; };
+		514F06921D38923B004E3052 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F06911D38923B004E3052 /* KeyBoardView.swift */; };
+		514F06941D389254004E3052 /* KeyBoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514F06931D389254004E3052 /* KeyBoardView.xib */; };
 		51549BC21D36A52900287308 /* FriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51549BC11D36A52900287308 /* FriendCell.xib */; };
 		51549BC41D36A69400287308 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51549BC31D36A69400287308 /* friends.plist */; };
 		51549BC61D36A77800287308 /* FriendGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51549BC51D36A77800287308 /* FriendGroup.swift */; };
@@ -542,6 +544,8 @@
 		514BE3901D336CD800FDA6C2 /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total.plist; sourceTree = "<group>"; };
 		514BE3921D336CF900FDA6C2 /* CarGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarGroup.swift; sourceTree = "<group>"; };
 		514BE3941D336D0200FDA6C2 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		514F06911D38923B004E3052 /* KeyBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
+		514F06931D389254004E3052 /* KeyBoardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyBoardView.xib; sourceTree = "<group>"; };
 		51549BC11D36A52900287308 /* FriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendCell.xib; sourceTree = "<group>"; };
 		51549BC31D36A69400287308 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
 		51549BC51D36A77800287308 /* FriendGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendGroup.swift; sourceTree = "<group>"; };
@@ -1385,6 +1389,8 @@
 			children = (
 				51CBF93D1D37A05400C120C1 /* ChatCell.swift */,
 				51CBF93E1D37A05400C120C1 /* ChatCell.xib */,
+				514F06911D38923B004E3052 /* KeyBoardView.swift */,
+				514F06931D389254004E3052 /* KeyBoardView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -2230,6 +2236,7 @@
 				51DB4E1E1D2B5F840029986F /* drink_20.jpg in Resources */,
 				51DB4F371D2B5F840029986F /* pie_11.jpg in Resources */,
 				51DB4DEF1D2B5F840029986F /* angry_12.jpg in Resources */,
+				514F06941D389254004E3052 /* KeyBoardView.xib in Resources */,
 				51DB4E201D2B5F840029986F /* drink_22.jpg in Resources */,
 				51DB4F2C1D2B5F840029986F /* pie_00.jpg in Resources */,
 				51DB4F071D2B5F840029986F /* knockout_44.jpg in Resources */,
@@ -2593,6 +2600,7 @@
 				51128A111D33C2820047C9AB /* LunBoViewCell.swift in Sources */,
 				51B143061D35239D00414B72 /* NSString+Category.swift in Sources */,
 				514A1A761D340A530066958E /* TuanGouCell.swift in Sources */,
+				514F06921D38923B004E3052 /* KeyBoardView.swift in Sources */,
 				51CBF9461D37A1FA00C120C1 /* ChatCellFrame.swift in Sources */,
 				516D002E1D2F445000AD50DD /* SuperGuessVc.swift in Sources */,
 				51CBF93C1D379F7400C120C1 /* ChatView.swift in Sources */,

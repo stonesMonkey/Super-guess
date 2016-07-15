@@ -58,6 +58,7 @@ class ChatCell: UITableViewCell {
 //        textBtn.contentEdgeInsets = UIEdgeInsetsMake(20, 0, 20, 0)
         textBtn.titleEdgeInsets = UIEdgeInsetsMake(0, 20, 0, 20)
         textBtn.titleLabel?.numberOfLines = 0
+        textBtn.translatesAutoresizingMaskIntoConstraints = false
     }
 
     override func setSelected(selected: Bool, animated: Bool) {

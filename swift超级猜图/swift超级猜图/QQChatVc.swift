@@ -27,5 +27,9 @@ class QQChatVc: UIViewController {
         super.didReceiveMemoryWarning()
         
     }
+    
+    deinit {
+        
+    }
 
 }
