@@ -16,5 +16,9 @@
     NSStringDrawingUsesFontLeading;
 }
 
++ (NSIndexPath *)indexPathFor:(NSInteger)row inSection: (NSInteger)section {
+    
+    return [NSIndexPath indexPathForRow:row inSection:section];
+}
 
 @end

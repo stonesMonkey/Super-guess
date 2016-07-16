@@ -18,6 +18,17 @@ class MessageModel: NSObject {
         super.init()
         setValuesForKeysWithDictionary(dict)
     }
+    
+    override init() {
+        super.init()
+    }
+    
+    convenience init(type: NSNumber?, text: String?, time: String?) {
+        self.init()
+        self.type = type
+        self.text = text
+        self.time = time
+    }
     override func setValue(value: AnyObject?, forUndefinedKey key: String) {
         
     }

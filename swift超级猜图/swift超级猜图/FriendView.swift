@@ -79,8 +79,6 @@ extension FriendView: UITableViewDataSource {
         } else {
             return 0
         }
-        
-        return count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {

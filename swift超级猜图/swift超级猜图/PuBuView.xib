@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="YaZ-tm-EPG" customClass="PuBuView" customModule="swift超级猜图" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="3dI-i4-Wxy">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="GXv-Pk-XKW" customClass="PuBuFlawLayOut" customModule="swift超级猜图" customModuleProvider="target">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3dI-i4-Wxy" firstAttribute="leading" secondItem="YaZ-tm-EPG" secondAttribute="leading" id="Hgh-AR-TZa"/>
+                <constraint firstAttribute="bottom" secondItem="3dI-i4-Wxy" secondAttribute="bottom" id="Q4u-4U-3Az"/>
+                <constraint firstItem="3dI-i4-Wxy" firstAttribute="top" secondItem="YaZ-tm-EPG" secondAttribute="top" id="lNF-lb-11r"/>
+                <constraint firstAttribute="trailing" secondItem="3dI-i4-Wxy" secondAttribute="trailing" id="mtX-ZG-WFA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="collectionView" destination="3dI-i4-Wxy" id="5PN-oa-JiF"/>
+                <outlet property="flowLayout" destination="GXv-Pk-XKW" id="89M-eu-YLd"/>
+            </connections>
+            <point key="canvasLocation" x="388" y="234"/>
+        </view>
+    </objects>
+</document>

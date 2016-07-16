@@ -12,4 +12,6 @@
 
 + (NSStringDrawingOptions)combine;
 
++ (NSIndexPath *)indexPathFor:(NSInteger)row inSection: (NSInteger)section;
+
 @end

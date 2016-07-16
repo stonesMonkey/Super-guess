@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array>
+<dict>
+	<key>UI基础</key>
 	<array>
 		<string>汤姆猫</string>
 		<string>应用管理</string>
@@ -13,6 +14,9 @@
 		<string>微博</string>
 		<string>QQ好友列表</string>
 		<string>QQ聊天</string>
+		<string>瀑布流</string>
 	</array>
-</array>
+	<key>UI进阶</key>
+	<array/>
+</dict>
 </plist>

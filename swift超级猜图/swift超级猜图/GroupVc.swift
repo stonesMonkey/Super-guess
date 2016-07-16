@@ -98,6 +98,8 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
             case 9: // QQ聊天
                 vc = QQChatVc()
                 break
+            case 10: // 瀑布流
+                vc = PuBuLiuVc()
             default:
                 return
             }
