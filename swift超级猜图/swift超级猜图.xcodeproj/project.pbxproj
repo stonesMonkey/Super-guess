@@ -22,6 +22,8 @@
 		512BBA281D3B2C8C00587B69 /* ProvinceAndDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512BBA271D3B2C8C00587B69 /* ProvinceAndDataView.xib */; };
 		512BBA2A1D3B314700587B69 /* ProvinceToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512BBA291D3B314700587B69 /* ProvinceToolBar.swift */; };
 		513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513D0E301D30DF5700D7D144 /* QuestionView.swift */; };
+		51443B771D3B9EB2001C4677 /* UserAddressVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51443B761D3B9EB2001C4677 /* UserAddressVc.swift */; };
+		51443B791D3B9F11001C4677 /* UserAddressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51443B781D3B9F11001C4677 /* UserAddressView.xib */; };
 		514A1A761D340A530066958E /* TuanGouCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514A1A741D340A530066958E /* TuanGouCell.swift */; };
 		514A1A771D340A530066958E /* TuanGouCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514A1A751D340A530066958E /* TuanGouCell.xib */; };
 		514A1A791D340B650066958E /* tgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 514A1A781D340B650066958E /* tgs.plist */; };
@@ -579,6 +581,8 @@
 		512BBA271D3B2C8C00587B69 /* ProvinceAndDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProvinceAndDataView.xib; sourceTree = "<group>"; };
 		512BBA291D3B314700587B69 /* ProvinceToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceToolBar.swift; sourceTree = "<group>"; };
 		513D0E301D30DF5700D7D144 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		51443B761D3B9EB2001C4677 /* UserAddressVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAddressVc.swift; sourceTree = "<group>"; };
+		51443B781D3B9F11001C4677 /* UserAddressView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserAddressView.xib; sourceTree = "<group>"; };
 		514A1A741D340A530066958E /* TuanGouCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuanGouCell.swift; sourceTree = "<group>"; };
 		514A1A751D340A530066958E /* TuanGouCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuanGouCell.xib; sourceTree = "<group>"; };
 		514A1A781D340B650066958E /* tgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tgs.plist; sourceTree = "<group>"; };
@@ -1271,6 +1275,15 @@
 			name = Tool;
 			sourceTree = "<group>";
 		};
+		51443B751D3B9DFB001C4677 /* 私人通讯 */ = {
+			isa = PBXGroup;
+			children = (
+				51443B761D3B9EB2001C4677 /* UserAddressVc.swift */,
+				51443B781D3B9F11001C4677 /* UserAddressView.xib */,
+			);
+			name = "私人通讯";
+			sourceTree = "<group>";
+		};
 		514BE3881D33697B00FDA6C2 /* 汽车嵌套模型 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1312,6 +1325,7 @@
 			children = (
 				516B97E31D3A1E0E004C8C90 /* 国旗 */,
 				512BBA1F1D3B2ACB00587B69 /* 省市联动 */,
+				51443B751D3B9DFB001C4677 /* 私人通讯 */,
 			);
 			name = "UI进阶";
 			sourceTree = "<group>";
@@ -2444,6 +2458,7 @@
 				51DB4E3D1D2B5F840029986F /* drink_51.jpg in Resources */,
 				51DB4E2A1D2B5F840029986F /* drink_32.jpg in Resources */,
 				51DB4EBA1D2B5F840029986F /* footLeft_27.jpg in Resources */,
+				51443B791D3B9F11001C4677 /* UserAddressView.xib in Resources */,
 				51DB4E061D2B5F840029986F /* cymbal_09.jpg in Resources */,
 				51DB4E591D2B5F840029986F /* drink_79.jpg in Resources */,
 				51DB4EA41D2B5F840029986F /* footLeft_05.jpg in Resources */,
@@ -2861,6 +2876,7 @@
 				51CBF92E1D374CEB00C120C1 /* FriendHeaderView.swift in Sources */,
 				516B97E61D3A2985004C8C90 /* GuoQiVc.swift in Sources */,
 				51B142E01D35169E00414B72 /* CellFrame.swift in Sources */,
+				51443B771D3B9EB2001C4677 /* UserAddressVc.swift in Sources */,
 				516D00471D2F74CD00AD50DD /* QuestionModel.swift in Sources */,
 				51128A051D33B9BD0047C9AB /* TuanGouVc.swift in Sources */,
 				516D00431D2F735A00AD50DD /* AnwerView.swift in Sources */,
