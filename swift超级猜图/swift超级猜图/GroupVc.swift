@@ -10,12 +10,13 @@ import UIKit
 
 class GroupVc: UIViewController {
     
-    lazy var arr: [NSArray] = {
+    lazy var arr: [String: NSArray] = {
         
         let path:String = NSBundle.mainBundle().pathForResource("product.plist", ofType: nil)!
-        let arr2 = NSArray(contentsOfFile: path)
+        let dict = NSDictionary(contentsOfFile: path) as! [String: NSArray]
         
-        return arr2 as! [NSArray];
+        
+        return dict
     }()
     
     lazy var tableView: UITableView = {
@@ -33,6 +34,22 @@ class GroupVc: UIViewController {
         
         view .addSubview(tableView)
     }
+    
+    func jieDuan(section: Int) -> NSArray {
+        
+        var jieDuan: NSArray?
+        switch section {
+        case 0: // UI基础
+            jieDuan = self.arr["UI基础"]
+            break
+        case 1:
+            jieDuan = self.arr["UI进阶"]
+            break
+        default:
+            return [NSArray]()
+        }
+        return jieDuan!
+    }
 }
 
 // MARK - 代理 & 数据源
@@ -40,12 +57,17 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         
-        return arr.count;
+        return arr.count
     }
+    
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return arr[section].count;
+        let jieDuan = self.jieDuan(section)
+        
+        
+        return jieDuan.count
+        
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -55,7 +77,10 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
             
             tableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "cell")
         }
-        tableViewCell?.textLabel?.text = arr[indexPath.section][indexPath.row] as? String
+        
+        let jieDuan = self.jieDuan(indexPath.section)
+        
+        tableViewCell?.textLabel?.text = jieDuan[indexPath.row] as? String
         
         return tableViewCell!
     }
@@ -67,21 +92,20 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
         if(indexPath.section == 0) { // UI基础
             
             switch indexPath.row {
-                
             case 0: // 汤姆猫
-                 vc = ViewController()
+                vc = ViewController()
                 break
             case 1: // 应用管理
-                 vc = YingYongVc()
+                vc = YingYongVc()
                 break
             case 2: // 超级猜图
-                 vc = SuperGuessVc()
+                vc = SuperGuessVc()
                 break
             case 3: // 图片放大
-                 vc = TuPianFangDaVc()
+                vc = TuPianFangDaVc()
                 break
             case 4: // 轮播器
-                 vc = LunBoQiViewController()
+                vc = LunBoQiViewController()
                 break
             case 5: // 汽车模型
                 vc = CarVc()
@@ -103,9 +127,38 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
             default:
                 return
             }
+        } else if (indexPath.section == 1) { // UI进阶
+            
+            switch indexPath.row {
+            case 0:  // 过期
+              vc = GuoQiVc()
+                break
+            case 1:
+                vc = ProvenceAndDataVc()
+                break
+            default:
+                break
+            }
         }
         vc.view.backgroundColor = UIColor.whiteColor()
         navigationController!.pushViewController(vc, animated: true)
+    }
+    
+    func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        
+        if  section == 0 {
+            
+            return "UI基础"
+        } else if section == 1 {
+            
+            return "UI进阶"
+        }
+        return ""
+    }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        
+        return 44
     }
 }
 

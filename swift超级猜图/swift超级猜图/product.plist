@@ -17,6 +17,9 @@
 		<string>瀑布流</string>
 	</array>
 	<key>UI进阶</key>
-	<array/>
+	<array>
+		<string>国旗</string>
+		<string>省市联动</string>
+	</array>
 </dict>
 </plist>

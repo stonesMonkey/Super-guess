@@ -39,8 +39,6 @@ class FriendHeaderView: UITableViewHeaderFooterView {
     
     
     @IBAction func btnDidClick(sender: UIButton) {
-        
-        
       
         friendGroup!.open = !friendGroup!.open
         if  delegate != nil {

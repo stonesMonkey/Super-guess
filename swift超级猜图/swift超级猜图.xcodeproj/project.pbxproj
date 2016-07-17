@@ -17,6 +17,10 @@
 		5126F78F1D36A09700BE8B6A /* QQFriendListVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5126F78E1D36A09700BE8B6A /* QQFriendListVc.swift */; };
 		5126F7911D36A0C300BE8B6A /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5126F7901D36A0C300BE8B6A /* FriendView.swift */; };
 		5126F7931D36A20E00BE8B6A /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5126F7921D36A20E00BE8B6A /* FriendCell.swift */; };
+		512BBA241D3B2B7B00587B69 /* ProvenceAndDataVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512BBA231D3B2B7B00587B69 /* ProvenceAndDataVc.swift */; };
+		512BBA261D3B2C4F00587B69 /* ProvinceAndDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512BBA251D3B2C4F00587B69 /* ProvinceAndDataView.swift */; };
+		512BBA281D3B2C8C00587B69 /* ProvinceAndDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512BBA271D3B2C8C00587B69 /* ProvinceAndDataView.xib */; };
+		512BBA2A1D3B314700587B69 /* ProvinceToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512BBA291D3B314700587B69 /* ProvinceToolBar.swift */; };
 		513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513D0E301D30DF5700D7D144 /* QuestionView.swift */; };
 		514A1A761D340A530066958E /* TuanGouCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514A1A741D340A530066958E /* TuanGouCell.swift */; };
 		514A1A771D340A530066958E /* TuanGouCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514A1A751D340A530066958E /* TuanGouCell.xib */; };
@@ -35,6 +39,28 @@
 		51549BC41D36A69400287308 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51549BC31D36A69400287308 /* friends.plist */; };
 		51549BC61D36A77800287308 /* FriendGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51549BC51D36A77800287308 /* FriendGroup.swift */; };
 		51549BC81D36A8FC00287308 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51549BC71D36A8FC00287308 /* FriendModel.swift */; };
+		516B97E21D3A1AB4004C8C90 /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B97E11D3A1AB4004C8C90 /* GroupModel.swift */; };
+		516B97E61D3A2985004C8C90 /* GuoQiVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B97E51D3A2985004C8C90 /* GuoQiVc.swift */; };
+		516B97EB1D3A2DCB004C8C90 /* GuoQiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B97EA1D3A2DCB004C8C90 /* GuoQiView.swift */; };
+		516B97ED1D3A2E30004C8C90 /* GuoQiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 516B97EC1D3A2E30004C8C90 /* GuoQiView.xib */; };
+		516B97EF1D3A2EAB004C8C90 /* GuoQiPickViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B97EE1D3A2EAB004C8C90 /* GuoQiPickViewCell.swift */; };
+		516B97F11D3A2EB6004C8C90 /* GuoQiPickViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 516B97F01D3A2EB6004C8C90 /* GuoQiPickViewCell.xib */; };
+		516B98011D3A2F00004C8C90 /* agt.gif in Resources */ = {isa = PBXBuildFile; fileRef = 516B97F31D3A2F00004C8C90 /* agt.gif */; };
+		516B98021D3A2F00004C8C90 /* baxi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 516B97F41D3A2F00004C8C90 /* baxi.gif */; };
+		516B98031D3A2F00004C8C90 /* deguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 516B97F51D3A2F00004C8C90 /* deguo.gif */; };
+		516B98041D3A2F00004C8C90 /* faguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 516B97F61D3A2F00004C8C90 /* faguo.gif */; };
+		516B98051D3A2F00004C8C90 /* hanguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 516B97F71D3A2F00004C8C90 /* hanguo.gif */; };
+		516B98061D3A2F00004C8C90 /* helan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 516B97F81D3A2F00004C8C90 /* helan.gif */; };
+		516B98071D3A2F00004C8C90 /* putaoya.gif in Resources */ = {isa = PBXBuildFile; fileRef = 516B97F91D3A2F00004C8C90 /* putaoya.gif */; };
+		516B98081D3A2F00004C8C90 /* ruidian.gif in Resources */ = {isa = PBXBuildFile; fileRef = 516B97FA1D3A2F00004C8C90 /* ruidian.gif */; };
+		516B98091D3A2F00004C8C90 /* ruishi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 516B97FB1D3A2F00004C8C90 /* ruishi.gif */; };
+		516B980A1D3A2F00004C8C90 /* wlgui.gif in Resources */ = {isa = PBXBuildFile; fileRef = 516B97FC1D3A2F00004C8C90 /* wlgui.gif */; };
+		516B980B1D3A2F00004C8C90 /* xiby.gif in Resources */ = {isa = PBXBuildFile; fileRef = 516B97FD1D3A2F00004C8C90 /* xiby.gif */; };
+		516B980C1D3A2F00004C8C90 /* ydl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 516B97FE1D3A2F00004C8C90 /* ydl.gif */; };
+		516B980D1D3A2F00004C8C90 /* ying.gif in Resources */ = {isa = PBXBuildFile; fileRef = 516B97FF1D3A2F00004C8C90 /* ying.gif */; };
+		516B980E1D3A2F00004C8C90 /* zhongguo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 516B98001D3A2F00004C8C90 /* zhongguo.jpg */; };
+		516B98101D3A2F07004C8C90 /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = 516B980F1D3A2F07004C8C90 /* flags.plist */; };
+		516B98121D3A2FEF004C8C90 /* GuoQiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B98111D3A2FEF004C8C90 /* GuoQiModel.swift */; };
 		516D00231D2F3FD100AD50DD /* YingYongVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00221D2F3FD100AD50DD /* YingYongVc.swift */; };
 		516D00251D2F3FE600AD50DD /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00241D2F3FE600AD50DD /* AppModel.swift */; };
 		516D00281D2F3FFC00AD50DD /* app.plist in Resources */ = {isa = PBXBuildFile; fileRef = 516D00271D2F3FFC00AD50DD /* app.plist */; };
@@ -45,6 +71,10 @@
 		516D00411D2F510900AD50DD /* UILabel+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00401D2F510900AD50DD /* UILabel+Category.swift */; };
 		516D00431D2F735A00AD50DD /* AnwerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00421D2F735A00AD50DD /* AnwerView.swift */; };
 		516D00471D2F74CD00AD50DD /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D00461D2F74CD00AD50DD /* QuestionModel.swift */; };
+		518C7C001D3B3BAA005AF7B3 /* ProvinceToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 518C7BFF1D3B3BAA005AF7B3 /* ProvinceToolBar.xib */; };
+		518C7C021D3B3EBF005AF7B3 /* Date+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518C7C011D3B3EBF005AF7B3 /* Date+Category.swift */; };
+		518C7C041D3B430A005AF7B3 /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 518C7C031D3B430A005AF7B3 /* cities.plist */; };
+		518C7C061D3B4323005AF7B3 /* CitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518C7C051D3B4323005AF7B3 /* CitiesModel.swift */; };
 		51B142D01D34A44D00414B72 /* TGFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B142CF1D34A44D00414B72 /* TGFootView.swift */; };
 		51B142D21D34A45800414B72 /* TGFootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B142D11D34A45800414B72 /* TGFootView.xib */; };
 		51B142D51D34B81500414B72 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51B142D41D34B81500414B72 /* statuses.plist */; };
@@ -544,6 +574,10 @@
 		5126F78E1D36A09700BE8B6A /* QQFriendListVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQFriendListVc.swift; sourceTree = "<group>"; };
 		5126F7901D36A0C300BE8B6A /* FriendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
 		5126F7921D36A20E00BE8B6A /* FriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		512BBA231D3B2B7B00587B69 /* ProvenceAndDataVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvenceAndDataVc.swift; sourceTree = "<group>"; };
+		512BBA251D3B2C4F00587B69 /* ProvinceAndDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceAndDataView.swift; sourceTree = "<group>"; };
+		512BBA271D3B2C8C00587B69 /* ProvinceAndDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProvinceAndDataView.xib; sourceTree = "<group>"; };
+		512BBA291D3B314700587B69 /* ProvinceToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceToolBar.swift; sourceTree = "<group>"; };
 		513D0E301D30DF5700D7D144 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		514A1A741D340A530066958E /* TuanGouCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuanGouCell.swift; sourceTree = "<group>"; };
 		514A1A751D340A530066958E /* TuanGouCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuanGouCell.xib; sourceTree = "<group>"; };
@@ -562,6 +596,28 @@
 		51549BC31D36A69400287308 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
 		51549BC51D36A77800287308 /* FriendGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendGroup.swift; sourceTree = "<group>"; };
 		51549BC71D36A8FC00287308 /* FriendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		516B97E11D3A1AB4004C8C90 /* GroupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
+		516B97E51D3A2985004C8C90 /* GuoQiVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuoQiVc.swift; sourceTree = "<group>"; };
+		516B97EA1D3A2DCB004C8C90 /* GuoQiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuoQiView.swift; sourceTree = "<group>"; };
+		516B97EC1D3A2E30004C8C90 /* GuoQiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuoQiView.xib; sourceTree = "<group>"; };
+		516B97EE1D3A2EAB004C8C90 /* GuoQiPickViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuoQiPickViewCell.swift; sourceTree = "<group>"; };
+		516B97F01D3A2EB6004C8C90 /* GuoQiPickViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuoQiPickViewCell.xib; sourceTree = "<group>"; };
+		516B97F31D3A2F00004C8C90 /* agt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = agt.gif; sourceTree = "<group>"; };
+		516B97F41D3A2F00004C8C90 /* baxi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baxi.gif; sourceTree = "<group>"; };
+		516B97F51D3A2F00004C8C90 /* deguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = deguo.gif; sourceTree = "<group>"; };
+		516B97F61D3A2F00004C8C90 /* faguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = faguo.gif; sourceTree = "<group>"; };
+		516B97F71D3A2F00004C8C90 /* hanguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hanguo.gif; sourceTree = "<group>"; };
+		516B97F81D3A2F00004C8C90 /* helan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = helan.gif; sourceTree = "<group>"; };
+		516B97F91D3A2F00004C8C90 /* putaoya.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = putaoya.gif; sourceTree = "<group>"; };
+		516B97FA1D3A2F00004C8C90 /* ruidian.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruidian.gif; sourceTree = "<group>"; };
+		516B97FB1D3A2F00004C8C90 /* ruishi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruishi.gif; sourceTree = "<group>"; };
+		516B97FC1D3A2F00004C8C90 /* wlgui.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wlgui.gif; sourceTree = "<group>"; };
+		516B97FD1D3A2F00004C8C90 /* xiby.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiby.gif; sourceTree = "<group>"; };
+		516B97FE1D3A2F00004C8C90 /* ydl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ydl.gif; sourceTree = "<group>"; };
+		516B97FF1D3A2F00004C8C90 /* ying.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ying.gif; sourceTree = "<group>"; };
+		516B98001D3A2F00004C8C90 /* zhongguo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhongguo.jpg; sourceTree = "<group>"; };
+		516B980F1D3A2F07004C8C90 /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
+		516B98111D3A2FEF004C8C90 /* GuoQiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuoQiModel.swift; sourceTree = "<group>"; };
 		516D00221D2F3FD100AD50DD /* YingYongVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YingYongVc.swift; sourceTree = "<group>"; };
 		516D00241D2F3FE600AD50DD /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		516D00271D2F3FFC00AD50DD /* app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = app.plist; sourceTree = "<group>"; };
@@ -572,6 +628,10 @@
 		516D00401D2F510900AD50DD /* UILabel+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Category.swift"; sourceTree = "<group>"; };
 		516D00421D2F735A00AD50DD /* AnwerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnwerView.swift; sourceTree = "<group>"; };
 		516D00461D2F74CD00AD50DD /* QuestionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		518C7BFF1D3B3BAA005AF7B3 /* ProvinceToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProvinceToolBar.xib; sourceTree = "<group>"; };
+		518C7C011D3B3EBF005AF7B3 /* Date+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Category.swift"; sourceTree = "<group>"; };
+		518C7C031D3B430A005AF7B3 /* cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities.plist; sourceTree = "<group>"; };
+		518C7C051D3B4323005AF7B3 /* CitiesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesModel.swift; sourceTree = "<group>"; };
 		51B142CF1D34A44D00414B72 /* TGFootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGFootView.swift; sourceTree = "<group>"; };
 		51B142D11D34A45800414B72 /* TGFootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TGFootView.xib; sourceTree = "<group>"; };
 		51B142D41D34B81500414B72 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
@@ -1162,9 +1222,50 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		512BBA1F1D3B2ACB00587B69 /* 省市联动 */ = {
+			isa = PBXGroup;
+			children = (
+				518C7C031D3B430A005AF7B3 /* cities.plist */,
+				512BBA221D3B2B0400587B69 /* Controller */,
+				512BBA211D3B2B0000587B69 /* View */,
+				512BBA201D3B2AFB00587B69 /* Model */,
+			);
+			name = "省市联动";
+			sourceTree = "<group>";
+		};
+		512BBA201D3B2AFB00587B69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				518C7C051D3B4323005AF7B3 /* CitiesModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		512BBA211D3B2B0000587B69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				512BBA251D3B2C4F00587B69 /* ProvinceAndDataView.swift */,
+				512BBA271D3B2C8C00587B69 /* ProvinceAndDataView.xib */,
+				512BBA291D3B314700587B69 /* ProvinceToolBar.swift */,
+				518C7BFF1D3B3BAA005AF7B3 /* ProvinceToolBar.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		512BBA221D3B2B0400587B69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				512BBA231D3B2B7B00587B69 /* ProvenceAndDataVc.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		513D0E551D322CEC00D7D144 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				5126F7841D367BA900BE8B6A /* Utils.h */,
+				5126F7851D367BA900BE8B6A /* Utils.m */,
+				5126F7831D367BA900BE8B6A /* swift超级猜图-Bridging-Header.h */,
 				514AC38F1D33443B00B567CB /* TimerTool.swift */,
 			);
 			name = Tool;
@@ -1209,8 +1310,78 @@
 		516B97DF1D3A1997004C8C90 /* UI进阶 */ = {
 			isa = PBXGroup;
 			children = (
+				516B97E31D3A1E0E004C8C90 /* 国旗 */,
+				512BBA1F1D3B2ACB00587B69 /* 省市联动 */,
 			);
 			name = "UI进阶";
+			sourceTree = "<group>";
+		};
+		516B97E01D3A1A8D004C8C90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				516B97E11D3A1AB4004C8C90 /* GroupModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		516B97E31D3A1E0E004C8C90 /* 国旗 */ = {
+			isa = PBXGroup;
+			children = (
+				516B980F1D3A2F07004C8C90 /* flags.plist */,
+				516B97F21D3A2F00004C8C90 /* guoqi */,
+				516B97E91D3A2D90004C8C90 /* Controller */,
+				516B97E81D3A2D8A004C8C90 /* View */,
+				516B97E71D3A2D86004C8C90 /* Model */,
+			);
+			name = "国旗";
+			sourceTree = "<group>";
+		};
+		516B97E71D3A2D86004C8C90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				516B98111D3A2FEF004C8C90 /* GuoQiModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		516B97E81D3A2D8A004C8C90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				516B97EA1D3A2DCB004C8C90 /* GuoQiView.swift */,
+				516B97EC1D3A2E30004C8C90 /* GuoQiView.xib */,
+				516B97EE1D3A2EAB004C8C90 /* GuoQiPickViewCell.swift */,
+				516B97F01D3A2EB6004C8C90 /* GuoQiPickViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		516B97E91D3A2D90004C8C90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				516B97E51D3A2985004C8C90 /* GuoQiVc.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		516B97F21D3A2F00004C8C90 /* guoqi */ = {
+			isa = PBXGroup;
+			children = (
+				516B97F31D3A2F00004C8C90 /* agt.gif */,
+				516B97F41D3A2F00004C8C90 /* baxi.gif */,
+				516B97F51D3A2F00004C8C90 /* deguo.gif */,
+				516B97F61D3A2F00004C8C90 /* faguo.gif */,
+				516B97F71D3A2F00004C8C90 /* hanguo.gif */,
+				516B97F81D3A2F00004C8C90 /* helan.gif */,
+				516B97F91D3A2F00004C8C90 /* putaoya.gif */,
+				516B97FA1D3A2F00004C8C90 /* ruidian.gif */,
+				516B97FB1D3A2F00004C8C90 /* ruishi.gif */,
+				516B97FC1D3A2F00004C8C90 /* wlgui.gif */,
+				516B97FD1D3A2F00004C8C90 /* xiby.gif */,
+				516B97FE1D3A2F00004C8C90 /* ydl.gif */,
+				516B97FF1D3A2F00004C8C90 /* ying.gif */,
+				516B98001D3A2F00004C8C90 /* zhongguo.jpg */,
+			);
+			path = guoqi;
 			sourceTree = "<group>";
 		};
 		516D00311D2F45AC00AD50DD /* superGuess超级猜图 */ = {
@@ -1288,12 +1459,10 @@
 			isa = PBXGroup;
 			children = (
 				51DB4FC21D2B98AC0029986F /* GroupVc.swift */,
+				516B97E01D3A1A8D004C8C90 /* Model */,
 				51128A0C1D33C1FA0047C9AB /* View */,
 				513D0E551D322CEC00D7D144 /* Tool */,
 				516D003D1D2F4B2C00AD50DD /* Category */,
-				5126F7841D367BA900BE8B6A /* Utils.h */,
-				5126F7851D367BA900BE8B6A /* Utils.m */,
-				5126F7831D367BA900BE8B6A /* swift超级猜图-Bridging-Header.h */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -1312,6 +1481,7 @@
 				516D003E1D2F4B3B00AD50DD /* UIButton+Category.swift */,
 				516D00401D2F510900AD50DD /* UILabel+Category.swift */,
 				51B143051D35239D00414B72 /* NSString+Category.swift */,
+				518C7C011D3B3EBF005AF7B3 /* Date+Category.swift */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -2169,11 +2339,14 @@
 				51DB4DE41D2B5F840029986F /* angry_01.jpg in Resources */,
 				51DB4F001D2B5F840029986F /* knockout_37.jpg in Resources */,
 				51DB4E5D1D2B5F840029986F /* eat_02.jpg in Resources */,
+				516B98011D3A2F00004C8C90 /* agt.gif in Resources */,
 				51DB4EF21D2B5F840029986F /* knockout_23.jpg in Resources */,
 				51B9BC8C1D32AE7400DCCE30 /* product.plist in Resources */,
 				51DB4EE51D2B5F840029986F /* knockout_10.jpg in Resources */,
+				516B980D1D3A2F00004C8C90 /* ying.gif in Resources */,
 				51DB4F771D2B5F840029986F /* scratch_51.jpg in Resources */,
 				51DB4DEA1D2B5F840029986F /* angry_07.jpg in Resources */,
+				518C7C041D3B430A005AF7B3 /* cities.plist in Resources */,
 				51DB4E8E1D2B5F840029986F /* fart_11.jpg in Resources */,
 				51128A121D33C2820047C9AB /* LunBoViewCell.xib in Resources */,
 				51DB4F971D2B5F840029986F /* stomach_27.jpg in Resources */,
@@ -2226,6 +2399,7 @@
 				51DB4F561D2B5F840029986F /* scratch_18.jpg in Resources */,
 				51DB4F0F1D2B5F840029986F /* knockout_52.jpg in Resources */,
 				51DB4E8D1D2B5F840029986F /* fart_10.jpg in Resources */,
+				516B98021D3A2F00004C8C90 /* baxi.gif in Resources */,
 				51DB4EA81D2B5F840029986F /* footLeft_09.jpg in Resources */,
 				51DB4F721D2B5F840029986F /* scratch_46.jpg in Resources */,
 				51DB4EDA1D2B5F840029986F /* footRight_29.jpg in Resources */,
@@ -2249,6 +2423,7 @@
 				51DB4EFA1D2B5F840029986F /* knockout_31.jpg in Resources */,
 				51DB4E341D2B5F840029986F /* drink_42.jpg in Resources */,
 				51DB4E241D2B5F840029986F /* drink_26.jpg in Resources */,
+				516B980C1D3A2F00004C8C90 /* ydl.gif in Resources */,
 				51DB4F691D2B5F840029986F /* scratch_37.jpg in Resources */,
 				51DB4DE51D2B5F840029986F /* angry_02.jpg in Resources */,
 				51DB4EC01D2B5F840029986F /* footRight_03.jpg in Resources */,
@@ -2256,6 +2431,7 @@
 				51DB4F5B1D2B5F840029986F /* scratch_23.jpg in Resources */,
 				51DB4E141D2B5F840029986F /* drink_10.jpg in Resources */,
 				51DB4E731D2B5F840029986F /* eat_24.jpg in Resources */,
+				516B98101D3A2F07004C8C90 /* flags.plist in Resources */,
 				51DB4DF61D2B5F840029986F /* angry_19.jpg in Resources */,
 				51DB4DFF1D2B5F840029986F /* cymbal_02.jpg in Resources */,
 				51DB4F4A1D2B5F840029986F /* scratch_06.jpg in Resources */,
@@ -2276,6 +2452,7 @@
 				51DB4F211D2B5F840029986F /* knockout_70.jpg in Resources */,
 				51DB4F701D2B5F840029986F /* scratch_44.jpg in Resources */,
 				51DB4ECB1D2B5F840029986F /* footRight_14.jpg in Resources */,
+				516B980B1D3A2F00004C8C90 /* xiby.gif in Resources */,
 				51DB4E0D1D2B5F840029986F /* drink_03.jpg in Resources */,
 				51DB4F9C1D2B5F840029986F /* stomach_32.jpg in Resources */,
 				51DB4F9D1D2B5F840029986F /* stomach_33.jpg in Resources */,
@@ -2296,6 +2473,7 @@
 				51DB4E9E1D2B5F840029986F /* fart_27.jpg in Resources */,
 				51DB4EC51D2B5F840029986F /* footRight_08.jpg in Resources */,
 				51B142D21D34A45800414B72 /* TGFootView.xib in Resources */,
+				516B97ED1D3A2E30004C8C90 /* GuoQiView.xib in Resources */,
 				51DB4E431D2B5F840029986F /* drink_57.jpg in Resources */,
 				51DB4F0A1D2B5F840029986F /* knockout_47.jpg in Resources */,
 				51B387541D3900F500888C67 /* 3.plist in Resources */,
@@ -2307,6 +2485,7 @@
 				51DB4E751D2B5F840029986F /* eat_26.jpg in Resources */,
 				51DB4F051D2B5F840029986F /* knockout_42.jpg in Resources */,
 				51DB4F301D2B5F840029986F /* pie_04.jpg in Resources */,
+				516B98051D3A2F00004C8C90 /* hanguo.gif in Resources */,
 				51DB4F1A1D2B5F840029986F /* knockout_63.jpg in Resources */,
 				51DB4EAF1D2B5F840029986F /* footLeft_16.jpg in Resources */,
 				51DB4E1E1D2B5F840029986F /* drink_20.jpg in Resources */,
@@ -2368,6 +2547,8 @@
 				51DB4F881D2B5F840029986F /* stomach_12.jpg in Resources */,
 				51DB4EFF1D2B5F840029986F /* knockout_36.jpg in Resources */,
 				51DB4EC91D2B5F840029986F /* footRight_12.jpg in Resources */,
+				516B98071D3A2F00004C8C90 /* putaoya.gif in Resources */,
+				512BBA281D3B2C8C00587B69 /* ProvinceAndDataView.xib in Resources */,
 				51DB4E701D2B5F840029986F /* eat_21.jpg in Resources */,
 				51DB4F4F1D2B5F840029986F /* scratch_11.jpg in Resources */,
 				51DB4DE31D2B5F840029986F /* angry_00.jpg in Resources */,
@@ -2389,6 +2570,7 @@
 				51DB4E931D2B5F840029986F /* fart_16.jpg in Resources */,
 				51DB4E741D2B5F840029986F /* eat_25.jpg in Resources */,
 				51DB4F7E1D2B5F840029986F /* stomach_02.jpg in Resources */,
+				516B98061D3A2F00004C8C90 /* helan.gif in Resources */,
 				51DB4DED1D2B5F840029986F /* angry_10.jpg in Resources */,
 				51DB4EB81D2B5F840029986F /* footLeft_25.jpg in Resources */,
 				51DB4E9B1D2B5F840029986F /* fart_24.jpg in Resources */,
@@ -2400,6 +2582,7 @@
 				51DB4F491D2B5F840029986F /* scratch_05.jpg in Resources */,
 				51DB4E771D2B5F840029986F /* eat_28.jpg in Resources */,
 				51DB4E1C1D2B5F840029986F /* drink_18.jpg in Resources */,
+				516B98081D3A2F00004C8C90 /* ruidian.gif in Resources */,
 				51DB4F4B1D2B5F840029986F /* scratch_07.jpg in Resources */,
 				51DB4F961D2B5F840029986F /* stomach_26.jpg in Resources */,
 				51549BC41D36A69400287308 /* friends.plist in Resources */,
@@ -2411,6 +2594,7 @@
 				51DB4F191D2B5F840029986F /* knockout_62.jpg in Resources */,
 				51DB4EAB1D2B5F840029986F /* footLeft_12.jpg in Resources */,
 				51DB4E411D2B5F840029986F /* drink_55.jpg in Resources */,
+				516B97F11D3A2EB6004C8C90 /* GuoQiPickViewCell.xib in Resources */,
 				51DB4E961D2B5F840029986F /* fart_19.jpg in Resources */,
 				51DB4F2E1D2B5F840029986F /* pie_02.jpg in Resources */,
 				51DB4E311D2B5F840029986F /* drink_39.jpg in Resources */,
@@ -2435,6 +2619,7 @@
 				51DB4E131D2B5F840029986F /* drink_09.jpg in Resources */,
 				51DB4F3B1D2B5F840029986F /* pie_15.jpg in Resources */,
 				51DB4F621D2B5F840029986F /* scratch_30.jpg in Resources */,
+				516B98041D3A2F00004C8C90 /* faguo.gif in Resources */,
 				51DB4F791D2B5F840029986F /* scratch_53.jpg in Resources */,
 				51DB4F0B1D2B5F840029986F /* knockout_48.jpg in Resources */,
 				51DB4EDC1D2B5F840029986F /* knockout_01.jpg in Resources */,
@@ -2519,10 +2704,12 @@
 				51DB4E661D2B5F840029986F /* eat_11.jpg in Resources */,
 				51DB4EA91D2B5F840029986F /* footLeft_10.jpg in Resources */,
 				51DB4E301D2B5F840029986F /* drink_38.jpg in Resources */,
+				516B98091D3A2F00004C8C90 /* ruishi.gif in Resources */,
 				51DB4E3E1D2B5F840029986F /* drink_52.jpg in Resources */,
 				51DB4E4E1D2B5F840029986F /* drink_68.jpg in Resources */,
 				51DB4F031D2B5F840029986F /* knockout_40.jpg in Resources */,
 				51DB4E851D2B5F840029986F /* fart_02.jpg in Resources */,
+				516B98031D3A2F00004C8C90 /* deguo.gif in Resources */,
 				51DB4F011D2B5F840029986F /* knockout_38.jpg in Resources */,
 				51DB4E161D2B5F840029986F /* drink_12.jpg in Resources */,
 				51DB4EF41D2B5F840029986F /* knockout_25.jpg in Resources */,
@@ -2557,6 +2744,7 @@
 				51DB4E291D2B5F840029986F /* drink_31.jpg in Resources */,
 				51DB4E7C1D2B5F840029986F /* eat_33.jpg in Resources */,
 				51DB4DEB1D2B5F840029986F /* angry_08.jpg in Resources */,
+				518C7C001D3B3BAA005AF7B3 /* ProvinceToolBar.xib in Resources */,
 				51DB4F511D2B5F840029986F /* scratch_13.jpg in Resources */,
 				51DB4E861D2B5F840029986F /* fart_03.jpg in Resources */,
 				51DB4E911D2B5F840029986F /* fart_14.jpg in Resources */,
@@ -2567,6 +2755,7 @@
 				51DB4EE21D2B5F840029986F /* knockout_07.jpg in Resources */,
 				51DB4E531D2B5F840029986F /* drink_73.jpg in Resources */,
 				51DB4EE61D2B5F840029986F /* knockout_11.jpg in Resources */,
+				516B980A1D3A2F00004C8C90 /* wlgui.gif in Resources */,
 				51DB4F5A1D2B5F840029986F /* scratch_22.jpg in Resources */,
 				51DB4EE11D2B5F840029986F /* knockout_06.jpg in Resources */,
 				51DB4F4C1D2B5F840029986F /* scratch_08.jpg in Resources */,
@@ -2591,6 +2780,7 @@
 				51CBF9421D37A08600C120C1 /* messages.plist in Resources */,
 				51DB4EB11D2B5F840029986F /* footLeft_18.jpg in Resources */,
 				51DB4F361D2B5F840029986F /* pie_10.jpg in Resources */,
+				516B980E1D3A2F00004C8C90 /* zhongguo.jpg in Resources */,
 				51DB4DF81D2B5F840029986F /* angry_21.jpg in Resources */,
 				51DB4E7D1D2B5F840029986F /* eat_34.jpg in Resources */,
 				51DB4F1B1D2B5F840029986F /* knockout_64.jpg in Resources */,
@@ -2660,6 +2850,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				51B9BC9B1D32BA9700DCCE30 /* LunBoCell.swift in Sources */,
+				516B97E21D3A1AB4004C8C90 /* GroupModel.swift in Sources */,
+				512BBA261D3B2C4F00587B69 /* ProvinceAndDataView.swift in Sources */,
 				516D00231D2F3FD100AD50DD /* YingYongVc.swift in Sources */,
 				514BE38E1D3369BC00FDA6C2 /* CarVc.swift in Sources */,
 				51B9BC971D32B8CB00DCCE30 /* LunBoQiViewController.swift in Sources */,
@@ -2667,11 +2859,14 @@
 				516D003F1D2F4B3B00AD50DD /* UIButton+Category.swift in Sources */,
 				51B142E31D3516B700414B72 /* WeiBoCell.swift in Sources */,
 				51CBF92E1D374CEB00C120C1 /* FriendHeaderView.swift in Sources */,
+				516B97E61D3A2985004C8C90 /* GuoQiVc.swift in Sources */,
 				51B142E01D35169E00414B72 /* CellFrame.swift in Sources */,
 				516D00471D2F74CD00AD50DD /* QuestionModel.swift in Sources */,
 				51128A051D33B9BD0047C9AB /* TuanGouVc.swift in Sources */,
 				516D00431D2F735A00AD50DD /* AnwerView.swift in Sources */,
+				518C7C061D3B4323005AF7B3 /* CitiesModel.swift in Sources */,
 				51B142D01D34A44D00414B72 /* TGFootView.swift in Sources */,
+				512BBA2A1D3B314700587B69 /* ProvinceToolBar.swift in Sources */,
 				513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */,
 				51549BC61D36A77800287308 /* FriendGroup.swift in Sources */,
 				51549BC81D36A8FC00287308 /* FriendModel.swift in Sources */,
@@ -2686,9 +2881,12 @@
 				51CBF93C1D379F7400C120C1 /* ChatView.swift in Sources */,
 				514A1A7B1D340B7B0066958E /* TGModel.swift in Sources */,
 				51CBF9381D378BF700C120C1 /* QQChatVc.swift in Sources */,
+				516B97EF1D3A2EAB004C8C90 /* GuoQiPickViewCell.swift in Sources */,
+				512BBA241D3B2B7B00587B69 /* ProvenceAndDataVc.swift in Sources */,
 				51B3874E1D3900E200888C67 /* PuBuModel.swift in Sources */,
 				51DB4FC31D2B98AC0029986F /* GroupVc.swift in Sources */,
 				514AC3901D33443B00B567CB /* TimerTool.swift in Sources */,
+				516B98121D3A2FEF004C8C90 /* GuoQiModel.swift in Sources */,
 				51B3874C1D38FF3D00888C67 /* PuBuLiuVc.swift in Sources */,
 				516D00411D2F510900AD50DD /* UILabel+Category.swift in Sources */,
 				5126F7861D367BA900BE8B6A /* Utils.m in Sources */,
@@ -2705,8 +2903,10 @@
 				516D00251D2F3FE600AD50DD /* AppModel.swift in Sources */,
 				5126F78F1D36A09700BE8B6A /* QQFriendListVc.swift in Sources */,
 				5126F7911D36A0C300BE8B6A /* FriendView.swift in Sources */,
+				518C7C021D3B3EBF005AF7B3 /* Date+Category.swift in Sources */,
 				514F06BF1D38EA14004E3052 /* MenuBtn.swift in Sources */,
 				51DB4C0C1D2B5E200029986F /* AppDelegate.swift in Sources */,
+				516B97EB1D3A2DCB004C8C90 /* GuoQiView.swift in Sources */,
 				5126F7931D36A20E00BE8B6A /* FriendCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
