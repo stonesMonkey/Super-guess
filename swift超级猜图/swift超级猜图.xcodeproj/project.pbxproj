@@ -22,8 +22,6 @@
 		512BBA281D3B2C8C00587B69 /* ProvinceAndDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512BBA271D3B2C8C00587B69 /* ProvinceAndDataView.xib */; };
 		512BBA2A1D3B314700587B69 /* ProvinceToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512BBA291D3B314700587B69 /* ProvinceToolBar.swift */; };
 		513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513D0E301D30DF5700D7D144 /* QuestionView.swift */; };
-		51443B771D3B9EB2001C4677 /* UserAddressVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51443B761D3B9EB2001C4677 /* UserAddressVc.swift */; };
-		51443B791D3B9F11001C4677 /* UserAddressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51443B781D3B9F11001C4677 /* UserAddressView.xib */; };
 		514A1A761D340A530066958E /* TuanGouCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514A1A741D340A530066958E /* TuanGouCell.swift */; };
 		514A1A771D340A530066958E /* TuanGouCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514A1A751D340A530066958E /* TuanGouCell.xib */; };
 		514A1A791D340B650066958E /* tgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 514A1A781D340B650066958E /* tgs.plist */; };
@@ -95,6 +93,12 @@
 		51B3875A1D39044D00888C67 /* PuBuFlawLayOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B387591D39044D00888C67 /* PuBuFlawLayOut.swift */; };
 		51B3875D1D3910D800888C67 /* PuBuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B3875B1D3910D800888C67 /* PuBuCell.swift */; };
 		51B3875E1D3910D800888C67 /* PuBuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B3875C1D3910D800888C67 /* PuBuCell.xib */; };
+		51B846DB1D3BAB38001A0842 /* UserAddressVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B846D91D3BAB38001A0842 /* UserAddressVc.swift */; };
+		51B846DC1D3BAB38001A0842 /* UserAddressVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B846DA1D3BAB38001A0842 /* UserAddressVc.xib */; };
+		51B846E21D3BC2DF001A0842 /* LianXiVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B846E01D3BC2DF001A0842 /* LianXiVc.swift */; };
+		51B846E31D3BC2DF001A0842 /* LianXiVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B846E11D3BC2DF001A0842 /* LianXiVc.xib */; };
+		51B846E61D3BCA32001A0842 /* AddVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B846E41D3BCA32001A0842 /* AddVc.swift */; };
+		51B846E71D3BCA32001A0842 /* AddVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B846E51D3BCA32001A0842 /* AddVc.xib */; };
 		51B9BC8C1D32AE7400DCCE30 /* product.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51B9BC8B1D32AE7400DCCE30 /* product.plist */; };
 		51B9BC921D32B54C00DCCE30 /* TuPianFangDaVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9BC901D32B54C00DCCE30 /* TuPianFangDaVc.swift */; };
 		51B9BC931D32B54C00DCCE30 /* TuPianFangDaVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B9BC911D32B54C00DCCE30 /* TuPianFangDaVc.xib */; };
@@ -581,8 +585,6 @@
 		512BBA271D3B2C8C00587B69 /* ProvinceAndDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProvinceAndDataView.xib; sourceTree = "<group>"; };
 		512BBA291D3B314700587B69 /* ProvinceToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceToolBar.swift; sourceTree = "<group>"; };
 		513D0E301D30DF5700D7D144 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
-		51443B761D3B9EB2001C4677 /* UserAddressVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAddressVc.swift; sourceTree = "<group>"; };
-		51443B781D3B9F11001C4677 /* UserAddressView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserAddressView.xib; sourceTree = "<group>"; };
 		514A1A741D340A530066958E /* TuanGouCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuanGouCell.swift; sourceTree = "<group>"; };
 		514A1A751D340A530066958E /* TuanGouCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuanGouCell.xib; sourceTree = "<group>"; };
 		514A1A781D340B650066958E /* tgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tgs.plist; sourceTree = "<group>"; };
@@ -654,6 +656,12 @@
 		51B387591D39044D00888C67 /* PuBuFlawLayOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuBuFlawLayOut.swift; sourceTree = "<group>"; };
 		51B3875B1D3910D800888C67 /* PuBuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuBuCell.swift; sourceTree = "<group>"; };
 		51B3875C1D3910D800888C67 /* PuBuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PuBuCell.xib; sourceTree = "<group>"; };
+		51B846D91D3BAB38001A0842 /* UserAddressVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAddressVc.swift; sourceTree = "<group>"; };
+		51B846DA1D3BAB38001A0842 /* UserAddressVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserAddressVc.xib; sourceTree = "<group>"; };
+		51B846E01D3BC2DF001A0842 /* LianXiVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LianXiVc.swift; sourceTree = "<group>"; };
+		51B846E11D3BC2DF001A0842 /* LianXiVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LianXiVc.xib; sourceTree = "<group>"; };
+		51B846E41D3BCA32001A0842 /* AddVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddVc.swift; sourceTree = "<group>"; };
+		51B846E51D3BCA32001A0842 /* AddVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddVc.xib; sourceTree = "<group>"; };
 		51B9BC8B1D32AE7400DCCE30 /* product.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = product.plist; sourceTree = "<group>"; };
 		51B9BC901D32B54C00DCCE30 /* TuPianFangDaVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuPianFangDaVc.swift; sourceTree = "<group>"; };
 		51B9BC911D32B54C00DCCE30 /* TuPianFangDaVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuPianFangDaVc.xib; sourceTree = "<group>"; };
@@ -1278,8 +1286,9 @@
 		51443B751D3B9DFB001C4677 /* 私人通讯 */ = {
 			isa = PBXGroup;
 			children = (
-				51443B761D3B9EB2001C4677 /* UserAddressVc.swift */,
-				51443B781D3B9F11001C4677 /* UserAddressView.xib */,
+				51B846DF1D3BC2A3001A0842 /* Controller */,
+				51B846DE1D3BC29A001A0842 /* View */,
+				51B846DD1D3BC296001A0842 /* Model */,
 			);
 			name = "私人通讯";
 			sourceTree = "<group>";
@@ -1573,6 +1582,33 @@
 			isa = PBXGroup;
 			children = (
 				51B3874B1D38FF3D00888C67 /* PuBuLiuVc.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		51B846DD1D3BC296001A0842 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		51B846DE1D3BC29A001A0842 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		51B846DF1D3BC2A3001A0842 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51B846D91D3BAB38001A0842 /* UserAddressVc.swift */,
+				51B846DA1D3BAB38001A0842 /* UserAddressVc.xib */,
+				51B846E01D3BC2DF001A0842 /* LianXiVc.swift */,
+				51B846E11D3BC2DF001A0842 /* LianXiVc.xib */,
+				51B846E41D3BCA32001A0842 /* AddVc.swift */,
+				51B846E51D3BCA32001A0842 /* AddVc.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -2412,6 +2448,7 @@
 				51DB4E7B1D2B5F840029986F /* eat_32.jpg in Resources */,
 				51DB4F561D2B5F840029986F /* scratch_18.jpg in Resources */,
 				51DB4F0F1D2B5F840029986F /* knockout_52.jpg in Resources */,
+				51B846E71D3BCA32001A0842 /* AddVc.xib in Resources */,
 				51DB4E8D1D2B5F840029986F /* fart_10.jpg in Resources */,
 				516B98021D3A2F00004C8C90 /* baxi.gif in Resources */,
 				51DB4EA81D2B5F840029986F /* footLeft_09.jpg in Resources */,
@@ -2458,7 +2495,6 @@
 				51DB4E3D1D2B5F840029986F /* drink_51.jpg in Resources */,
 				51DB4E2A1D2B5F840029986F /* drink_32.jpg in Resources */,
 				51DB4EBA1D2B5F840029986F /* footLeft_27.jpg in Resources */,
-				51443B791D3B9F11001C4677 /* UserAddressView.xib in Resources */,
 				51DB4E061D2B5F840029986F /* cymbal_09.jpg in Resources */,
 				51DB4E591D2B5F840029986F /* drink_79.jpg in Resources */,
 				51DB4EA41D2B5F840029986F /* footLeft_05.jpg in Resources */,
@@ -2651,6 +2687,7 @@
 				51DB4E261D2B5F840029986F /* drink_28.jpg in Resources */,
 				51DB4F261D2B5F840029986F /* knockout_75.jpg in Resources */,
 				51DB4F731D2B5F840029986F /* scratch_47.jpg in Resources */,
+				51B846DC1D3BAB38001A0842 /* UserAddressVc.xib in Resources */,
 				51DB4ED61D2B5F840029986F /* footRight_25.jpg in Resources */,
 				51DB4DFD1D2B5F840029986F /* cymbal_00.jpg in Resources */,
 				51DB4E991D2B5F840029986F /* fart_22.jpg in Resources */,
@@ -2755,6 +2792,7 @@
 				51DB4E321D2B5F840029986F /* drink_40.jpg in Resources */,
 				51DB4E101D2B5F840029986F /* drink_06.jpg in Resources */,
 				51DB4E1B1D2B5F840029986F /* drink_17.jpg in Resources */,
+				51B846E31D3BC2DF001A0842 /* LianXiVc.xib in Resources */,
 				51DB4F061D2B5F840029986F /* knockout_43.jpg in Resources */,
 				51DB4E291D2B5F840029986F /* drink_31.jpg in Resources */,
 				51DB4E7C1D2B5F840029986F /* eat_33.jpg in Resources */,
@@ -2876,13 +2914,14 @@
 				51CBF92E1D374CEB00C120C1 /* FriendHeaderView.swift in Sources */,
 				516B97E61D3A2985004C8C90 /* GuoQiVc.swift in Sources */,
 				51B142E01D35169E00414B72 /* CellFrame.swift in Sources */,
-				51443B771D3B9EB2001C4677 /* UserAddressVc.swift in Sources */,
+				51B846DB1D3BAB38001A0842 /* UserAddressVc.swift in Sources */,
 				516D00471D2F74CD00AD50DD /* QuestionModel.swift in Sources */,
 				51128A051D33B9BD0047C9AB /* TuanGouVc.swift in Sources */,
 				516D00431D2F735A00AD50DD /* AnwerView.swift in Sources */,
 				518C7C061D3B4323005AF7B3 /* CitiesModel.swift in Sources */,
 				51B142D01D34A44D00414B72 /* TGFootView.swift in Sources */,
 				512BBA2A1D3B314700587B69 /* ProvinceToolBar.swift in Sources */,
+				51B846E21D3BC2DF001A0842 /* LianXiVc.swift in Sources */,
 				513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */,
 				51549BC61D36A77800287308 /* FriendGroup.swift in Sources */,
 				51549BC81D36A8FC00287308 /* FriendModel.swift in Sources */,
@@ -2897,6 +2936,7 @@
 				51CBF93C1D379F7400C120C1 /* ChatView.swift in Sources */,
 				514A1A7B1D340B7B0066958E /* TGModel.swift in Sources */,
 				51CBF9381D378BF700C120C1 /* QQChatVc.swift in Sources */,
+				51B846E61D3BCA32001A0842 /* AddVc.swift in Sources */,
 				516B97EF1D3A2EAB004C8C90 /* GuoQiPickViewCell.swift in Sources */,
 				512BBA241D3B2B7B00587B69 /* ProvenceAndDataVc.swift in Sources */,
 				51B3874E1D3900E200888C67 /* PuBuModel.swift in Sources */,

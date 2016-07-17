@@ -136,6 +136,9 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
             case 1:
                 vc = ProvenceAndDataVc()
                 break
+            case 2:
+                vc = UserAddressVc()
+                break
             default:
                 break
             }

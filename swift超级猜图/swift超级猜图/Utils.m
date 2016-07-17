@@ -21,4 +21,13 @@
     return [NSIndexPath indexPathForRow:row inSection:section];
 }
 
++ (void)GCDWithTimer:(CGFloat)timer Block:(void(^)())blcok {
+    
+
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(timer * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        blcok();
+    });
+}
+
 @end

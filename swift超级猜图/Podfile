@@ -7,5 +7,7 @@ target 'swift超级猜图' do
 
 pod 'SnapKit', '~> 0.16.0'
 
+pod 'SVProgressHUD', '~> 2.0.3'
+
 end
 

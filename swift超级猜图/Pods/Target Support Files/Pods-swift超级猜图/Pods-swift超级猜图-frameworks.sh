@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-swift超级猜图/SVProgressHUD.framework"
   install_framework "Pods-swift超级猜图/SnapKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-swift超级猜图/SVProgressHUD.framework"
   install_framework "Pods-swift超级猜图/SnapKit.framework"
 fi

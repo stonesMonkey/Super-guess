@@ -48,4 +48,13 @@ extension UIButton {
         self.imageEdgeInsets = imageEdgeInsets
         self.backgroundColor = UIColor.whiteColor()
     }
+    
+    convenience init(frame: CGRect?, title: String?, titleColor: UIColor? ,fontSize: CGFloat) {
+        
+        self.init(type: UIButtonType.Custom)
+        self.setTitle(title, forState: UIControlState.Normal)
+        self.setTitleColor(titleColor, forState: UIControlState.Normal)
+        self.frame = frame!
+        self.titleLabel?.font = UIFont.systemFontOfSize(fontSize)
+    }
 }
