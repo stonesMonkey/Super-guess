@@ -27,6 +27,7 @@ class ProvinceAndDataView: UIView {
     lazy var toolBar: ProvinceToolBar = {
        
         let aBar = NSBundle.mainBundle().loadNibNamed("ProvinceToolBar", owner: nil, options: nil).last as! ProvinceToolBar
+        aBar.delegate = self
         
         return aBar
     }()
@@ -47,8 +48,10 @@ class ProvinceAndDataView: UIView {
         return CitiesModel.models()
     }()
     
+    // 时间
     @IBOutlet weak var dataTextView: UITextField!
     
+    // 省份
     @IBOutlet weak var provenceView: UITextField!
     
     
@@ -57,6 +60,12 @@ class ProvinceAndDataView: UIView {
         
         dataTextView.delegate = self
         provenceView.delegate = self
+        
+        dataTextView.inputView = dataKeyBoard
+        dataTextView.inputAccessoryView = toolBar
+        
+        provenceView.inputView = provincePickView
+        provenceView.inputAccessoryView = toolBar
         
     }
     
@@ -77,21 +86,6 @@ extension ProvinceAndDataView {
 extension ProvinceAndDataView: UITextFieldDelegate {
     
     func textFieldShouldBeginEditing(textField: UITextField) -> Bool {
-        
-        if (dataKeyBoard.inputView != nil) {
-            
-            return true
-        }
-        
-        if  textField == dataTextView {
-            
-            textField.inputView = dataKeyBoard
-            textField.inputAccessoryView = toolBar
-        } else if textField == provenceView {
-            
-            provenceView.inputView = provincePickView
-            provenceView.inputAccessoryView = toolBar
-        }
         
         
         return true
@@ -127,10 +121,14 @@ extension ProvinceAndDataView: UIPickerViewDataSource {
             return citiesModel[row].name
         } else if component == 1 {
             
+           
             let citiesRow = pickerView.selectedRowInComponent(0)
-            
             let model: CitiesModel = citiesModel[citiesRow]
             let cities = model.cities
+            if row >= cities?.count {
+                
+                return ""
+            }
             return cities![row] as? String
         }
         return ""
@@ -141,8 +139,52 @@ extension ProvinceAndDataView: UIPickerViewDelegate {
     
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         
+        var rowCom = row
+        
+        if component == 0 {
+            
+            pickerView.reloadComponent(1)
+            pickerView.selectRow(0, inComponent: 1, animated: true)
+            rowCom = 0
+            
+        } else if component == 1 {
+        
+        }
+        
+        let comPoneRow = pickerView.selectedRowInComponent(0)
+        let citie:CitiesModel = citiesModel[comPoneRow]
+        let str = String(format: citie.name! + "-" + (citie.cities![rowCom] as! String))
+        provenceView.text = str
+    }
+    
+    func becomeFirstRespond() {
+        
+        if dataTextView.isFirstResponder() {
+            
+            provenceView.becomeFirstResponder()
+        } else {
+            
+            dataTextView.becomeFirstResponder()
+        }
     }
 }
 
+extension ProvinceAndDataView: ProvinceToolBarDelegate {
+    
+    func ProvinceToolBarPreBtnDidClick(toolBar: ProvinceToolBar) {
+        
+        becomeFirstRespond()
+    }
+    
+    func ProvinceToolBarNextBtnDidClick(toolBar: ProvinceToolBar) {
+        
+        becomeFirstRespond()
+    }
+    
+    func ProvinceToolBarDoneBtnDidClick(toolBar: ProvinceToolBar) {
+        
+        self.endEditing(true)
+    }
+}
 
 

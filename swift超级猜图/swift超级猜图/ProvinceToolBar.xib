@@ -16,6 +16,9 @@
                         <constraint firstAttribute="width" constant="64" id="sIH-XU-huQ"/>
                     </constraints>
                     <state key="normal" title="上一个"/>
+                    <connections>
+                        <action selector="preBtnDidClick:" destination="BhP-1P-cpw" eventType="touchUpInside" id="8QR-sB-miE"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iy8-eB-cS2">
                     <rect key="frame" x="311" y="0.0" width="64" height="44"/>
@@ -23,6 +26,9 @@
                         <constraint firstAttribute="width" constant="64" id="UDr-AG-aRo"/>
                     </constraints>
                     <state key="normal" title="完成"/>
+                    <connections>
+                        <action selector="doneBtnDidClick:" destination="BhP-1P-cpw" eventType="touchUpInside" id="C4Z-GD-WkA"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTk-Bw-WR8">
                     <rect key="frame" x="89" y="0.0" width="64" height="44"/>
@@ -30,6 +36,9 @@
                         <constraint firstAttribute="width" constant="64" id="lcu-eJ-hcw"/>
                     </constraints>
                     <state key="normal" title="下一个"/>
+                    <connections>
+                        <action selector="nextBtnDidClick:" destination="BhP-1P-cpw" eventType="touchUpInside" id="pnh-fq-e2c"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="0.56668490459999998" blue="0.23390835300000001" alpha="1" colorSpace="calibratedRGB"/>
