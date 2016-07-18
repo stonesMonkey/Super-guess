@@ -44,6 +44,8 @@
 		51549BC41D36A69400287308 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51549BC31D36A69400287308 /* friends.plist */; };
 		51549BC61D36A77800287308 /* FriendGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51549BC51D36A77800287308 /* FriendGroup.swift */; };
 		51549BC81D36A8FC00287308 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51549BC71D36A8FC00287308 /* FriendModel.swift */; };
+		515FA42F1D3D40210036D3C8 /* MoveViewVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515FA42D1D3D40210036D3C8 /* MoveViewVc.swift */; };
+		515FA4301D3D40210036D3C8 /* MoveViewVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 515FA42E1D3D40210036D3C8 /* MoveViewVc.xib */; };
 		516B97E21D3A1AB4004C8C90 /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B97E11D3A1AB4004C8C90 /* GroupModel.swift */; };
 		516B97E61D3A2985004C8C90 /* GuoQiVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B97E51D3A2985004C8C90 /* GuoQiVc.swift */; };
 		516B97EB1D3A2DCB004C8C90 /* GuoQiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B97EA1D3A2DCB004C8C90 /* GuoQiView.swift */; };
@@ -612,6 +614,8 @@
 		51549BC31D36A69400287308 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
 		51549BC51D36A77800287308 /* FriendGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendGroup.swift; sourceTree = "<group>"; };
 		51549BC71D36A8FC00287308 /* FriendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		515FA42D1D3D40210036D3C8 /* MoveViewVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveViewVc.swift; sourceTree = "<group>"; };
+		515FA42E1D3D40210036D3C8 /* MoveViewVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoveViewVc.xib; sourceTree = "<group>"; };
 		516B97E11D3A1AB4004C8C90 /* GroupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
 		516B97E51D3A2985004C8C90 /* GuoQiVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuoQiVc.swift; sourceTree = "<group>"; };
 		516B97EA1D3A2DCB004C8C90 /* GuoQiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuoQiView.swift; sourceTree = "<group>"; };
@@ -1340,12 +1344,22 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		515FA42C1D3D3FF60036D3C8 /* view的拖拽 */ = {
+			isa = PBXGroup;
+			children = (
+				515FA42D1D3D40210036D3C8 /* MoveViewVc.swift */,
+				515FA42E1D3D40210036D3C8 /* MoveViewVc.xib */,
+			);
+			name = "view的拖拽";
+			sourceTree = "<group>";
+		};
 		516B97DF1D3A1997004C8C90 /* UI进阶 */ = {
 			isa = PBXGroup;
 			children = (
 				516B97E31D3A1E0E004C8C90 /* 国旗 */,
 				512BBA1F1D3B2ACB00587B69 /* 省市联动 */,
 				51443B751D3B9DFB001C4677 /* 私人通讯 */,
+				515FA42C1D3D3FF60036D3C8 /* view的拖拽 */,
 			);
 			name = "UI进阶";
 			sourceTree = "<group>";
@@ -2519,6 +2533,7 @@
 				51DB4F701D2B5F840029986F /* scratch_44.jpg in Resources */,
 				51DB4ECB1D2B5F840029986F /* footRight_14.jpg in Resources */,
 				516B980B1D3A2F00004C8C90 /* xiby.gif in Resources */,
+				515FA4301D3D40210036D3C8 /* MoveViewVc.xib in Resources */,
 				51DB4E0D1D2B5F840029986F /* drink_03.jpg in Resources */,
 				51DB4F9C1D2B5F840029986F /* stomach_32.jpg in Resources */,
 				51DB4F9D1D2B5F840029986F /* stomach_33.jpg in Resources */,
@@ -2939,6 +2954,7 @@
 				518C7C061D3B4323005AF7B3 /* CitiesModel.swift in Sources */,
 				51B142D01D34A44D00414B72 /* TGFootView.swift in Sources */,
 				512BBA2A1D3B314700587B69 /* ProvinceToolBar.swift in Sources */,
+				515FA42F1D3D40210036D3C8 /* MoveViewVc.swift in Sources */,
 				51B846E21D3BC2DF001A0842 /* LianXiVc.swift in Sources */,
 				513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */,
 				51549BC61D36A77800287308 /* FriendGroup.swift in Sources */,
