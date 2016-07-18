@@ -7,10 +7,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserAddressVc" customModule="swift超级猜图" customModuleProvider="target">
             <connections>
-                <outlet property="automicLogin" destination="7ZV-Jo-ilb" id="2IQ-Cx-OY3"/>
+                <outlet property="automicLogin" destination="7ZV-Jo-ilb" id="l4A-UX-Ded"/>
                 <outlet property="loginBtn" destination="nXS-GA-yKJ" id="fil-gw-SOH"/>
                 <outlet property="passFiled" destination="1cv-du-mHc" id="Lqd-Vg-lWZ"/>
-                <outlet property="savePasswordSwitch" destination="SXd-Hb-8x8" id="915-SJ-xh3"/>
+                <outlet property="savePasswordSwitch" destination="SXd-Hb-8x8" id="Cyz-pD-PhP"/>
                 <outlet property="userField" destination="1Wu-Li-SXx" id="ags-Da-qJV"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -34,7 +34,7 @@
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1cv-du-mHc">
                     <rect key="frame" x="104" y="76" width="241" height="30"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                 </textField>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="账号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEH-KZ-fZN">
                     <rect key="frame" x="40" y="30" width="34" height="20.5"/>
@@ -64,6 +64,9 @@
                         </label>
                         <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7ZV-Jo-ilb">
                             <rect key="frame" x="76" y="5" width="51" height="31"/>
+                            <connections>
+                                <action selector="automicLogin:" destination="-1" eventType="valueChanged" id="le0-9v-TnE"/>
+                            </connections>
                         </switch>
                     </subviews>
                     <color key="backgroundColor" red="1" green="0.56668490459999998" blue="0.23390835300000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -85,6 +88,9 @@
                         </label>
                         <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SXd-Hb-8x8">
                             <rect key="frame" x="71" y="5" width="51" height="31"/>
+                            <connections>
+                                <action selector="savePasswordClick:" destination="-1" eventType="valueChanged" id="L6J-sY-NhM"/>
+                            </connections>
                         </switch>
                     </subviews>
                     <color key="backgroundColor" red="0.99246432849999999" green="1" blue="0.47057190599999998" alpha="1" colorSpace="calibratedRGB"/>

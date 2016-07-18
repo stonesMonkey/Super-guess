@@ -21,6 +21,11 @@
 		512BBA261D3B2C4F00587B69 /* ProvinceAndDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512BBA251D3B2C4F00587B69 /* ProvinceAndDataView.swift */; };
 		512BBA281D3B2C8C00587B69 /* ProvinceAndDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512BBA271D3B2C8C00587B69 /* ProvinceAndDataView.xib */; };
 		512BBA2A1D3B314700587B69 /* ProvinceToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512BBA291D3B314700587B69 /* ProvinceToolBar.swift */; };
+		513C0B461D3CB7E900BB3B7D /* UserFriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C0B451D3CB7E900BB3B7D /* UserFriendModel.swift */; };
+		513C0B491D3CD52500BB3B7D /* BianJiVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C0B471D3CD52500BB3B7D /* BianJiVc.swift */; };
+		513C0B4A1D3CD52500BB3B7D /* BianJiVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513C0B481D3CD52500BB3B7D /* BianJiVc.xib */; };
+		513C0B4C1D3CE7CC00BB3B7D /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C0B4B1D3CE7CC00BB3B7D /* UserAccount.swift */; };
+		513C0B4E1D3CFEB600BB3B7D /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C0B4D1D3CFEB600BB3B7D /* UserDefault.swift */; };
 		513D0E311D30DF5700D7D144 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513D0E301D30DF5700D7D144 /* QuestionView.swift */; };
 		514A1A761D340A530066958E /* TuanGouCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514A1A741D340A530066958E /* TuanGouCell.swift */; };
 		514A1A771D340A530066958E /* TuanGouCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514A1A751D340A530066958E /* TuanGouCell.xib */; };
@@ -584,6 +589,11 @@
 		512BBA251D3B2C4F00587B69 /* ProvinceAndDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceAndDataView.swift; sourceTree = "<group>"; };
 		512BBA271D3B2C8C00587B69 /* ProvinceAndDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProvinceAndDataView.xib; sourceTree = "<group>"; };
 		512BBA291D3B314700587B69 /* ProvinceToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceToolBar.swift; sourceTree = "<group>"; };
+		513C0B451D3CB7E900BB3B7D /* UserFriendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFriendModel.swift; sourceTree = "<group>"; };
+		513C0B471D3CD52500BB3B7D /* BianJiVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BianJiVc.swift; sourceTree = "<group>"; };
+		513C0B481D3CD52500BB3B7D /* BianJiVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BianJiVc.xib; sourceTree = "<group>"; };
+		513C0B4B1D3CE7CC00BB3B7D /* UserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		513C0B4D1D3CFEB600BB3B7D /* UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 		513D0E301D30DF5700D7D144 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		514A1A741D340A530066958E /* TuanGouCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuanGouCell.swift; sourceTree = "<group>"; };
 		514A1A751D340A530066958E /* TuanGouCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuanGouCell.xib; sourceTree = "<group>"; };
@@ -1279,6 +1289,7 @@
 				5126F7851D367BA900BE8B6A /* Utils.m */,
 				5126F7831D367BA900BE8B6A /* swift超级猜图-Bridging-Header.h */,
 				514AC38F1D33443B00B567CB /* TimerTool.swift */,
+				513C0B4D1D3CFEB600BB3B7D /* UserDefault.swift */,
 			);
 			name = Tool;
 			sourceTree = "<group>";
@@ -1589,6 +1600,8 @@
 		51B846DD1D3BC296001A0842 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				513C0B451D3CB7E900BB3B7D /* UserFriendModel.swift */,
+				513C0B4B1D3CE7CC00BB3B7D /* UserAccount.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -1609,6 +1622,8 @@
 				51B846E11D3BC2DF001A0842 /* LianXiVc.xib */,
 				51B846E41D3BCA32001A0842 /* AddVc.swift */,
 				51B846E51D3BCA32001A0842 /* AddVc.xib */,
+				513C0B471D3CD52500BB3B7D /* BianJiVc.swift */,
+				513C0B481D3CD52500BB3B7D /* BianJiVc.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -2794,6 +2809,7 @@
 				51DB4E1B1D2B5F840029986F /* drink_17.jpg in Resources */,
 				51B846E31D3BC2DF001A0842 /* LianXiVc.xib in Resources */,
 				51DB4F061D2B5F840029986F /* knockout_43.jpg in Resources */,
+				513C0B4A1D3CD52500BB3B7D /* BianJiVc.xib in Resources */,
 				51DB4E291D2B5F840029986F /* drink_31.jpg in Resources */,
 				51DB4E7C1D2B5F840029986F /* eat_33.jpg in Resources */,
 				51DB4DEB1D2B5F840029986F /* angry_08.jpg in Resources */,
@@ -2916,7 +2932,9 @@
 				51B142E01D35169E00414B72 /* CellFrame.swift in Sources */,
 				51B846DB1D3BAB38001A0842 /* UserAddressVc.swift in Sources */,
 				516D00471D2F74CD00AD50DD /* QuestionModel.swift in Sources */,
+				513C0B4E1D3CFEB600BB3B7D /* UserDefault.swift in Sources */,
 				51128A051D33B9BD0047C9AB /* TuanGouVc.swift in Sources */,
+				513C0B491D3CD52500BB3B7D /* BianJiVc.swift in Sources */,
 				516D00431D2F735A00AD50DD /* AnwerView.swift in Sources */,
 				518C7C061D3B4323005AF7B3 /* CitiesModel.swift in Sources */,
 				51B142D01D34A44D00414B72 /* TGFootView.swift in Sources */,
@@ -2935,6 +2953,7 @@
 				516D002E1D2F445000AD50DD /* SuperGuessVc.swift in Sources */,
 				51CBF93C1D379F7400C120C1 /* ChatView.swift in Sources */,
 				514A1A7B1D340B7B0066958E /* TGModel.swift in Sources */,
+				513C0B461D3CB7E900BB3B7D /* UserFriendModel.swift in Sources */,
 				51CBF9381D378BF700C120C1 /* QQChatVc.swift in Sources */,
 				51B846E61D3BCA32001A0842 /* AddVc.swift in Sources */,
 				516B97EF1D3A2EAB004C8C90 /* GuoQiPickViewCell.swift in Sources */,
@@ -2944,6 +2963,7 @@
 				514AC3901D33443B00B567CB /* TimerTool.swift in Sources */,
 				516B98121D3A2FEF004C8C90 /* GuoQiModel.swift in Sources */,
 				51B3874C1D38FF3D00888C67 /* PuBuLiuVc.swift in Sources */,
+				513C0B4C1D3CE7CC00BB3B7D /* UserAccount.swift in Sources */,
 				516D00411D2F510900AD50DD /* UILabel+Category.swift in Sources */,
 				5126F7861D367BA900BE8B6A /* Utils.m in Sources */,
 				51128A0B1D33BAA00047C9AB /* LunBoView.swift in Sources */,

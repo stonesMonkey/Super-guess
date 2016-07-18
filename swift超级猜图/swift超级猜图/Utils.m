@@ -30,4 +30,9 @@
     });
 }
 
++ (NSKeyValueObservingOptions)newAndOldOptions {
+    
+    return NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld;
+}
+
 @end

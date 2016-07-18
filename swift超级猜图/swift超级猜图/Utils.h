@@ -17,4 +17,5 @@
 // 因为怎么写都写不出GCD
 + (void)GCDWithTimer:(CGFloat)timer Block:(void(^)())blcok;
 
++ (NSKeyValueObservingOptions)newAndOldOptions;
 @end
