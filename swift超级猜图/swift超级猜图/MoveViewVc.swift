@@ -39,9 +39,9 @@ class MoveViewVc: UIViewController {
             
             let point = touch.locationInView(view)
 //            let size = self.moveView.bounds.size
-            var offerX = point.x
+            let offerX = point.x
             
-            var offerY = point.y
+            let offerY = point.y
 //
 //            if self.view.bounds.size.width - point.x < size.width {
 //                
@@ -63,7 +63,7 @@ class MoveViewVc: UIViewController {
         for touch in touches {
             
             let point = touch.locationInView(view)
-            let size = self.moveView.bounds.size
+            _ = self.moveView.bounds.size
 //            var offerX = size.width - point.x
 //            if offerX > 0 {
 //                

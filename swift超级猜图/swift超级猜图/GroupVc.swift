@@ -133,14 +133,20 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
             case 0:  // 过期
               vc = GuoQiVc()
                 break
-            case 1:
+            case 1:  // 省市联动
                 vc = ProvenceAndDataVc()
                 break
-            case 2:
+            case 2: // 用户地址
                 vc = UserAddressVc()
                 break
-            case 3:
+            case 3: // View移动
                 vc = MoveViewVc()
+                break
+            case 4: // 手势识别
+                vc = GestureVc()
+                break
+            case 5:
+                vc = GestureTwoVc()
             default:
                 break
             }
