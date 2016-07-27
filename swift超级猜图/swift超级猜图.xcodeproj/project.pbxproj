@@ -124,6 +124,7 @@
 		51C3E93C1D3DC05E00F772BC /* GestureVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51C3E93A1D3DC05E00F772BC /* GestureVc.xib */; };
 		51C3E9451D3DDEC300F772BC /* GestureTwoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C3E9431D3DDEC300F772BC /* GestureTwoVc.swift */; };
 		51C3E9461D3DDEC300F772BC /* GestureTwoVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51C3E9441D3DDEC300F772BC /* GestureTwoVc.xib */; };
+		51CBDB3A1D487A7E00AE5460 /* ZZSocketVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBDB391D487A7E00AE5460 /* ZZSocketVc.swift */; };
 		51CBF92E1D374CEB00C120C1 /* FriendHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBF92D1D374CEB00C120C1 /* FriendHeaderView.swift */; };
 		51CBF9301D374D0800C120C1 /* FriendHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBF92F1D374D0800C120C1 /* FriendHeaderView.xib */; };
 		51CBF9381D378BF700C120C1 /* QQChatVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBF9371D378BF700C120C1 /* QQChatVc.swift */; };
@@ -216,6 +217,7 @@
 		51CCBCC51D48422000BB6D42 /* helpss.html in Resources */ = {isa = PBXBuildFile; fileRef = 51CCBCC31D48422000BB6D42 /* helpss.html */; };
 		51CCBCC81D48423D00BB6D42 /* jclq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 51CCBCC61D48423D00BB6D42 /* jclq_howto.html */; };
 		51CCBCC91D48423D00BB6D42 /* jczq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 51CCBCC71D48423D00BB6D42 /* jczq_howto.html */; };
+		51CCBCCD1D484A9B00BB6D42 /* ZZURLConnectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CCBCCC1D484A9B00BB6D42 /* ZZURLConnectionVC.swift */; };
 		51DB4C0C1D2B5E200029986F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4C0B1D2B5E200029986F /* AppDelegate.swift */; };
 		51DB4C0E1D2B5E200029986F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB4C0D1D2B5E200029986F /* ViewController.swift */; };
 		51DB4C131D2B5E200029986F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DB4C121D2B5E200029986F /* Assets.xcassets */; };
@@ -788,6 +790,7 @@
 		51C3E93A1D3DC05E00F772BC /* GestureVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GestureVc.xib; sourceTree = "<group>"; };
 		51C3E9431D3DDEC300F772BC /* GestureTwoVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureTwoVc.swift; sourceTree = "<group>"; };
 		51C3E9441D3DDEC300F772BC /* GestureTwoVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GestureTwoVc.xib; sourceTree = "<group>"; };
+		51CBDB391D487A7E00AE5460 /* ZZSocketVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZSocketVc.swift; sourceTree = "<group>"; };
 		51CBF92D1D374CEB00C120C1 /* FriendHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendHeaderView.swift; sourceTree = "<group>"; };
 		51CBF92F1D374D0800C120C1 /* FriendHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendHeaderView.xib; sourceTree = "<group>"; };
 		51CBF9371D378BF700C120C1 /* QQChatVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQChatVc.swift; sourceTree = "<group>"; };
@@ -881,6 +884,7 @@
 		51CCBCC31D48422000BB6D42 /* helpss.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = helpss.html; sourceTree = "<group>"; };
 		51CCBCC61D48423D00BB6D42 /* jclq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jclq_howto.html; sourceTree = "<group>"; };
 		51CCBCC71D48423D00BB6D42 /* jczq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jczq_howto.html; sourceTree = "<group>"; };
+		51CCBCCC1D484A9B00BB6D42 /* ZZURLConnectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZURLConnectionVC.swift; sourceTree = "<group>"; };
 		51DB4C081D2B5E200029986F /* swift超级猜图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift超级猜图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DB4C0B1D2B5E200029986F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51DB4C0D1D2B5E200029986F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -1885,6 +1889,7 @@
 			children = (
 				51B9BC8E1D32B4EA00DCCE30 /* UI基础 */,
 				516B97DF1D3A1997004C8C90 /* UI进阶 */,
+				51CCBCCA1D484A3C00BB6D42 /* 多线程 & 网络 */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1993,6 +1998,14 @@
 				51A7A4C91D3DE4DF0037A589 /* RedBtn.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		51CBDB381D487A0E00AE5460 /* Socket建立连接 */ = {
+			isa = PBXGroup;
+			children = (
+				51CBDB391D487A7E00AE5460 /* ZZSocketVc.swift */,
+			);
+			name = "Socket建立连接";
 			sourceTree = "<group>";
 		};
 		51CBF9331D378BC200C120C1 /* QQ聊天 */ = {
@@ -2412,6 +2425,23 @@
 				51CCBC9D1D4841EB00BB6D42 /* znzh.html */,
 			);
 			name = html5;
+			sourceTree = "<group>";
+		};
+		51CCBCCA1D484A3C00BB6D42 /* 多线程 & 网络 */ = {
+			isa = PBXGroup;
+			children = (
+				51CBDB381D487A0E00AE5460 /* Socket建立连接 */,
+				51CCBCCB1D484A5400BB6D42 /* NSURLConnection常用方法 */,
+			);
+			name = "多线程 & 网络";
+			sourceTree = "<group>";
+		};
+		51CCBCCB1D484A5400BB6D42 /* NSURLConnection常用方法 */ = {
+			isa = PBXGroup;
+			children = (
+				51CCBCCC1D484A9B00BB6D42 /* ZZURLConnectionVC.swift */,
+			);
+			name = "NSURLConnection常用方法";
 			sourceTree = "<group>";
 		};
 		51DB4BFF1D2B5E200029986F = {
@@ -3695,9 +3725,11 @@
 				513C0B4E1D3CFEB600BB3B7D /* UserDefault.swift in Sources */,
 				51CCBC7B1D4841C100BB6D42 /* ZZTitleLabelModel.swift in Sources */,
 				51A7A4C81D3DE4A90037A589 /* YellowView.swift in Sources */,
+				51CCBCCD1D484A9B00BB6D42 /* ZZURLConnectionVC.swift in Sources */,
 				51128A051D33B9BD0047C9AB /* TuanGouVc.swift in Sources */,
 				51CCBC701D4841C100BB6D42 /* ZZSettingBaseVc.swift in Sources */,
 				513C0B491D3CD52500BB3B7D /* BianJiVc.swift in Sources */,
+				51CBDB3A1D487A7E00AE5460 /* ZZSocketVc.swift in Sources */,
 				516D00431D2F735A00AD50DD /* AnwerView.swift in Sources */,
 				51A7A4D61D3E1C2B0037A589 /* LayerTransFormVc.swift in Sources */,
 				518C7C061D3B4323005AF7B3 /* CitiesModel.swift in Sources */,

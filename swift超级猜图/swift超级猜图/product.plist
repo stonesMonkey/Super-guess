@@ -27,5 +27,9 @@
 		<string>图层的基本使用</string>
 		<string>网易彩票</string>
 	</array>
+	<key>多线程&amp;网络</key>
+	<array>
+		<string>NSURLConnection常用方法</string>
+	</array>
 </dict>
 </plist>

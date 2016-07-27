@@ -53,6 +53,8 @@ class GroupVc: UIViewController {
         case 1:
             jieDuan = self.arr["UI进阶"]
             break
+        case 2:
+            jieDuan = self.arr["多线程&网络"]
         default:
             return [NSArray]()
         }
@@ -166,6 +168,15 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
             default:
                 break
             }
+        } else if (indexPath.section == 2) {
+            
+            switch indexPath.row {
+            case 0: // NSURLConnection常用方法
+            vc = ZZURLConnectionVC()
+            break
+            default:
+                break
+            }
         }
         vc.view.backgroundColor = UIColor.whiteColor()
         navigationController!.pushViewController(vc, animated: true)
@@ -179,6 +190,9 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
         } else if section == 1 {
             
             return "UI进阶"
+        } else if section == 2 {
+            
+            return "多线程 & 网络"
         }
         return ""
     }
