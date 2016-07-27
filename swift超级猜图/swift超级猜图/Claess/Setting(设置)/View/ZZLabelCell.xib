@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="labelCell" id="7Kq-Eg-JUY" customClass="ZZLabelCell" customModule="WangYi2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7Kq-Eg-JUY" id="4zv-kg-Afn">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cdp-ek-B3q">
+                        <rect key="frame" x="10" y="13" width="36" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1h-Xm-nQo">
+                        <rect key="frame" x="274" y="13" width="36" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7HB-cQ-JWr">
+                        <rect key="frame" x="56" y="43" width="264" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="6te-Bc-kOU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Cdp-ek-B3q" firstAttribute="leading" secondItem="4zv-kg-Afn" secondAttribute="leading" constant="10" id="1Ea-cX-ciG"/>
+                    <constraint firstAttribute="trailing" secondItem="e1h-Xm-nQo" secondAttribute="trailing" constant="10" id="1ZG-bu-gan"/>
+                    <constraint firstItem="7HB-cQ-JWr" firstAttribute="leading" secondItem="Cdp-ek-B3q" secondAttribute="trailing" constant="10" id="Tb5-co-hu1"/>
+                    <constraint firstItem="Cdp-ek-B3q" firstAttribute="centerY" secondItem="4zv-kg-Afn" secondAttribute="centerY" id="U4j-ZK-2Wm"/>
+                    <constraint firstAttribute="trailing" secondItem="7HB-cQ-JWr" secondAttribute="trailing" id="X13-SK-Ikf"/>
+                    <constraint firstAttribute="bottom" secondItem="7HB-cQ-JWr" secondAttribute="bottom" id="bJN-gl-ZQ4"/>
+                    <constraint firstItem="e1h-Xm-nQo" firstAttribute="centerY" secondItem="4zv-kg-Afn" secondAttribute="centerY" id="wwK-yv-awN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="accessLabel" destination="e1h-Xm-nQo" id="sg2-0c-VJi"/>
+                <outlet property="lineView" destination="7HB-cQ-JWr" id="Ynn-OH-byy"/>
+                <outlet property="titleLabel" destination="Cdp-ek-B3q" id="dZg-ev-FvY"/>
+            </connections>
+            <point key="canvasLocation" x="242" y="272"/>
+        </tableViewCell>
+    </objects>
+</document>

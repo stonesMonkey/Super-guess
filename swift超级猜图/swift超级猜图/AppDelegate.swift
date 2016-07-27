@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         let vc = GroupVc()
-        let nav = UINavigationController(rootViewController: vc)
+        let nav = ZZNavVc(rootViewController: vc)
         window?.rootViewController = nav
         vc.view.backgroundColor = UIColor.orangeColor()
         

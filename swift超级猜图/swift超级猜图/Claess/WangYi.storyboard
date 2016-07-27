@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Npg-pa-nI6">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Vc-->
+        <scene sceneID="PSc-RV-wVB">
+            <objects>
+                <tabBarController id="Npg-pa-nI6" customClass="ZZTabBarVc" customModule="swift超级猜图" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="KdF-P5-ZO5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="DIy-4E-dE6" kind="relationship" relationship="viewControllers" id="o4R-Wg-SHX"/>
+                        <segue destination="DAZ-pa-3Sf" kind="relationship" relationship="viewControllers" id="2PK-NQ-4TZ"/>
+                        <segue destination="PH7-pm-f3A" kind="relationship" relationship="viewControllers" id="OiB-UP-arC"/>
+                        <segue destination="cQD-EA-P9i" kind="relationship" relationship="viewControllers" id="NgA-Or-DaK"/>
+                        <segue destination="xvb-1Q-8QN" kind="relationship" relationship="viewControllers" id="VuW-jm-wr7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="opy-Bx-8hE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1071" y="207"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="cRX-PY-aph">
+            <objects>
+                <navigationController id="DIy-4E-dE6" customClass="ZZNavVc" customModule="swift超级猜图" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="oPh-Vz-4ii"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Z38-sT-S3T">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Oen-RI-qt4" kind="relationship" relationship="rootViewController" id="Ny7-JP-GNT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jTg-xy-sMn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-256" y="-1215"/>
+        </scene>
+        <!--购彩大厅-->
+        <scene sceneID="to9-fY-UfD">
+            <objects>
+                <viewController id="Oen-RI-qt4" customClass="ZZGouCaiVc" customModule="swift超级猜图" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cw3-aU-BVT"/>
+                        <viewControllerLayoutGuide type="bottom" id="wtI-8f-eqH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cE1-CV-thq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="V7z-87-Geh">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.54322931539999997" blue="0.47101277050000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="V7z-87-Geh" firstAttribute="top" secondItem="Cw3-aU-BVT" secondAttribute="bottom" id="5LA-mE-Jxy"/>
+                            <constraint firstItem="V7z-87-Geh" firstAttribute="leading" secondItem="cE1-CV-thq" secondAttribute="leading" id="QK8-11-yzf"/>
+                            <constraint firstAttribute="trailing" secondItem="V7z-87-Geh" secondAttribute="trailing" id="vEH-eZ-GN2"/>
+                            <constraint firstItem="wtI-8f-eqH" firstAttribute="top" secondItem="V7z-87-Geh" secondAttribute="bottom" id="zB0-yb-h9H"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="购彩大厅" id="d9c-iY-1Pg">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="Na7-yh-7Jk">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1vR-Ib-wPB">
+                                <rect key="frame" x="513" y="11" width="67" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="咨询" image="zixunBarFlat"/>
+                                <state key="highlighted" image="zixunBarFlatGray"/>
+                                <connections>
+                                    <action selector="ziXunBtnClick:" destination="Oen-RI-qt4" eventType="touchUpInside" id="o1d-8q-uZF"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="V7z-87-Geh" id="qJP-Mu-V28"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RsE-8r-KIh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="515" y="-1201"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="Lfa-sa-NkS">
+            <objects>
+                <navigationController id="DAZ-pa-3Sf" customClass="ZZNavVc" customModule="swift超级猜图" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="YE6-JB-1Mf"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uGy-RF-Pld">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ju4-mJ-MAr" kind="relationship" relationship="rootViewController" id="ysy-Ny-5Nn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gcS-th-oId" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-256" y="-527"/>
+        </scene>
+        <!--He Mai Vc-->
+        <scene sceneID="8UU-kH-vEr">
+            <objects>
+                <viewController id="Ju4-mJ-MAr" customClass="HeMaiVc" customModule="swift超级猜图" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GGH-AB-NfP"/>
+                        <viewControllerLayoutGuide type="bottom" id="4eU-jn-s4Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="K8M-n7-dVW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.094117647060000004" green="0.73725490199999999" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="x3i-io-S4O">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="Thq-IO-sy5">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sIj-cL-uc6">
+                                <rect key="frame" x="20" y="11" width="69" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="发起合买" image="GroupBuyFlag"/>
+                            </button>
+                        </barButtonItem>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xjs-nO-2js">
+                            <rect key="frame" x="250" y="11" width="100" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                            <inset key="titleEdgeInsets" minX="-45" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="75" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="发起合买" image="YellowDownArrow"/>
+                            <connections>
+                                <action selector="HeMaiBtnDidClick:" destination="Ju4-mJ-MAr" eventType="touchUpInside" id="EmB-9t-ga1"/>
+                            </connections>
+                        </button>
+                        <barButtonItem key="rightBarButtonItem" image="NavInfoFlat" id="GPA-GM-vy2"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="heMaiBtn" destination="xjs-nO-2js" id="Ed4-zZ-fpl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7bi-LO-rFm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="515" y="-513"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="FqR-np-gdp">
+            <objects>
+                <navigationController id="PH7-pm-f3A" customClass="ZZNavVc" customModule="swift超级猜图" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="7Rc-z0-1fB"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ueT-2V-aMf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="aNt-ci-hwb" kind="relationship" relationship="rootViewController" id="Kx5-7T-btC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oyl-HA-XiV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-256" y="185"/>
+        </scene>
+        <!--幸运选号-->
+        <scene sceneID="nTA-qQ-yRT">
+            <objects>
+                <viewController id="aNt-ci-hwb" customClass="XingYunXuanHaoVc" customModule="swift超级猜图" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bbg-QY-A8n"/>
+                        <viewControllerLayoutGuide type="bottom" id="wZi-3B-ua7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aSK-tJ-cLm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="luck_entry_background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pMs-LJ-MSQ">
+                                <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lucky_entry_light0" translatesAutoresizingMaskIntoConstraints="NO" id="el6-Pw-ehw">
+                                <rect key="frame" x="44" y="114" width="231" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="231" id="Zmt-FH-kxu"/>
+                                    <constraint firstAttribute="height" constant="29" id="wj4-bU-OxN"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="S58-2i-l44">
+                                <rect key="frame" x="0.0" y="290" width="320" height="139"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BVV-1U-hJA">
+                                        <rect key="frame" x="0.0" y="25" width="20" height="89"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9iZ-pH-6A6">
+                                        <rect key="frame" x="20" y="0.0" width="130" height="139"/>
+                                        <state key="normal" backgroundImage="luck_entry_roulette_button_normal"/>
+                                        <connections>
+                                            <action selector="mengXiangBtnClick:" destination="aNt-ci-hwb" eventType="touchUpInside" id="sqV-GP-opZ"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4fg-m9-0Tp">
+                                        <rect key="frame" x="150" y="25" width="20" height="89"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGJ-aV-0Iq">
+                                        <rect key="frame" x="170" y="0.0" width="130" height="139"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="139" id="Vhg-Zw-1UY"/>
+                                            <constraint firstAttribute="width" constant="130" id="eSZ-wM-kGs"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="luck_entry_number_button_normal"/>
+                                    </button>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9N0-oN-vfR">
+                                        <rect key="frame" x="300" y="25" width="20" height="89"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="9N0-oN-vfR" firstAttribute="width" secondItem="BVV-1U-hJA" secondAttribute="width" id="8oT-dS-4wx"/>
+                                    <constraint firstItem="4fg-m9-0Tp" firstAttribute="width" secondItem="BVV-1U-hJA" secondAttribute="width" id="NNo-QW-nnq"/>
+                                    <constraint firstItem="FGJ-aV-0Iq" firstAttribute="width" secondItem="9iZ-pH-6A6" secondAttribute="width" id="VHu-Vg-QUI"/>
+                                    <constraint firstItem="FGJ-aV-0Iq" firstAttribute="height" secondItem="9iZ-pH-6A6" secondAttribute="height" id="rmK-Ce-kJT"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hKi-Fv-TPU">
+                                <rect key="frame" x="0.0" y="146" width="320" height="139"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9ic-FW-doh">
+                                        <rect key="frame" x="0.0" y="19" width="20" height="101"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIf-uH-oJg">
+                                        <rect key="frame" x="20" y="0.0" width="130" height="139"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="139" id="29L-mL-i8n"/>
+                                            <constraint firstAttribute="width" constant="130" id="eZ4-fj-GyA"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="luck_entry_lots_button_normal"/>
+                                    </button>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hjc-tf-WKw">
+                                        <rect key="frame" x="150" y="19" width="20" height="101"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQ2-jz-kRQ">
+                                        <rect key="frame" x="170" y="0.0" width="130" height="139"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="139" id="IJS-cU-5bU"/>
+                                            <constraint firstAttribute="width" constant="130" id="e3j-F3-qoY"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="luck_entry_birthday_button_normal"/>
+                                    </button>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qwu-mT-JjS">
+                                        <rect key="frame" x="300" y="19" width="20" height="101"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="vQ2-jz-kRQ" firstAttribute="leading" secondItem="Hjc-tf-WKw" secondAttribute="trailing" id="27F-wb-sKx"/>
+                                    <constraint firstItem="Hjc-tf-WKw" firstAttribute="leading" secondItem="VIf-uH-oJg" secondAttribute="trailing" id="ANi-Wh-XZ4"/>
+                                    <constraint firstItem="Hjc-tf-WKw" firstAttribute="width" secondItem="9ic-FW-doh" secondAttribute="width" id="AiJ-aQ-34s"/>
+                                    <constraint firstItem="9ic-FW-doh" firstAttribute="top" secondItem="Hjc-tf-WKw" secondAttribute="top" id="gma-Uy-SbB"/>
+                                    <constraint firstItem="qwu-mT-JjS" firstAttribute="top" secondItem="Hjc-tf-WKw" secondAttribute="top" id="kOd-Lb-YHl"/>
+                                    <constraint firstItem="qwu-mT-JjS" firstAttribute="leading" secondItem="vQ2-jz-kRQ" secondAttribute="trailing" id="sxu-nF-QZY"/>
+                                    <constraint firstItem="VIf-uH-oJg" firstAttribute="leading" secondItem="9ic-FW-doh" secondAttribute="trailing" id="whM-5z-IqP"/>
+                                    <constraint firstItem="qwu-mT-JjS" firstAttribute="width" secondItem="9ic-FW-doh" secondAttribute="width" id="y9n-vl-6i0"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="whM-5z-IqP"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57808908110000001" green="1" blue="0.73175399399999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="pMs-LJ-MSQ" firstAttribute="leading" secondItem="aSK-tJ-cLm" secondAttribute="leading" id="78s-Hv-Qa9"/>
+                            <constraint firstItem="el6-Pw-ehw" firstAttribute="top" secondItem="bbg-QY-A8n" secondAttribute="bottom" constant="50" id="BgD-mc-B8E"/>
+                            <constraint firstItem="wZi-3B-ua7" firstAttribute="top" secondItem="pMs-LJ-MSQ" secondAttribute="bottom" id="EO2-TL-zzI"/>
+                            <constraint firstItem="hKi-Fv-TPU" firstAttribute="leading" secondItem="aSK-tJ-cLm" secondAttribute="leading" id="EyW-Gr-kg1"/>
+                            <constraint firstItem="pMs-LJ-MSQ" firstAttribute="top" secondItem="bbg-QY-A8n" secondAttribute="bottom" id="HVh-S9-WZb"/>
+                            <constraint firstAttribute="trailing" secondItem="pMs-LJ-MSQ" secondAttribute="trailing" id="Up0-t4-esC"/>
+                            <constraint firstAttribute="trailing" secondItem="hKi-Fv-TPU" secondAttribute="trailing" id="VXh-Fd-zSQ"/>
+                            <constraint firstAttribute="trailing" secondItem="S58-2i-l44" secondAttribute="trailing" id="iB4-vQ-3ZA"/>
+                            <constraint firstItem="S58-2i-l44" firstAttribute="leading" secondItem="aSK-tJ-cLm" secondAttribute="leading" id="iUl-g8-nK6"/>
+                            <constraint firstAttribute="bottom" secondItem="S58-2i-l44" secondAttribute="bottom" constant="51" id="jDp-OC-5Xd"/>
+                            <constraint firstItem="el6-Pw-ehw" firstAttribute="centerX" secondItem="aSK-tJ-cLm" secondAttribute="centerX" id="oUd-Jv-4Z2"/>
+                            <constraint firstItem="S58-2i-l44" firstAttribute="top" secondItem="hKi-Fv-TPU" secondAttribute="bottom" constant="5" id="tJT-HV-hqO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="幸运选号" id="CoI-St-dCn"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="bgImage" destination="pMs-LJ-MSQ" id="0aM-YW-tgk"/>
+                        <outlet property="lightImage" destination="el6-Pw-ehw" id="QHW-x8-sHg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uJv-8F-GdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="515" y="199"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="9ae-3Y-s0o">
+            <objects>
+                <navigationController id="cQD-EA-P9i" customClass="ZZNavVc" customModule="swift超级猜图" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="7SZ-84-M5o"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4TJ-VK-EqR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="xIS-cA-KNo" kind="relationship" relationship="rootViewController" id="kcW-Vx-4vk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="URT-KX-i7W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-234" y="921"/>
+        </scene>
+        <!--开奖信息-->
+        <scene sceneID="nrd-GZ-OvQ">
+            <objects>
+                <viewController id="xIS-cA-KNo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5wx-pm-av8"/>
+                        <viewControllerLayoutGuide type="bottom" id="WKT-13-rLC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="m8x-Ze-vQj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.24280675600000001" blue="0.28928332480000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="开奖信息" id="W6g-Yw-o2e"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xlc-xk-BUm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="515" y="903"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="phK-qq-nsu">
+            <objects>
+                <navigationController id="xvb-1Q-8QN" customClass="ZZNavVc" customModule="swift超级猜图" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="EWK-4N-aty"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wwa-bF-0GJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Twr-bS-gpf" kind="relationship" relationship="rootViewController" id="7tb-k2-DbW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gpt-8z-vnR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-256" y="1607"/>
+        </scene>
+        <!--我的彩票-->
+        <scene sceneID="X4A-DD-rKg">
+            <objects>
+                <viewController id="Twr-bS-gpf" customClass="ZZWoDeVc" customModule="swift超级猜图" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kpa-6j-jS6"/>
+                        <viewControllerLayoutGuide type="bottom" id="g75-Nm-rVP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZNn-M9-rn0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginScreen" translatesAutoresizingMaskIntoConstraints="NO" id="pTm-eG-JKC">
+                                <rect key="frame" x="152" y="94" width="296.5" height="136.5"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="136.5" id="q7e-5W-mim"/>
+                                    <constraint firstAttribute="width" constant="296.5" id="qNS-s5-HRo"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="网易邮箱可直接登录" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztq-eN-emm">
+                                <rect key="frame" x="0.0" y="240" width="600" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.56668490459999998" blue="0.23390835300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0O-dc-gPk">
+                                <rect key="frame" x="20" y="293" width="560" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Rz8-rM-tHe"/>
+                                </constraints>
+                                <state key="normal" title="登录" backgroundImage="login_button_login_normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginBtn:" destination="Twr-bS-gpf" eventType="touchUpInside" id="eG5-rh-ZLm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6n-BV-EhV">
+                                <rect key="frame" x="20" y="368" width="560" height="38"/>
+                                <state key="normal" title="没有账号？马上注册" backgroundImage="login_button_register_normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRc-r5-xe3">
+                                <rect key="frame" x="515" y="340" width="65" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="忘记密码？"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ztq-eN-emm" secondAttribute="trailing" id="1Tr-L7-iSn"/>
+                            <constraint firstItem="i0O-dc-gPk" firstAttribute="top" secondItem="ztq-eN-emm" secondAttribute="bottom" constant="30" id="2Bp-qr-i4W"/>
+                            <constraint firstAttribute="trailing" secondItem="N6n-BV-EhV" secondAttribute="trailing" constant="20" id="97M-3X-TSJ"/>
+                            <constraint firstItem="i0O-dc-gPk" firstAttribute="leading" secondItem="ZNn-M9-rn0" secondAttribute="leading" constant="20" id="Eh4-81-bnm"/>
+                            <constraint firstItem="pTm-eG-JKC" firstAttribute="centerX" secondItem="ZNn-M9-rn0" secondAttribute="centerX" id="Lau-Vx-8vJ"/>
+                            <constraint firstAttribute="trailing" secondItem="i0O-dc-gPk" secondAttribute="trailing" constant="20" id="SA1-im-dLw"/>
+                            <constraint firstItem="N6n-BV-EhV" firstAttribute="leading" secondItem="ZNn-M9-rn0" secondAttribute="leading" constant="20" id="aNd-dq-Ysj"/>
+                            <constraint firstItem="N6n-BV-EhV" firstAttribute="top" secondItem="i0O-dc-gPk" secondAttribute="bottom" constant="40" id="iKM-G2-BY9"/>
+                            <constraint firstItem="pTm-eG-JKC" firstAttribute="top" secondItem="Kpa-6j-jS6" secondAttribute="bottom" constant="30" id="sYY-ln-evE"/>
+                            <constraint firstItem="N6n-BV-EhV" firstAttribute="top" secondItem="TRc-r5-xe3" secondAttribute="bottom" id="uNP-Ec-5bO"/>
+                            <constraint firstItem="ztq-eN-emm" firstAttribute="top" secondItem="pTm-eG-JKC" secondAttribute="bottom" constant="10" id="uPZ-ma-9kz"/>
+                            <constraint firstItem="ztq-eN-emm" firstAttribute="leading" secondItem="ZNn-M9-rn0" secondAttribute="leading" id="vg5-1j-8cg"/>
+                            <constraint firstItem="TRc-r5-xe3" firstAttribute="trailing" secondItem="N6n-BV-EhV" secondAttribute="trailing" id="whw-aE-j4A"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="我的彩票" id="iNi-kX-G8l">
+                        <barButtonItem key="rightBarButtonItem" image="Mylottery_config" id="BSz-68-oMY">
+                            <connections>
+                                <action selector="settingDidClick:" destination="Twr-bS-gpf" id="TI6-QT-mco"/>
+                                <segue destination="Jih-0z-7Jk" kind="push" id="oZe-kP-U9K"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="bgIconView" destination="pTm-eG-JKC" id="Gdj-jV-SzX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9yD-pM-DHE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="G6b-9Z-gam"/>
+            </objects>
+            <point key="canvasLocation" x="515" y="1621"/>
+        </scene>
+        <!--Setting Vc-->
+        <scene sceneID="jp9-9o-HHn">
+            <objects>
+                <viewController id="Jih-0z-7Jk" customClass="ZZSettingVc" customModule="swift超级猜图" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e9H-md-CMh"/>
+                        <viewControllerLayoutGuide type="bottom" id="jXr-9l-CFR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bdO-Gj-az1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4zV-L3-1sQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pyl-4a-u8F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1178" y="1638"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="GroupBuyFlag" width="15" height="15"/>
+        <image name="LoginScreen" width="296" height="138"/>
+        <image name="Mylottery_config" width="22" height="22"/>
+        <image name="NavInfoFlat" width="22" height="22"/>
+        <image name="YellowDownArrow" width="16" height="16"/>
+        <image name="login_button_login_normal" width="150" height="38"/>
+        <image name="login_button_register_normal" width="275" height="38"/>
+        <image name="luck_entry_background.jpg" width="320" height="368"/>
+        <image name="luck_entry_birthday_button_normal" width="137" height="140"/>
+        <image name="luck_entry_lots_button_normal" width="153" height="152"/>
+        <image name="luck_entry_number_button_normal" width="130" height="139"/>
+        <image name="luck_entry_roulette_button_normal" width="140" height="144"/>
+        <image name="lucky_entry_light0" width="231" height="29"/>
+        <image name="zixunBarFlat" width="13" height="11"/>
+        <image name="zixunBarFlatGray" width="13" height="11"/>
+    </resources>
+</document>

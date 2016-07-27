@@ -32,7 +32,15 @@ class GroupVc: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+     
         view .addSubview(tableView)
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        self.edgesForExtendedLayout = UIRectEdge.None
+        self.tableView.contentInset = UIEdgeInsetsMake(-20, 0, 0, 0)
+        self.tableView.contentSize = CGSizeMake(UIScreen.mainScreen().bounds.size.width, self.tableView.contentSize.height + 30)
     }
     
     func jieDuan(section: Int) -> NSArray {
@@ -145,8 +153,16 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
             case 4: // 手势识别
                 vc = GestureVc()
                 break
-            case 5:
+            case 5: // 手势识别2
                 vc = GestureTwoVc()
+                break
+            case 6: // 图层
+                vc = CALayerVc()
+                break
+            case 7: // 网易
+                let sb = UIStoryboard(name: "WangYi", bundle: nil)
+                vc = sb.instantiateInitialViewController()!
+                break
             default:
                 break
             }

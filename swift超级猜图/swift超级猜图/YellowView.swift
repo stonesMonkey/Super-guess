@@ -22,7 +22,6 @@ class YellowView: UIView {
         
         // 这个点在不在btn上
         // 穿过来的point是已黄色的View为单位。但是btn的frame值是已父控件的view为单位所以
-        let btnRect = self.btn?.frame
         // 把点转换为已btn为原点的按钮
         let pointBtn = self.convertPoint(point, toView: self.btn)
         // 判断点在不在按钮上

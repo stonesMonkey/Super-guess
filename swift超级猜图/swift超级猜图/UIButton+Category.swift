@@ -21,7 +21,6 @@ extension UIButton {
      - returns: 返回值类型
      */
     convenience init(title:String, normalImage:String, hightImage:String, fontSize: CGFloat = 12) {
-        
         self.init(frame:CGRectZero)
         setBackgroundImage(UIImage(named: normalImage), forState: UIControlState.Normal)
         setBackgroundImage(UIImage(named: hightImage), forState: UIControlState.Highlighted)
@@ -56,5 +55,12 @@ extension UIButton {
         self.setTitleColor(titleColor, forState: UIControlState.Normal)
         self.frame = frame!
         self.titleLabel?.font = UIFont.systemFontOfSize(fontSize)
+    }
+    
+    convenience init(imageNormal: String,imageHeight: String,frame: CGRect,tag: Int) {
+        self.init(frame: frame)
+        self.setImage(UIImage(named: imageNormal), forState: UIControlState.Normal)
+        self.setImage(UIImage(named: imageHeight), forState: UIControlState.Highlighted)
+        self.tag = tag
     }
 }
