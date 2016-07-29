@@ -21,6 +21,8 @@
 		512BBA261D3B2C4F00587B69 /* ProvinceAndDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512BBA251D3B2C4F00587B69 /* ProvinceAndDataView.swift */; };
 		512BBA281D3B2C8C00587B69 /* ProvinceAndDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512BBA271D3B2C8C00587B69 /* ProvinceAndDataView.xib */; };
 		512BBA2A1D3B314700587B69 /* ProvinceToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512BBA291D3B314700587B69 /* ProvinceToolBar.swift */; };
+		5137B20D1D49C10B0051409B /* ZZSocketVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5137B20B1D49C10B0051409B /* ZZSocketVc.swift */; };
+		5137B20E1D49C10B0051409B /* ZZSocketVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5137B20C1D49C10B0051409B /* ZZSocketVc.xib */; };
 		513C0B461D3CB7E900BB3B7D /* UserFriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C0B451D3CB7E900BB3B7D /* UserFriendModel.swift */; };
 		513C0B491D3CD52500BB3B7D /* BianJiVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C0B471D3CD52500BB3B7D /* BianJiVc.swift */; };
 		513C0B4A1D3CD52500BB3B7D /* BianJiVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513C0B481D3CD52500BB3B7D /* BianJiVc.xib */; };
@@ -124,7 +126,6 @@
 		51C3E93C1D3DC05E00F772BC /* GestureVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51C3E93A1D3DC05E00F772BC /* GestureVc.xib */; };
 		51C3E9451D3DDEC300F772BC /* GestureTwoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C3E9431D3DDEC300F772BC /* GestureTwoVc.swift */; };
 		51C3E9461D3DDEC300F772BC /* GestureTwoVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51C3E9441D3DDEC300F772BC /* GestureTwoVc.xib */; };
-		51CBDB3A1D487A7E00AE5460 /* ZZSocketVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBDB391D487A7E00AE5460 /* ZZSocketVc.swift */; };
 		51CBF92E1D374CEB00C120C1 /* FriendHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBF92D1D374CEB00C120C1 /* FriendHeaderView.swift */; };
 		51CBF9301D374D0800C120C1 /* FriendHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBF92F1D374D0800C120C1 /* FriendHeaderView.xib */; };
 		51CBF9381D378BF700C120C1 /* QQChatVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBF9371D378BF700C120C1 /* QQChatVc.swift */; };
@@ -687,6 +688,8 @@
 		512BBA251D3B2C4F00587B69 /* ProvinceAndDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceAndDataView.swift; sourceTree = "<group>"; };
 		512BBA271D3B2C8C00587B69 /* ProvinceAndDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProvinceAndDataView.xib; sourceTree = "<group>"; };
 		512BBA291D3B314700587B69 /* ProvinceToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceToolBar.swift; sourceTree = "<group>"; };
+		5137B20B1D49C10B0051409B /* ZZSocketVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZSocketVc.swift; sourceTree = "<group>"; };
+		5137B20C1D49C10B0051409B /* ZZSocketVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZSocketVc.xib; sourceTree = "<group>"; };
 		513C0B451D3CB7E900BB3B7D /* UserFriendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFriendModel.swift; sourceTree = "<group>"; };
 		513C0B471D3CD52500BB3B7D /* BianJiVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BianJiVc.swift; sourceTree = "<group>"; };
 		513C0B481D3CD52500BB3B7D /* BianJiVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BianJiVc.xib; sourceTree = "<group>"; };
@@ -790,7 +793,6 @@
 		51C3E93A1D3DC05E00F772BC /* GestureVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GestureVc.xib; sourceTree = "<group>"; };
 		51C3E9431D3DDEC300F772BC /* GestureTwoVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureTwoVc.swift; sourceTree = "<group>"; };
 		51C3E9441D3DDEC300F772BC /* GestureTwoVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GestureTwoVc.xib; sourceTree = "<group>"; };
-		51CBDB391D487A7E00AE5460 /* ZZSocketVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZSocketVc.swift; sourceTree = "<group>"; };
 		51CBF92D1D374CEB00C120C1 /* FriendHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendHeaderView.swift; sourceTree = "<group>"; };
 		51CBF92F1D374D0800C120C1 /* FriendHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendHeaderView.xib; sourceTree = "<group>"; };
 		51CBF9371D378BF700C120C1 /* QQChatVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQChatVc.swift; sourceTree = "<group>"; };
@@ -2003,7 +2005,8 @@
 		51CBDB381D487A0E00AE5460 /* Socket建立连接 */ = {
 			isa = PBXGroup;
 			children = (
-				51CBDB391D487A7E00AE5460 /* ZZSocketVc.swift */,
+				5137B20B1D49C10B0051409B /* ZZSocketVc.swift */,
+				5137B20C1D49C10B0051409B /* ZZSocketVc.xib */,
 			);
 			name = "Socket建立连接";
 			sourceTree = "<group>";
@@ -3564,6 +3567,7 @@
 				51DB4F351D2B5F840029986F /* pie_09.jpg in Resources */,
 				51DB4EB21D2B5F840029986F /* footLeft_19.jpg in Resources */,
 				51DB4E171D2B5F840029986F /* drink_13.jpg in Resources */,
+				5137B20E1D49C10B0051409B /* ZZSocketVc.xib in Resources */,
 				51DB4E511D2B5F840029986F /* drink_71.jpg in Resources */,
 				51DB4E6C1D2B5F840029986F /* eat_17.jpg in Resources */,
 				51DB4E281D2B5F840029986F /* drink_30.jpg in Resources */,
@@ -3729,7 +3733,7 @@
 				51128A051D33B9BD0047C9AB /* TuanGouVc.swift in Sources */,
 				51CCBC701D4841C100BB6D42 /* ZZSettingBaseVc.swift in Sources */,
 				513C0B491D3CD52500BB3B7D /* BianJiVc.swift in Sources */,
-				51CBDB3A1D487A7E00AE5460 /* ZZSocketVc.swift in Sources */,
+				5137B20D1D49C10B0051409B /* ZZSocketVc.swift in Sources */,
 				516D00431D2F735A00AD50DD /* AnwerView.swift in Sources */,
 				51A7A4D61D3E1C2B0037A589 /* LayerTransFormVc.swift in Sources */,
 				518C7C061D3B4323005AF7B3 /* CitiesModel.swift in Sources */,

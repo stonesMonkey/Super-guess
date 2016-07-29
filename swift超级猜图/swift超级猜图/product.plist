@@ -30,6 +30,7 @@
 	<key>多线程&amp;网络</key>
 	<array>
 		<string>NSURLConnection常用方法</string>
+		<string>Socket建立连接</string>
 	</array>
 </dict>
 </plist>

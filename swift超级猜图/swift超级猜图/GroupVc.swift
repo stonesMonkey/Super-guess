@@ -173,6 +173,10 @@ extension GroupVc: UITableViewDelegate , UITableViewDataSource {
             switch indexPath.row {
             case 0: // NSURLConnection常用方法
             vc = ZZURLConnectionVC()
+                break
+            case 1: // Socket建立连接
+            vc = ZZSocketVc()
+
             break
             default:
                 break

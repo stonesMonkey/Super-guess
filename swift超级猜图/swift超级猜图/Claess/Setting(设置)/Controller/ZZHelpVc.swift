@@ -65,8 +65,6 @@ class ZZHelpVc: ZZSettingBaseVc {
         let vc = ZZHtmlVc()
         vc.model = model
         
-        let na = UINavigationController(rootViewController: vc)
-        
         let nav = ZZNavVc(rootViewController: vc)
         
         

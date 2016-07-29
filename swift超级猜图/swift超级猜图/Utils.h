@@ -18,4 +18,9 @@
 + (void)GCDWithTimer:(CGFloat)timer Block:(void(^)())blcok;
 
 + (NSKeyValueObservingOptions)newAndOldOptions;
+
++ (int)cennectWithClientSocket:(int)clientSocket ip:(NSString *)ip;
+
++ (NSString *)recvWithClientSocket:(int)clientSocket sendStr:(NSString *)str;
+
 @end
